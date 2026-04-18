@@ -79,14 +79,34 @@ Filled in during setup; see the "Resource IDs" section at the bottom.
 
 ### Resource IDs
 
-_Populated at the end of setup._
+- S3 bucket: `adamsohn-com-site` (private, versioning on, all public access blocked)
+- CloudFront distribution ID: `E3UH28N54Y87WY`
+- CloudFront distribution domain: `ddllvw9pgn4k3.cloudfront.net`
+- CloudFront Function: `adamsohn-www-to-apex` (does www→apex redirect + `/foo/` → `/foo/index.html` rewrite)
+- Origin Access Control ID: `EW61F5NUPW9V0`
+- ACM cert ARN: `arn:aws:acm:us-east-1:703475444615:certificate/3d2a37a0-1516-4bd7-abfa-31d832c89504`
+- GitHub Actions IAM role: `arn:aws:iam::703475444615:role/adamsohn-com-gha-deploy` (trusts `repo:adam-s/blog:*` via OIDC)
+- Admin IAM user: `adamsohn-admin` (for local AWS CLI use; profile name `adamsohn` in `~/.aws/credentials`)
 
-- S3 bucket: `TBD`
-- CloudFront distribution ID: `TBD`
-- CloudFront distribution domain: `TBD`
-- CloudFront Function ARN (www redirect): `TBD`
-- ACM cert ARN: `TBD`
-- GitHub Actions IAM role ARN: `TBD`
+### Quick local CLI
+
+```
+export AWS_PROFILE=adamsohn
+aws s3 ls s3://adamsohn-com-site/
+aws cloudfront create-invalidation --distribution-id E3UH28N54Y87WY --paths "/*"
+```
+
+### What the CloudFront Function does
+
+Single viewer-request function handles two jobs:
+1. If `Host: www.adamsohn.com`, respond 301 to `https://adamsohn.com<uri>`.
+2. Rewrite `*/` → `*/index.html` and extensionless paths → `<path>/index.html` so subdirectory sites (e.g. `/reliably-incorrect/`) serve their `index.html`. CloudFront's `DefaultRootObject` only handles the root `/`.
+
+### Known gotchas
+
+- **Sub-app Vite configs must use `base: './'`** (relative asset paths). Otherwise rebuild with `base: '/<subpath>/'` before syncing.
+- CloudFront Function updates require `update-function` then `publish-function` — two separate calls. Publishing is ~1–2 minutes.
+- `aws s3 sync --delete` will nuke anything in the bucket that isn't in the working directory. Always run from the blog repo root.
 
 ## Conventions for Claude
 
