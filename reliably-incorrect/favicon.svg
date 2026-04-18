@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="6 6 19 19" width="32" height="32">
+  <!-- Faces -->
+  <polygon points="6,12 18,12 25,7 13,7" fill="#fafafa" stroke="#1a1a1a" stroke-width="1" stroke-linejoin="round"/>
+  <polygon points="6,12 18,12 18,24 6,24" fill="#c63d3d" stroke="#1a1a1a" stroke-width="1" stroke-linejoin="round"/>
+  <polygon points="18,12 25,7 25,19 18,24" fill="#4a8ce2" stroke="#1a1a1a" stroke-width="1" stroke-linejoin="round"/>
+
+  <!-- Front grid (red face, 3x3) -->
+  <g stroke="#1a1a1a" stroke-width="0.9" stroke-linecap="round">
+    <line x1="10" y1="12" x2="10" y2="24"/>
+    <line x1="14" y1="12" x2="14" y2="24"/>
+    <line x1="6"  y1="16" x2="18" y2="16"/>
+    <line x1="6"  y1="20" x2="18" y2="20"/>
+  </g>
+
+  <!-- Top grid (white face, 3x3) -->
+  <g stroke="#1a1a1a" stroke-width="0.9" stroke-linecap="round">
+    <line x1="10"   y1="12"    x2="17"   y2="7"/>
+    <line x1="14"   y1="12"    x2="21"   y2="7"/>
+    <line x1="8.33" y1="10.33" x2="20.33" y2="10.33"/>
+    <line x1="10.67" y1="8.67" x2="22.67" y2="8.67"/>
+  </g>
+
+  <!-- Right grid (blue face, 3x3) -->
+  <g stroke="#1a1a1a" stroke-width="0.9" stroke-linecap="round">
+    <line x1="20.33" y1="10.33" x2="20.33" y2="22.33"/>
+    <line x1="22.67" y1="8.67"  x2="22.67" y2="20.67"/>
+    <line x1="18" y1="16" x2="25" y2="11"/>
+    <line x1="18" y1="20" x2="25" y2="15"/>
+  </g>
+</svg>

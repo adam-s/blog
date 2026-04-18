@@ -1,0 +1,186 @@
+{
+  "model": "claude-haiku-4-5",
+  "cells": [
+    {
+      "digit": 5,
+      "trials": [
+        {
+          "file": "haiku-d5-p0.conv.jsonl",
+          "pStep": 1,
+          "correctSteps": 15,
+          "totalSteps": 15,
+          "finalCorrect": true
+        },
+        {
+          "file": "haiku-d5-p1.conv.jsonl",
+          "pStep": 1,
+          "correctSteps": 17,
+          "totalSteps": 17,
+          "finalCorrect": true
+        },
+        {
+          "file": "haiku-d5-p2.conv.jsonl",
+          "pStep": 1,
+          "correctSteps": 27,
+          "totalSteps": 27,
+          "finalCorrect": true
+        }
+      ],
+      "n": 3,
+      "k": 3,
+      "passRate": 1,
+      "passCIlow": 0.43849391955098227,
+      "passCIhigh": 1,
+      "meanPStep": 1
+    },
+    {
+      "digit": 10,
+      "trials": [
+        {
+          "file": "haiku-d10-p0.conv.jsonl",
+          "pStep": 1,
+          "correctSteps": 45,
+          "totalSteps": 45,
+          "finalCorrect": true
+        },
+        {
+          "file": "haiku-d10-p1.conv.jsonl",
+          "pStep": 0.9354838709677419,
+          "correctSteps": 29,
+          "totalSteps": 31,
+          "finalCorrect": true
+        },
+        {
+          "file": "haiku-d10-p2.conv.jsonl",
+          "pStep": 0.9607843137254902,
+          "correctSteps": 49,
+          "totalSteps": 51,
+          "finalCorrect": true
+        },
+        {
+          "file": "haiku-d10-p0.conv.jsonl",
+          "pStep": 0.90625,
+          "correctSteps": 29,
+          "totalSteps": 32,
+          "finalCorrect": true
+        },
+        {
+          "file": "haiku-d10-p1.conv.jsonl",
+          "pStep": 1,
+          "correctSteps": 17,
+          "totalSteps": 17,
+          "finalCorrect": false
+        },
+        {
+          "file": "haiku-d10-p2.conv.jsonl",
+          "pStep": 1,
+          "correctSteps": 21,
+          "totalSteps": 21,
+          "finalCorrect": false
+        }
+      ],
+      "n": 6,
+      "k": 4,
+      "passRate": 0.6666666666666666,
+      "passCIlow": 0.29998832134152864,
+      "passCIhigh": 0.9032306674407831,
+      "meanPStep": 0.9670863641155387
+    },
+    {
+      "digit": 12,
+      "trials": [
+        {
+          "file": "haiku-d12-4.conv.jsonl",
+          "pStep": 0.6,
+          "correctSteps": 15,
+          "totalSteps": 25,
+          "finalCorrect": false
+        },
+        {
+          "file": "haiku-d12-4.conv.jsonl",
+          "pStep": 0.75,
+          "correctSteps": 15,
+          "totalSteps": 20,
+          "finalCorrect": true
+        }
+      ],
+      "n": 2,
+      "k": 1,
+      "passRate": 0.5,
+      "passCIlow": 0.09452865480086614,
+      "passCIhigh": 0.9054713451991339,
+      "meanPStep": 0.675
+    },
+    {
+      "digit": 15,
+      "trials": [
+        {
+          "file": "haiku-d15-3.conv.jsonl",
+          "pStep": 0.8181818181818182,
+          "correctSteps": 108,
+          "totalSteps": 132,
+          "finalCorrect": false
+        },
+        {
+          "file": "haiku-d15-3.conv.jsonl",
+          "pStep": 1,
+          "correctSteps": 0,
+          "totalSteps": 0,
+          "finalCorrect": false
+        }
+      ],
+      "n": 2,
+      "k": 0,
+      "passRate": 0,
+      "passCIlow": 0,
+      "passCIhigh": 0.6576280471103807,
+      "meanPStep": 0.9090909090909092
+    },
+    {
+      "digit": 20,
+      "trials": [
+        {
+          "file": "haiku-d20-p0.conv.jsonl",
+          "pStep": 0.6071428571428571,
+          "correctSteps": 17,
+          "totalSteps": 28,
+          "finalCorrect": false
+        },
+        {
+          "file": "haiku-d20-p1.conv.jsonl",
+          "pStep": 0.6041666666666666,
+          "correctSteps": 29,
+          "totalSteps": 48,
+          "finalCorrect": false
+        },
+        {
+          "file": "haiku-d20-p2.conv.jsonl",
+          "pStep": 0.6470588235294118,
+          "correctSteps": 11,
+          "totalSteps": 17,
+          "finalCorrect": false
+        },
+        {
+          "file": "haiku-d20-0.conv.jsonl",
+          "pStep": 0.5921052631578947,
+          "correctSteps": 45,
+          "totalSteps": 76,
+          "finalCorrect": false
+        },
+        {
+          "file": "haiku-d20-0.conv.jsonl",
+          "pStep": 0.5287356321839081,
+          "correctSteps": 46,
+          "totalSteps": 87,
+          "finalCorrect": false
+        }
+      ],
+      "n": 5,
+      "k": 0,
+      "passRate": 0,
+      "passCIlow": 0,
+      "passCIhigh": 0.43449149475208104,
+      "meanPStep": 0.5958418485361476
+    }
+  ]
+}

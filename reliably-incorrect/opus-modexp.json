@@ -1,0 +1,310 @@
+{
+  "model": "claude-opus-4-5",
+  "calibration": {
+    "model": "opus",
+    "modulus": 29989,
+    "n": 20,
+    "k": 14,
+    "passRate": 0.7,
+    "ciLow": 0.4810232237710206,
+    "ciHigh": 0.854524726031006,
+    "trials": [
+      {
+        "passed": true,
+        "elapsed_s": 16.8,
+        "a": 13283,
+        "b": 16,
+        "m": 29989,
+        "truth": 9256,
+        "reported": 9256
+      },
+      {
+        "passed": false,
+        "elapsed_s": 19.9,
+        "a": 20987,
+        "b": 16,
+        "m": 29989,
+        "truth": 10057,
+        "reported": 5793
+      },
+      {
+        "passed": false,
+        "elapsed_s": 27,
+        "a": 17875,
+        "b": 22,
+        "m": 29989,
+        "truth": 1578,
+        "reported": 11891
+      },
+      {
+        "passed": true,
+        "elapsed_s": 29.8,
+        "a": 14517,
+        "b": 18,
+        "m": 29989,
+        "truth": 18498,
+        "reported": 18498
+      },
+      {
+        "passed": true,
+        "elapsed_s": 27.6,
+        "a": 27039,
+        "b": 14,
+        "m": 29989,
+        "truth": 11476,
+        "reported": 11476
+      },
+      {
+        "passed": true,
+        "elapsed_s": 44.2,
+        "a": 29492,
+        "b": 11,
+        "m": 29989,
+        "truth": 19978,
+        "reported": 19978
+      },
+      {
+        "passed": false,
+        "elapsed_s": 25.8,
+        "a": 1831,
+        "b": 14,
+        "m": 29989,
+        "truth": 20107,
+        "reported": 28186
+      },
+      {
+        "passed": true,
+        "elapsed_s": 25.2,
+        "a": 19926,
+        "b": 23,
+        "m": 29989,
+        "truth": 1351,
+        "reported": 1351
+      },
+      {
+        "passed": false,
+        "elapsed_s": 17.8,
+        "a": 4077,
+        "b": 13,
+        "m": 29989,
+        "truth": 14613,
+        "reported": 1783
+      },
+      {
+        "passed": true,
+        "elapsed_s": 60,
+        "a": 11595,
+        "b": 25,
+        "m": 29989,
+        "truth": 17237,
+        "reported": 17237
+      },
+      {
+        "passed": true,
+        "elapsed_s": 43,
+        "a": 25526,
+        "b": 14,
+        "m": 29989,
+        "truth": 27342,
+        "reported": 27342
+      },
+      {
+        "passed": true,
+        "elapsed_s": 46.2,
+        "a": 24202,
+        "b": 29,
+        "m": 29989,
+        "truth": 26063,
+        "reported": 26063
+      },
+      {
+        "passed": true,
+        "elapsed_s": 15.4,
+        "a": 4770,
+        "b": 16,
+        "m": 29989,
+        "truth": 2495,
+        "reported": 2495
+      },
+      {
+        "passed": true,
+        "elapsed_s": 45.7,
+        "a": 3892,
+        "b": 14,
+        "m": 29989,
+        "truth": 22819,
+        "reported": 22819
+      },
+      {
+        "passed": true,
+        "elapsed_s": 45.5,
+        "a": 9700,
+        "b": 15,
+        "m": 29989,
+        "truth": 29220,
+        "reported": 29220
+      },
+      {
+        "passed": true,
+        "elapsed_s": 31.7,
+        "a": 28851,
+        "b": 27,
+        "m": 29989,
+        "truth": 27045,
+        "reported": 27045
+      },
+      {
+        "passed": false,
+        "elapsed_s": 20.3,
+        "a": 27727,
+        "b": 18,
+        "m": 29989,
+        "truth": 20059,
+        "reported": 17373
+      },
+      {
+        "passed": true,
+        "elapsed_s": 38.7,
+        "a": 10458,
+        "b": 25,
+        "m": 29989,
+        "truth": 12845,
+        "reported": 12845
+      },
+      {
+        "passed": false,
+        "elapsed_s": 32.5,
+        "a": 26149,
+        "b": 17,
+        "m": 29989,
+        "truth": 6814,
+        "reported": 3461
+      },
+      {
+        "passed": true,
+        "elapsed_s": 57.7,
+        "a": 5823,
+        "b": 23,
+        "m": 29989,
+        "truth": 16460,
+        "reported": 16460
+      }
+    ]
+  },
+  "curve": [
+    {
+      "modulus": 2999,
+      "accuracy": 0.8,
+      "ciLow": 0.4902,
+      "ciHigh": 0.9433,
+      "n": 10,
+      "passed": 8,
+      "avgTimeS": 19.2
+    },
+    {
+      "modulus": 4999,
+      "accuracy": 0.9,
+      "ciLow": 0.5958,
+      "ciHigh": 0.9821,
+      "n": 10,
+      "passed": 9,
+      "avgTimeS": 25.3
+    },
+    {
+      "modulus": 7993,
+      "accuracy": 1,
+      "ciLow": 0.7225,
+      "ciHigh": 1,
+      "n": 10,
+      "passed": 10,
+      "avgTimeS": 25.6
+    },
+    {
+      "modulus": 14983,
+      "accuracy": 0.7,
+      "ciLow": 0.3968,
+      "ciHigh": 0.8922,
+      "n": 10,
+      "passed": 7,
+      "avgTimeS": 30
+    },
+    {
+      "modulus": 19997,
+      "accuracy": 0.7,
+      "ciLow": 0.3968,
+      "ciHigh": 0.8922,
+      "n": 10,
+      "passed": 7,
+      "avgTimeS": 23.3
+    },
+    {
+      "modulus": 69997,
+      "accuracy": 0.7,
+      "ciLow": 0.3968,
+      "ciHigh": 0.8922,
+      "n": 10,
+      "passed": 7,
+      "avgTimeS": 31.8
+    },
+    {
+      "modulus": 99991,
+      "accuracy": 0.7,
+      "ciLow": 0.3968,
+      "ciHigh": 0.8922,
+      "n": 10,
+      "passed": 7,
+      "avgTimeS": 33.6
+    },
+    {
+      "modulus": 199999,
+      "accuracy": 0.8,
+      "ciLow": 0.4902,
+      "ciHigh": 0.9433,
+      "n": 10,
+      "passed": 8,
+      "avgTimeS": 35.3
+    }
+  ],
+  "featuredFailure": {
+    "task": {
+      "a": 20987,
+      "b": 16,
+      "m": 29989
+    },
+    "truth": 10057,
+    "reported": 5793,
+    "binary": "10000",
+    "squarings": 4,
+    "steps": [
+      {
+        "label": "20987² mod 29989",
+        "expression": "440,454,169 mod 29989",
+        "opus": "5,726",
+        "correct": "5,726",
+        "ok": true
+      },
+      {
+        "label": "5726² mod 29989",
+        "expression": "32,787,076 mod 29989",
+        "opus": "10,099",
+        "correct": "9,099",
+        "ok": false,
+        "note": "Opus computed 29989 × 93 as 2,787,977. The correct product is 2,788,977 — a single dropped digit. One multiplication, off by 1,000."
+      },
+      {
+        "label": "(wrong value)² mod 29989",
+        "expression": "10,099² … continues from the bad value",
+        "opus": "27,201",
+        "correct": "(would be computed from 9,099²)",
+        "ok": false
+      },
+      {
+        "label": "(wrong value)² mod 29989",
+        "expression": "squared once more",
+        "opus": "5,793",
+        "correct": "(would converge to 10,057)",
+        "ok": false
+      }
+    ]
+  }
+}
