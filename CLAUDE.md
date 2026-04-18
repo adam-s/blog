@@ -4,7 +4,7 @@ Static personal site hosted on AWS. Private GitHub repo at `adam-s/blog`.
 
 ## Architecture
 
-```
+```text
  Route53 (adamsohn.com.)
     |
     v
@@ -25,7 +25,7 @@ Cost: ~$0.50/month for the Route53 hosted zone. S3 + CloudFront are effectively 
 
 ## Repo layout
 
-```
+```text
 blog/
 ├── index.html              # Homepage (CERN-aesthetic, plain HTML)
 ├── reliably-incorrect/     # Built copy of agent-capability-threshold/web
@@ -48,10 +48,12 @@ built `dist/` output and the homepage.
 1. Ensure the source project's Vite config uses `base: './'` so assets resolve
    under any subpath without per-subpath rebuilds.
 2. Build and copy into this repo:
-   ```
+
+   ```bash
    ./scripts/sync-app.sh <source-project-dir> <subpath>
    # e.g. ./scripts/sync-app.sh ~/Projects/agent-capability-threshold/web reliably-incorrect
    ```
+
 3. Add a link to `index.html`.
 4. Commit and push. CI deploys.
 
@@ -61,7 +63,8 @@ built `dist/` output and the homepage.
 GitHub OIDC, runs `aws s3 sync` with `--delete`, then invalidates CloudFront.
 
 **Manual** (from a laptop with AWS creds):
-```
+
+```bash
 aws s3 sync . s3://<bucket> --delete \
   --exclude ".git/*" --exclude ".github/*" --exclude "scripts/*" \
   --exclude "CLAUDE.md" --exclude ".gitignore" --exclude ".DS_Store"
@@ -90,7 +93,7 @@ Filled in during setup; see the "Resource IDs" section at the bottom.
 
 ### Quick local CLI
 
-```
+```bash
 export AWS_PROFILE=adamsohn
 aws s3 ls s3://adamsohn-com-site/
 aws cloudfront create-invalidation --distribution-id E3UH28N54Y87WY --paths "/*"
@@ -99,6 +102,7 @@ aws cloudfront create-invalidation --distribution-id E3UH28N54Y87WY --paths "/*"
 ### What the CloudFront Function does
 
 Single viewer-request function handles two jobs:
+
 1. If `Host: www.adamsohn.com`, respond 301 to `https://adamsohn.com<uri>`.
 2. Rewrite `*/` → `*/index.html` and extensionless paths → `<path>/index.html` so subdirectory sites (e.g. `/reliably-incorrect/`) serve their `index.html`. CloudFront's `DefaultRootObject` only handles the root `/`.
 
