@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-04-20T07-56-35_curriculum_k1_to_k20",
+  "run_meta": {
+    "model_id": "HuggingFaceTB/SmolLM2-360M-Instruct",
+    "sft_adapter": "/runs/2026-04-20T07-29-38_sft_360m-rich/adapter",
+    "device": "cuda",
+    "dtype": "torch.bfloat16",
+    "G": 8,
+    "k": 1,
+    "lr": 5e-06,
+    "beta_kl": 0.04,
+    "clip_eps": 0.2,
+    "max_prompt_len": 256,
+    "max_new_tokens": 256,
+    "temperature": 0.85,
+    "top_p": 0.95,
+    "seed": 0,
+    "steps": 4000
+  },
+  "n_steps": 1838,
+  "n_detail": 184,
+  "anchor_step": 30,
+  "kl_compare_steps": [
+    90,
+    920,
+    1830
+  ]
+}
