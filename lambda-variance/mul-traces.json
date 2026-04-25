@@ -1,0 +1,1833 @@
+{
+  "source": "/Users/adamsohn/Projects/agent-capability-threshold/statistics/explorations/10_multiplication_boundary/traces/mul-boundary-20260410-130605",
+  "model": "claude-haiku-4-5",
+  "traces": [
+    {
+      "digit": 5,
+      "probe": 0,
+      "file": "haiku-d5-p0.conv.jsonl",
+      "operands": {
+        "a": "54122",
+        "b": "38804"
+      },
+      "truth": "2100150088",
+      "answer": "2100150088",
+      "finalCorrect": true,
+      "partialProducts": [
+        {
+          "expr": "54122 × 4",
+          "stated": "216488",
+          "actual": "216488",
+          "correct": true
+        },
+        {
+          "expr": "54122 × 800",
+          "stated": "43297600",
+          "actual": "43297600",
+          "correct": true
+        },
+        {
+          "expr": "54122 × 8000",
+          "stated": "432976000",
+          "actual": "432976000",
+          "correct": true
+        },
+        {
+          "expr": "54122 × 30000",
+          "stated": "1623660000",
+          "actual": "1623660000",
+          "correct": true
+        },
+        {
+          "expr": "54122 × 4",
+          "stated": "216488",
+          "actual": "216488",
+          "correct": true
+        },
+        {
+          "expr": "54122 × 8",
+          "stated": "432976",
+          "actual": "432976",
+          "correct": true
+        },
+        {
+          "expr": "432,976 × 100",
+          "stated": "43297600",
+          "actual": "43297600",
+          "correct": true
+        },
+        {
+          "expr": "54122 × 8",
+          "stated": "432976",
+          "actual": "432976",
+          "correct": true
+        },
+        {
+          "expr": "432,976 × 1000",
+          "stated": "432976000",
+          "actual": "432976000",
+          "correct": true
+        },
+        {
+          "expr": "54122 × 3",
+          "stated": "162366",
+          "actual": "162366",
+          "correct": true
+        },
+        {
+          "expr": "162,366 × 10000",
+          "stated": "1623660000",
+          "actual": "1623660000",
+          "correct": true
+        },
+        {
+          "expr": "54122 × 30000",
+          "stated": "1623660000",
+          "actual": "1623660000",
+          "correct": true
+        },
+        {
+          "expr": "54122 × 8000",
+          "stated": "432976000",
+          "actual": "432976000",
+          "correct": true
+        },
+        {
+          "expr": "54122 × 800",
+          "stated": "43297600",
+          "actual": "43297600",
+          "correct": true
+        },
+        {
+          "expr": "54122 × 4",
+          "stated": "216488",
+          "actual": "216488",
+          "correct": true
+        }
+      ],
+      "correctSteps": 15,
+      "totalSteps": 15,
+      "pStep": 1
+    },
+    {
+      "digit": 5,
+      "probe": 1,
+      "file": "haiku-d5-p1.conv.jsonl",
+      "operands": {
+        "a": "74559",
+        "b": "36210"
+      },
+      "truth": "2699781390",
+      "answer": "2699781390",
+      "finalCorrect": true,
+      "partialProducts": [
+        {
+          "expr": "74559 × 10",
+          "stated": "745590",
+          "actual": "745590",
+          "correct": true
+        },
+        {
+          "expr": "74559 × 200",
+          "stated": "14911800",
+          "actual": "14911800",
+          "correct": true
+        },
+        {
+          "expr": "74559 × 6000",
+          "stated": "447354000",
+          "actual": "447354000",
+          "correct": true
+        },
+        {
+          "expr": "74559 × 30000",
+          "stated": "2236770000",
+          "actual": "2236770000",
+          "correct": true
+        },
+        {
+          "expr": "74559 × 1",
+          "stated": "74559",
+          "actual": "74559",
+          "correct": true
+        },
+        {
+          "expr": "74559 × 2",
+          "stated": "149118",
+          "actual": "149118",
+          "correct": true
+        },
+        {
+          "expr": "74559 × 6",
+          "stated": "447354",
+          "actual": "447354",
+          "correct": true
+        },
+        {
+          "expr": "74559 × 3",
+          "stated": "223677",
+          "actual": "223677",
+          "correct": true
+        },
+        {
+          "expr": "74,559 × 1",
+          "stated": "74559",
+          "actual": "74559",
+          "correct": true
+        },
+        {
+          "expr": "74,559 × 2",
+          "stated": "149118",
+          "actual": "149118",
+          "correct": true
+        },
+        {
+          "expr": "74,559 × 3",
+          "stated": "223677",
+          "actual": "223677",
+          "correct": true
+        },
+        {
+          "expr": "74559 × 3",
+          "stated": "223677",
+          "actual": "223677",
+          "correct": true
+        },
+        {
+          "expr": "74559 × 6",
+          "stated": "447354",
+          "actual": "447354",
+          "correct": true
+        },
+        {
+          "expr": "223,677 × 10,000",
+          "stated": "2236770000",
+          "actual": "2236770000",
+          "correct": true
+        },
+        {
+          "expr": "447,354 × 1,000",
+          "stated": "447354000",
+          "actual": "447354000",
+          "correct": true
+        },
+        {
+          "expr": "149,118 × 100",
+          "stated": "14911800",
+          "actual": "14911800",
+          "correct": true
+        },
+        {
+          "expr": "74,559 × 10",
+          "stated": "745590",
+          "actual": "745590",
+          "correct": true
+        }
+      ],
+      "correctSteps": 17,
+      "totalSteps": 17,
+      "pStep": 1
+    },
+    {
+      "digit": 5,
+      "probe": 2,
+      "file": "haiku-d5-p2.conv.jsonl",
+      "operands": {
+        "a": "58245",
+        "b": "82733"
+      },
+      "truth": "4818783585",
+      "answer": "4818783585",
+      "finalCorrect": true,
+      "partialProducts": [
+        {
+          "expr": "58245 × 3",
+          "stated": "174735",
+          "actual": "174735",
+          "correct": true
+        },
+        {
+          "expr": "58245 × 30",
+          "stated": "1747350",
+          "actual": "1747350",
+          "correct": true
+        },
+        {
+          "expr": "58245 × 700",
+          "stated": "40771500",
+          "actual": "40771500",
+          "correct": true
+        },
+        {
+          "expr": "58245 × 2000",
+          "stated": "116490000",
+          "actual": "116490000",
+          "correct": true
+        },
+        {
+          "expr": "58245 × 80000",
+          "stated": "4659600000",
+          "actual": "4659600000",
+          "correct": true
+        },
+        {
+          "expr": "58245 × 3",
+          "stated": "174735",
+          "actual": "174735",
+          "correct": true
+        },
+        {
+          "expr": "58245 × 30",
+          "stated": "1747350",
+          "actual": "1747350",
+          "correct": true
+        },
+        {
+          "expr": "58245 × 700",
+          "stated": "40771500",
+          "actual": "40771500",
+          "correct": true
+        },
+        {
+          "expr": "58245 × 2000",
+          "stated": "116490000",
+          "actual": "116490000",
+          "correct": true
+        },
+        {
+          "expr": "58245 × 80000",
+          "stated": "4659600000",
+          "actual": "4659600000",
+          "correct": true
+        },
+        {
+          "expr": "58245 × 3",
+          "stated": "174735",
+          "actual": "174735",
+          "correct": true
+        },
+        {
+          "expr": "58245 × 30",
+          "stated": "1747350",
+          "actual": "1747350",
+          "correct": true
+        },
+        {
+          "expr": "58245 × 700",
+          "stated": "40771500",
+          "actual": "40771500",
+          "correct": true
+        },
+        {
+          "expr": "58245 × 2000",
+          "stated": "116490000",
+          "actual": "116490000",
+          "correct": true
+        },
+        {
+          "expr": "58245 × 80000",
+          "stated": "4659600000",
+          "actual": "4659600000",
+          "correct": true
+        },
+        {
+          "expr": "8 × 3",
+          "stated": "24",
+          "actual": "24",
+          "correct": true
+        },
+        {
+          "expr": "8 × 3",
+          "stated": "24",
+          "actual": "24",
+          "correct": true
+        },
+        {
+          "expr": "5 × 7",
+          "stated": "35",
+          "actual": "35",
+          "correct": true
+        },
+        {
+          "expr": "58245 × 2",
+          "stated": "116490",
+          "actual": "116490",
+          "correct": true
+        },
+        {
+          "expr": "5 × 8",
+          "stated": "40",
+          "actual": "40",
+          "correct": true
+        },
+        {
+          "expr": "5 × 3",
+          "stated": "15",
+          "actual": "15",
+          "correct": true
+        },
+        {
+          "expr": "8 × 3",
+          "stated": "24",
+          "actual": "24",
+          "correct": true
+        },
+        {
+          "expr": "58245 × 3",
+          "stated": "174735",
+          "actual": "174735",
+          "correct": true
+        },
+        {
+          "expr": "58245 × 30",
+          "stated": "1747350",
+          "actual": "1747350",
+          "correct": true
+        },
+        {
+          "expr": "58245 × 700",
+          "stated": "40771500",
+          "actual": "40771500",
+          "correct": true
+        },
+        {
+          "expr": "58245 × 2000",
+          "stated": "116490000",
+          "actual": "116490000",
+          "correct": true
+        },
+        {
+          "expr": "58245 × 80000",
+          "stated": "4659600000",
+          "actual": "4659600000",
+          "correct": true
+        }
+      ],
+      "correctSteps": 27,
+      "totalSteps": 27,
+      "pStep": 1
+    },
+    {
+      "digit": 10,
+      "probe": 0,
+      "file": "haiku-d10-p0.conv.jsonl",
+      "operands": {
+        "a": "1324120735",
+        "b": "5865916617"
+      },
+      "truth": "7767181822350753495",
+      "answer": "7767181822350753495",
+      "finalCorrect": true,
+      "partialProducts": [
+        {
+          "expr": "1324120735 × 7",
+          "stated": "9268845145",
+          "actual": "9268845145",
+          "correct": true
+        },
+        {
+          "expr": "1324120735 × 10",
+          "stated": "13241207350",
+          "actual": "13241207350",
+          "correct": true
+        },
+        {
+          "expr": "1324120735 × 600",
+          "stated": "794472441000",
+          "actual": "794472441000",
+          "correct": true
+        },
+        {
+          "expr": "1324120735 × 6000",
+          "stated": "7944724410000",
+          "actual": "7944724410000",
+          "correct": true
+        },
+        {
+          "expr": "1324120735 × 10000",
+          "stated": "13241207350000",
+          "actual": "13241207350000",
+          "correct": true
+        },
+        {
+          "expr": "1324120735 × 900000",
+          "stated": "1191708661500000",
+          "actual": "1191708661500000",
+          "correct": true
+        },
+        {
+          "expr": "1324120735 × 5000000",
+          "stated": "6620603675000000",
+          "actual": "6620603675000000",
+          "correct": true
+        },
+        {
+          "expr": "1324120735 × 60000000",
+          "stated": "79447244100000000",
+          "actual": "79447244100000000",
+          "correct": true
+        },
+        {
+          "expr": "1324120735 × 800000000",
+          "stated": "1059296588000000000",
+          "actual": "1059296588000000000",
+          "correct": true
+        },
+        {
+          "expr": "1324120735 × 5000000000",
+          "stated": "6620603675000000000",
+          "actual": "6620603675000000000",
+          "correct": true
+        },
+        {
+          "expr": "7 × 1324120735",
+          "stated": "9268845145",
+          "actual": "9268845145",
+          "correct": true
+        },
+        {
+          "expr": "1 × 1324120735",
+          "stated": "1324120735",
+          "actual": "1324120735",
+          "correct": true
+        },
+        {
+          "expr": "6 × 1324120735",
+          "stated": "7944724410",
+          "actual": "7944724410",
+          "correct": true
+        },
+        {
+          "expr": "6 × 1324120735",
+          "stated": "7944724410",
+          "actual": "7944724410",
+          "correct": true
+        },
+        {
+          "expr": "1 × 1324120735",
+          "stated": "1324120735",
+          "actual": "1324120735",
+          "correct": true
+        },
+        {
+          "expr": "9 × 1324120735",
+          "stated": "11917086615",
+          "actual": "11917086615",
+          "correct": true
+        },
+        {
+          "expr": "5 × 1324120735",
+          "stated": "6620603675",
+          "actual": "6620603675",
+          "correct": true
+        },
+        {
+          "expr": "6 × 1324120735",
+          "stated": "7944724410",
+          "actual": "7944724410",
+          "correct": true
+        },
+        {
+          "expr": "8 × 1324120735",
+          "stated": "10592965880",
+          "actual": "10592965880",
+          "correct": true
+        },
+        {
+          "expr": "5 × 1324120735",
+          "stated": "6620603675",
+          "actual": "6620603675",
+          "correct": true
+        },
+        {
+          "expr": "1324120735 × 7",
+          "stated": "9268845145",
+          "actual": "9268845145",
+          "correct": true
+        },
+        {
+          "expr": "1324120735 × 1",
+          "stated": "1324120735",
+          "actual": "1324120735",
+          "correct": true
+        },
+        {
+          "expr": "1324120735 × 6",
+          "stated": "7944724410",
+          "actual": "7944724410",
+          "correct": true
+        },
+        {
+          "expr": "1324120735 × 9",
+          "stated": "11917086615",
+          "actual": "11917086615",
+          "correct": true
+        },
+        {
+          "expr": "1324120735 × 5",
+          "stated": "6620603675",
+          "actual": "6620603675",
+          "correct": true
+        },
+        {
+          "expr": "1324120735 × 8",
+          "stated": "10592965880",
+          "actual": "10592965880",
+          "correct": true
+        },
+        {
+          "expr": "1324120735 × 6",
+          "stated": "7944724410",
+          "actual": "7944724410",
+          "correct": true
+        },
+        {
+          "expr": "1324120735 × 600",
+          "stated": "794472441000",
+          "actual": "794472441000",
+          "correct": true
+        },
+        {
+          "expr": "1324120735 × 10",
+          "stated": "13241207350",
+          "actual": "13241207350",
+          "correct": true
+        },
+        {
+          "expr": "1324120735 × 7",
+          "stated": "9268845145",
+          "actual": "9268845145",
+          "correct": true
+        },
+        {
+          "expr": "1324120735 × 10",
+          "stated": "13241207350",
+          "actual": "13241207350",
+          "correct": true
+        },
+        {
+          "expr": "1324120735 × 8",
+          "stated": "10592965880",
+          "actual": "10592965880",
+          "correct": true
+        },
+        {
+          "expr": "9 × 5",
+          "stated": "45",
+          "actual": "45",
+          "correct": true
+        },
+        {
+          "expr": "9 × 2",
+          "stated": "18",
+          "actual": "18",
+          "correct": true
+        },
+        {
+          "expr": "9 × 1",
+          "stated": "9",
+          "actual": "9",
+          "correct": true
+        },
+        {
+          "expr": "1324120735 × 7",
+          "stated": "9268845145",
+          "actual": "9268845145",
+          "correct": true
+        },
+        {
+          "expr": "1324120735 × 1",
+          "stated": "1324120735",
+          "actual": "1324120735",
+          "correct": true
+        },
+        {
+          "expr": "1324120735 × 6",
+          "stated": "7944724410",
+          "actual": "7944724410",
+          "correct": true
+        },
+        {
+          "expr": "1324120735 × 6",
+          "stated": "7944724410",
+          "actual": "7944724410",
+          "correct": true
+        },
+        {
+          "expr": "1324120735 × 1",
+          "stated": "1324120735",
+          "actual": "1324120735",
+          "correct": true
+        },
+        {
+          "expr": "1324120735 × 9",
+          "stated": "11917086615",
+          "actual": "11917086615",
+          "correct": true
+        },
+        {
+          "expr": "1324120735 × 5",
+          "stated": "6620603675",
+          "actual": "6620603675",
+          "correct": true
+        },
+        {
+          "expr": "1324120735 × 6",
+          "stated": "7944724410",
+          "actual": "7944724410",
+          "correct": true
+        },
+        {
+          "expr": "1324120735 × 8",
+          "stated": "10592965880",
+          "actual": "10592965880",
+          "correct": true
+        },
+        {
+          "expr": "1324120735 × 5",
+          "stated": "6620603675",
+          "actual": "6620603675",
+          "correct": true
+        }
+      ],
+      "correctSteps": 45,
+      "totalSteps": 45,
+      "pStep": 1
+    },
+    {
+      "digit": 10,
+      "probe": 1,
+      "file": "haiku-d10-p1.conv.jsonl",
+      "operands": {
+        "a": "7480535100",
+        "b": "2772301685"
+      },
+      "truth": "20738300062431643500",
+      "answer": "20738300062431643500",
+      "finalCorrect": true,
+      "partialProducts": [
+        {
+          "expr": "74805351 × 600",
+          "stated": "44883210600",
+          "actual": "44883210600",
+          "correct": true
+        },
+        {
+          "expr": "74805351 × 80",
+          "stated": "5984428080",
+          "actual": "5984428080",
+          "correct": true
+        },
+        {
+          "expr": "74805351 × 5",
+          "stated": "374026755",
+          "actual": "374026755",
+          "correct": true
+        },
+        {
+          "expr": "74805351 × 2772",
+          "stated": "207360432972",
+          "actual": "207360432972",
+          "correct": true
+        },
+        {
+          "expr": "74805351 × 2772301",
+          "stated": "207382949382651",
+          "actual": "207382949382651",
+          "correct": true
+        },
+        {
+          "expr": "74805351 × 301",
+          "stated": "22516410651",
+          "actual": "22516410651",
+          "correct": true
+        },
+        {
+          "expr": "207383000623816435 × 100",
+          "stated": "20738300062381643500",
+          "actual": "20738300062381643500",
+          "correct": true
+        },
+        {
+          "expr": "74805351 × 2772301685",
+          "stated": "207382949382651000",
+          "actual": "207383000624316435",
+          "correct": false
+        },
+        {
+          "expr": "74805351 × 2772301",
+          "stated": "207382949382651",
+          "actual": "207382949382651",
+          "correct": true
+        },
+        {
+          "expr": "74805351 × 2772301685",
+          "stated": "207383000624316435",
+          "actual": "207383000624316435",
+          "correct": true
+        },
+        {
+          "expr": "207383000624316435 × 100",
+          "stated": "20738300062431643500",
+          "actual": "20738300062431643500",
+          "correct": true
+        },
+        {
+          "expr": "74805351 × 700",
+          "stated": "52363745700",
+          "actual": "52363745700",
+          "correct": true
+        },
+        {
+          "expr": "74805351 × 15",
+          "stated": "1122080265",
+          "actual": "1122080265",
+          "correct": true
+        },
+        {
+          "expr": "74805351 × 685",
+          "stated": "51241665435",
+          "actual": "51241665435",
+          "correct": true
+        },
+        {
+          "expr": "74805351 × 10",
+          "stated": "748053510",
+          "actual": "748053510",
+          "correct": true
+        },
+        {
+          "expr": "74805351 × 5",
+          "stated": "374026755",
+          "actual": "374026755",
+          "correct": true
+        },
+        {
+          "expr": "207383000624316435 × 100",
+          "stated": "20738300062431643500",
+          "actual": "20738300062431643500",
+          "correct": true
+        },
+        {
+          "expr": "74805351 × 2772301",
+          "stated": "207382949382651",
+          "actual": "207382949382651",
+          "correct": true
+        },
+        {
+          "expr": "74000000 × 2772301",
+          "stated": "205150274000000",
+          "actual": "205150274000000",
+          "correct": true
+        },
+        {
+          "expr": "75 × 2772301",
+          "stated": "75",
+          "actual": "207922575",
+          "correct": false
+        },
+        {
+          "expr": "75000000 × 2772301",
+          "stated": "207922575000000",
+          "actual": "207922575000000",
+          "correct": true
+        },
+        {
+          "expr": "74805351 × 2000000",
+          "stated": "149610702000000",
+          "actual": "149610702000000",
+          "correct": true
+        },
+        {
+          "expr": "74805351 × 700000",
+          "stated": "52363745700000",
+          "actual": "52363745700000",
+          "correct": true
+        },
+        {
+          "expr": "74805351 × 70000",
+          "stated": "5236374570000",
+          "actual": "5236374570000",
+          "correct": true
+        },
+        {
+          "expr": "74805351 × 2301",
+          "stated": "172127112651",
+          "actual": "172127112651",
+          "correct": true
+        },
+        {
+          "expr": "74805351 × 772301",
+          "stated": "57772247382651",
+          "actual": "57772247382651",
+          "correct": true
+        },
+        {
+          "expr": "74805351 × 2772301",
+          "stated": "207382949382651",
+          "actual": "207382949382651",
+          "correct": true
+        },
+        {
+          "expr": "74805351 × 600",
+          "stated": "44883210600",
+          "actual": "44883210600",
+          "correct": true
+        },
+        {
+          "expr": "74805351 × 80",
+          "stated": "5984428080",
+          "actual": "5984428080",
+          "correct": true
+        },
+        {
+          "expr": "74805351 × 5",
+          "stated": "374026755",
+          "actual": "374026755",
+          "correct": true
+        },
+        {
+          "expr": "207,383,000,624,316,435 × 100",
+          "stated": "20738300062431643500",
+          "actual": "20738300062431643500",
+          "correct": true
+        }
+      ],
+      "correctSteps": 29,
+      "totalSteps": 31,
+      "pStep": 0.9354838709677419
+    },
+    {
+      "digit": 10,
+      "probe": 2,
+      "file": "haiku-d10-p2.conv.jsonl",
+      "operands": {
+        "a": "1005631918",
+        "b": "9758058436"
+      },
+      "truth": "9813015020950760248",
+      "answer": "9813015020950760248",
+      "finalCorrect": true,
+      "partialProducts": [
+        {
+          "expr": "3016895754 × 10",
+          "stated": "30168957540",
+          "actual": "30168957540",
+          "correct": true
+        },
+        {
+          "expr": "1005631918 × 6",
+          "stated": "6033791508",
+          "actual": "6033791508",
+          "correct": true
+        },
+        {
+          "expr": "9 × 8",
+          "stated": "72",
+          "actual": "72",
+          "correct": true
+        },
+        {
+          "expr": "9 × 1",
+          "stated": "9",
+          "actual": "9",
+          "correct": true
+        },
+        {
+          "expr": "7 × 8",
+          "stated": "56",
+          "actual": "56",
+          "correct": true
+        },
+        {
+          "expr": "7 × 6",
+          "stated": "42",
+          "actual": "42",
+          "correct": true
+        },
+        {
+          "expr": "7 × 1",
+          "stated": "7",
+          "actual": "7",
+          "correct": true
+        },
+        {
+          "expr": "1005631918 × 7",
+          "stated": "7039423426",
+          "actual": "7039423426",
+          "correct": true
+        },
+        {
+          "expr": "1005631918 × 5",
+          "stated": "5028159590",
+          "actual": "5028159590",
+          "correct": true
+        },
+        {
+          "expr": "1005631918 × 8",
+          "stated": "8045055344",
+          "actual": "8045055344",
+          "correct": true
+        },
+        {
+          "expr": "4 × 8",
+          "stated": "32",
+          "actual": "32",
+          "correct": true
+        },
+        {
+          "expr": "3 × 8",
+          "stated": "24",
+          "actual": "24",
+          "correct": true
+        },
+        {
+          "expr": "6 × 8",
+          "stated": "48",
+          "actual": "48",
+          "correct": true
+        },
+        {
+          "expr": "1005631918 × 5",
+          "stated": "5028159590",
+          "actual": "5028159590",
+          "correct": true
+        },
+        {
+          "expr": "8 × 1005631918",
+          "stated": "8045055344",
+          "actual": "8045055344",
+          "correct": true
+        },
+        {
+          "expr": "7 × 1005631918",
+          "stated": "7039423426",
+          "actual": "7039423426",
+          "correct": true
+        },
+        {
+          "expr": "9 × 1005631918",
+          "stated": "9050687262",
+          "actual": "9050687262",
+          "correct": true
+        },
+        {
+          "expr": "1005631918 × 9",
+          "stated": "9050687262",
+          "actual": "9050687262",
+          "correct": true
+        },
+        {
+          "expr": "1000000000 × 9",
+          "stated": "9000000000",
+          "actual": "9000000000",
+          "correct": true
+        },
+        {
+          "expr": "5631918 × 9",
+          "stated": "50687262",
+          "actual": "50687262",
+          "correct": true
+        },
+        {
+          "expr": "1005631918 × 9",
+          "stated": "9050687262",
+          "actual": "9050687262",
+          "correct": true
+        },
+        {
+          "expr": "1005631918 × 6",
+          "stated": "6033791508",
+          "actual": "6033791508",
+          "correct": true
+        },
+        {
+          "expr": "1000000000 × 6",
+          "stated": "6000000000",
+          "actual": "6000000000",
+          "correct": true
+        },
+        {
+          "expr": "5631918 × 6",
+          "stated": "33791508",
+          "actual": "33791508",
+          "correct": true
+        },
+        {
+          "expr": "1005631918 × 6",
+          "stated": "6033791508",
+          "actual": "6033791508",
+          "correct": true
+        },
+        {
+          "expr": "1005631918 × 9000000000",
+          "stated": "9050687262000000000",
+          "actual": "9050687262000000000",
+          "correct": true
+        },
+        {
+          "expr": "1005631918 × 700000000",
+          "stated": "703942342600000000",
+          "actual": "703942342600000000",
+          "correct": true
+        },
+        {
+          "expr": "1005631918 × 50000000",
+          "stated": "50281595900000000",
+          "actual": "50281595900000000",
+          "correct": true
+        },
+        {
+          "expr": "1005631918 × 8000000",
+          "stated": "8045055344000000",
+          "actual": "8045055344000000",
+          "correct": true
+        },
+        {
+          "expr": "1005631918 × 50000",
+          "stated": "50281595900000",
+          "actual": "50281595900000",
+          "correct": true
+        },
+        {
+          "expr": "1005631918 × 8000",
+          "stated": "8045055344000",
+          "actual": "8045055344000",
+          "correct": true
+        },
+        {
+          "expr": "1005631918 × 8436",
+          "stated": "8483510860248",
+          "actual": "8483510860248",
+          "correct": true
+        },
+        {
+          "expr": "1005631918 × 58436",
+          "stated": "50290079410248",
+          "actual": "58765106760248",
+          "correct": false
+        },
+        {
+          "expr": "1005631918 × 8058436",
+          "stated": "8045105634410248",
+          "actual": "8103820450760248",
+          "correct": false
+        },
+        {
+          "expr": "5631918 × 6",
+          "stated": "33791508",
+          "actual": "33791508",
+          "correct": true
+        },
+        {
+          "expr": "3016895754 × 10",
+          "stated": "30168957540",
+          "actual": "30168957540",
+          "correct": true
+        },
+        {
+          "expr": "4022527672 × 100",
+          "stated": "402252767200",
+          "actual": "402252767200",
+          "correct": true
+        },
+        {
+          "expr": "8045055344 × 1000",
+          "stated": "8045055344000",
+          "actual": "8045055344000",
+          "correct": true
+        },
+        {
+          "expr": "5028159590 × 10000",
+          "stated": "50281595900000",
+          "actual": "50281595900000",
+          "correct": true
+        },
+        {
+          "expr": "8045055344 × 1000000",
+          "stated": "8045055344000000",
+          "actual": "8045055344000000",
+          "correct": true
+        },
+        {
+          "expr": "5028159590 × 10000000",
+          "stated": "50281595900000000",
+          "actual": "50281595900000000",
+          "correct": true
+        },
+        {
+          "expr": "7039423426 × 100000000",
+          "stated": "703942342600000000",
+          "actual": "703942342600000000",
+          "correct": true
+        },
+        {
+          "expr": "9050687262 × 1000000000",
+          "stated": "9050687262000000000",
+          "actual": "9050687262000000000",
+          "correct": true
+        },
+        {
+          "expr": "1005631918 × 10000000000",
+          "stated": "10056319180000000000",
+          "actual": "10056319180000000000",
+          "correct": true
+        },
+        {
+          "expr": "1005631918 × 9",
+          "stated": "9050687262",
+          "actual": "9050687262",
+          "correct": true
+        },
+        {
+          "expr": "1005631918 × 7",
+          "stated": "7039423426",
+          "actual": "7039423426",
+          "correct": true
+        },
+        {
+          "expr": "1005631918 × 5",
+          "stated": "5028159590",
+          "actual": "5028159590",
+          "correct": true
+        },
+        {
+          "expr": "1005631918 × 8",
+          "stated": "8045055344",
+          "actual": "8045055344",
+          "correct": true
+        },
+        {
+          "expr": "1005631918 × 4",
+          "stated": "4022527672",
+          "actual": "4022527672",
+          "correct": true
+        },
+        {
+          "expr": "1005631918 × 3",
+          "stated": "3016895754",
+          "actual": "3016895754",
+          "correct": true
+        },
+        {
+          "expr": "1005631918 × 6",
+          "stated": "6033791508",
+          "actual": "6033791508",
+          "correct": true
+        }
+      ],
+      "correctSteps": 49,
+      "totalSteps": 51,
+      "pStep": 0.9607843137254902
+    },
+    {
+      "digit": 20,
+      "probe": 0,
+      "file": "haiku-d20-p0.conv.jsonl",
+      "operands": {
+        "a": "63564832290709649509",
+        "b": "74999699437800140734"
+      },
+      "truth": "4767343316617396732176289946772013999606",
+      "answer": "4767634332155921783352021607142013999606",
+      "finalCorrect": false,
+      "partialProducts": [
+        {
+          "expr": "63564832290 × 75000000000",
+          "stated": "4767362421750000000000",
+          "actual": "4767362421750000000000",
+          "correct": true
+        },
+        {
+          "expr": "63564832290 × 300562",
+          "stated": "19106226907234380",
+          "actual": "19105173122746980",
+          "correct": false
+        },
+        {
+          "expr": "63564832290 × 75000000000",
+          "stated": "4767362421750000000000",
+          "actual": "4767362421750000000000",
+          "correct": true
+        },
+        {
+          "expr": "63000000000 × 300562",
+          "stated": "18935514600000",
+          "actual": "18935406000000000",
+          "correct": false
+        },
+        {
+          "expr": "564832290 × 300562",
+          "stated": "169826629903380",
+          "actual": "169767122746980",
+          "correct": false
+        },
+        {
+          "expr": "6356483229 × 30000",
+          "stated": "190694496870000",
+          "actual": "190694496870000",
+          "correct": true
+        },
+        {
+          "expr": "6356483229 × 57",
+          "stated": "362319544053",
+          "actual": "362319544053",
+          "correct": true
+        },
+        {
+          "expr": "709649509 × 30000",
+          "stated": "21289485270000",
+          "actual": "21289485270000",
+          "correct": true
+        },
+        {
+          "expr": "709649509 × 57",
+          "stated": "40449962013",
+          "actual": "40450022013",
+          "correct": false
+        },
+        {
+          "expr": "709649509 × 75",
+          "stated": "53223713175",
+          "actual": "53223713175",
+          "correct": true
+        },
+        {
+          "expr": "709649509 × 30000",
+          "stated": "21289485270000",
+          "actual": "21289485270000",
+          "correct": true
+        },
+        {
+          "expr": "709649509 × 57",
+          "stated": "40450021013",
+          "actual": "40450022013",
+          "correct": false
+        },
+        {
+          "expr": "6356483229 × 7800000000",
+          "stated": "49580569186200000000",
+          "actual": "49580569186200000000",
+          "correct": true
+        },
+        {
+          "expr": "6356483229 × 140000",
+          "stated": "889907648060000",
+          "actual": "889907652060000",
+          "correct": false
+        },
+        {
+          "expr": "6356483229 × 734",
+          "stated": "4666982",
+          "actual": "4665658690086",
+          "correct": false
+        },
+        {
+          "expr": "6356483229 × 700",
+          "stated": "4449538260300",
+          "actual": "4449538260300",
+          "correct": true
+        },
+        {
+          "expr": "709649509 × 140734",
+          "stated": "99446685976606",
+          "actual": "99871813999606",
+          "correct": false
+        },
+        {
+          "expr": "709649509 × 140",
+          "stated": "99350931260",
+          "actual": "99350931260",
+          "correct": true
+        },
+        {
+          "expr": "63564832290709649509 × 80",
+          "stated": "5085186583256771960720",
+          "actual": "5085186583256771960720",
+          "correct": true
+        },
+        {
+          "expr": "63564832290709649509 × 5",
+          "stated": "317824161453548247545",
+          "actual": "317824161453548247545",
+          "correct": true
+        },
+        {
+          "expr": "6356483229 × 75",
+          "stated": "476736242175",
+          "actual": "476736242175",
+          "correct": true
+        },
+        {
+          "expr": "6356483229 × 78",
+          "stated": "495805691862",
+          "actual": "495805691862",
+          "correct": true
+        },
+        {
+          "expr": "6356483229 × 14",
+          "stated": "88990765206",
+          "actual": "88990765206",
+          "correct": true
+        },
+        {
+          "expr": "6356483229 × 734",
+          "stated": "4665658730086",
+          "actual": "4665658690086",
+          "correct": false
+        },
+        {
+          "expr": "709649509 × 30000057",
+          "stated": "21329935291013",
+          "actual": "21289525720022013",
+          "correct": false
+        },
+        {
+          "expr": "709649509 × 78",
+          "stated": "709649509",
+          "actual": "55352661702",
+          "correct": false
+        },
+        {
+          "expr": "709649509 × 140000",
+          "stated": "99350931260000",
+          "actual": "99350931260000",
+          "correct": true
+        },
+        {
+          "expr": "709649509 × 140734",
+          "stated": "99871813999606",
+          "actual": "99871813999606",
+          "correct": true
+        }
+      ],
+      "correctSteps": 17,
+      "totalSteps": 28,
+      "pStep": 0.6071428571428571
+    },
+    {
+      "digit": 20,
+      "probe": 1,
+      "file": "haiku-d20-p1.conv.jsonl",
+      "operands": {
+        "a": "57905564180001340672",
+        "b": "56930431974359201290"
+      },
+      "truth": "3296588782486457169707729720299111866880",
+      "answer": "3296588782757541152610772771891118866880",
+      "finalCorrect": false,
+      "partialProducts": [
+        {
+          "expr": "5790556418 × 6956803",
+          "stated": "40283760947482454",
+          "actual": "40283760260411654",
+          "correct": false
+        },
+        {
+          "expr": "5790556418 × 693043197",
+          "stated": "4013105331652517546",
+          "actual": "4013105732339588346",
+          "correct": false
+        },
+        {
+          "expr": "5790556418 × 5693043197",
+          "stated": "32965887421652517546",
+          "actual": "32965887822339588346",
+          "correct": false
+        },
+        {
+          "expr": "5790556418 × 197",
+          "stated": "1140739614346",
+          "actual": "1140739614346",
+          "correct": true
+        },
+        {
+          "expr": "5790556418 × 3197",
+          "stated": "18512408868346",
+          "actual": "18512408868346",
+          "correct": true
+        },
+        {
+          "expr": "5790556418 × 43197",
+          "stated": "250134665588346",
+          "actual": "250134665588346",
+          "correct": true
+        },
+        {
+          "expr": "5790556418 × 3043197",
+          "stated": "17621803919588346",
+          "actual": "17621803919588346",
+          "correct": true
+        },
+        {
+          "expr": "5790556418 × 93043197",
+          "stated": "538771881539588346",
+          "actual": "538771881539588346",
+          "correct": true
+        },
+        {
+          "expr": "5790556418 × 693043197",
+          "stated": "4013105732339588346",
+          "actual": "4013105732339588346",
+          "correct": true
+        },
+        {
+          "expr": "5790556418 × 5693043197",
+          "stated": "32965887822339588346",
+          "actual": "32965887822339588346",
+          "correct": true
+        },
+        {
+          "expr": "5790556418 × 4000000000",
+          "stated": "23162225672000000000",
+          "actual": "23162225672000000000",
+          "correct": true
+        },
+        {
+          "expr": "5790556418 × 300000000",
+          "stated": "1737166925400000000",
+          "actual": "1737166925400000000",
+          "correct": true
+        },
+        {
+          "expr": "1340672 × 59201290",
+          "stated": "1340672",
+          "actual": "79369511866880",
+          "correct": false
+        },
+        {
+          "expr": "1340 × 4359",
+          "stated": "5840860",
+          "actual": "5841060",
+          "correct": false
+        },
+        {
+          "expr": "1340 × 359",
+          "stated": "481060",
+          "actual": "481060",
+          "correct": true
+        },
+        {
+          "expr": "672 × 200000",
+          "stated": "134400000",
+          "actual": "134400000",
+          "correct": true
+        },
+        {
+          "expr": "1340672 × 5000000000",
+          "stated": "6703360000000000",
+          "actual": "6703360000000000",
+          "correct": true
+        },
+        {
+          "expr": "672 × 5693043197",
+          "stated": "3825725028384",
+          "actual": "3825725028384",
+          "correct": true
+        },
+        {
+          "expr": "40672 × 5693043197",
+          "stated": "231547452908384",
+          "actual": "231547452908384",
+          "correct": true
+        },
+        {
+          "expr": "340672 × 5693043197",
+          "stated": "1939360411008384",
+          "actual": "1939460412008384",
+          "correct": false
+        },
+        {
+          "expr": "5790556418 × 4000000000",
+          "stated": "23162225672000000000",
+          "actual": "23162225672000000000",
+          "correct": true
+        },
+        {
+          "expr": "5790556418 × 300000000",
+          "stated": "1737166925400000000",
+          "actual": "1737166925400000000",
+          "correct": true
+        },
+        {
+          "expr": "5790556418 × 798710",
+          "stated": "347433385080000000",
+          "actual": "4624975316620780",
+          "correct": false
+        },
+        {
+          "expr": "5790556418 × 1290",
+          "stated": "4632444734400000",
+          "actual": "7469817779220",
+          "correct": false
+        },
+        {
+          "expr": "5790556418 × 290",
+          "stated": "5790556418000",
+          "actual": "1679261361220",
+          "correct": false
+        },
+        {
+          "expr": "5790556418 × 5000000000",
+          "stated": "28952782090000000000",
+          "actual": "28952782090000000000",
+          "correct": true
+        },
+        {
+          "expr": "5790556418 × 700000000",
+          "stated": "4053389092600000000",
+          "actual": "4053389492600000000",
+          "correct": false
+        },
+        {
+          "expr": "5790556418 × 4359201290",
+          "stated": "25242201007563379220",
+          "actual": "25242201007163379220",
+          "correct": false
+        },
+        {
+          "expr": "1340672 × 5693043197",
+          "stated": "7632403608008384",
+          "actual": "7632503609008384",
+          "correct": false
+        },
+        {
+          "expr": "5790556418 × 1290",
+          "stated": "7469817819220",
+          "actual": "7469817779220",
+          "correct": false
+        },
+        {
+          "expr": "5790556418 × 201290",
+          "stated": "1165581101419220",
+          "actual": "1165581101379220",
+          "correct": false
+        },
+        {
+          "expr": "5790556418 × 9201290",
+          "stated": "53280588863419220",
+          "actual": "53280588863379220",
+          "correct": false
+        },
+        {
+          "expr": "5790556418 × 59201290",
+          "stated": "342808409763419220",
+          "actual": "342808409763379220",
+          "correct": false
+        },
+        {
+          "expr": "5790556418 × 359201290",
+          "stated": "2079975335163419220",
+          "actual": "2079975335163379220",
+          "correct": false
+        },
+        {
+          "expr": "5790556418 × 4359201290",
+          "stated": "25242201007163419220",
+          "actual": "25242201007163379220",
+          "correct": false
+        },
+        {
+          "expr": "1340672 × 3000",
+          "stated": "4022016000",
+          "actual": "4022016000",
+          "correct": true
+        },
+        {
+          "expr": "1340672 × 3197",
+          "stated": "4286128384",
+          "actual": "4286128384",
+          "correct": true
+        },
+        {
+          "expr": "1340672 × 43197",
+          "stated": "57913008384",
+          "actual": "57913008384",
+          "correct": true
+        },
+        {
+          "expr": "1340672 × 3043197",
+          "stated": "4079929008384",
+          "actual": "4079929008384",
+          "correct": true
+        },
+        {
+          "expr": "1340672 × 93043197",
+          "stated": "124740409008384",
+          "actual": "124740409008384",
+          "correct": true
+        },
+        {
+          "expr": "1340672 × 693043197",
+          "stated": "929143609008384",
+          "actual": "929143609008384",
+          "correct": true
+        },
+        {
+          "expr": "1340672 × 201290",
+          "stated": "269863866880",
+          "actual": "269863866880",
+          "correct": true
+        },
+        {
+          "expr": "1340672 × 9201290",
+          "stated": "12335911866880",
+          "actual": "12335911866880",
+          "correct": true
+        },
+        {
+          "expr": "1340672 × 59201290",
+          "stated": "79369511866880",
+          "actual": "79369511866880",
+          "correct": true
+        },
+        {
+          "expr": "1340672 × 359201290",
+          "stated": "481571111866880",
+          "actual": "481571111866880",
+          "correct": true
+        },
+        {
+          "expr": "1340672 × 4359201290",
+          "stated": "5844259111866880",
+          "actual": "5844259111866880",
+          "correct": true
+        },
+        {
+          "expr": "5790556418 × 4359201290",
+          "stated": "25242201007163419220",
+          "actual": "25242201007163379220",
+          "correct": false
+        },
+        {
+          "expr": "1340672 × 5693043197",
+          "stated": "7632503609008384",
+          "actual": "7632503609008384",
+          "correct": true
+        }
+      ],
+      "correctSteps": 29,
+      "totalSteps": 48,
+      "pStep": 0.6041666666666666
+    },
+    {
+      "digit": 20,
+      "probe": 2,
+      "file": "haiku-d20-p2.conv.jsonl",
+      "operands": {
+        "a": "91679210501961597504",
+        "b": "90002737464165508865"
+      },
+      "truth": "8251379913730015039236825434132473872960",
+      "answer": "8500238184237850482433921897327883804964385148872960",
+      "finalCorrect": false,
+      "partialProducts": [
+        {
+          "expr": "679210501961597504 × 2700000000000000",
+          "stated": "183386835531631326080000000000000000",
+          "actual": "1833868355296313260800000000000000",
+          "correct": false
+        },
+        {
+          "expr": "679210501961597504 × 4000000000",
+          "stated": "2716842007846390016000000000",
+          "actual": "2716842007846390016000000000",
+          "correct": true
+        },
+        {
+          "expr": "679210501961597504 × 160000000",
+          "stated": "108673680313855840640",
+          "actual": "108673680313855600640000000",
+          "correct": false
+        },
+        {
+          "expr": "679210501961597504 × 5000000",
+          "stated": "3396052509807987520000000",
+          "actual": "3396052509807987520000000",
+          "correct": true
+        },
+        {
+          "expr": "679210501961597504 × 500000",
+          "stated": "339605250980798752000000",
+          "actual": "339605250980798752000000",
+          "correct": true
+        },
+        {
+          "expr": "679210501961597504 × 8000",
+          "stated": "5433674025569580032000",
+          "actual": "5433684015692780032000",
+          "correct": false
+        },
+        {
+          "expr": "91 × 2737464165508865",
+          "stated": "249109239061306650",
+          "actual": "249109239061306715",
+          "correct": false
+        },
+        {
+          "expr": "679210501961597504 × 865",
+          "stated": "679210501961597504",
+          "actual": "587517084196781840960",
+          "correct": false
+        },
+        {
+          "expr": "679210501961597504 × 800",
+          "stated": "543368401569278003200",
+          "actual": "543368401569278003200",
+          "correct": true
+        },
+        {
+          "expr": "679210501961597504 × 65",
+          "stated": "44148682627503837760",
+          "actual": "44148682627503837760",
+          "correct": true
+        },
+        {
+          "expr": "9 × 4",
+          "stated": "36",
+          "actual": "36",
+          "correct": true
+        },
+        {
+          "expr": "9 × 5",
+          "stated": "45",
+          "actual": "45",
+          "correct": true
+        },
+        {
+          "expr": "9 × 2",
+          "stated": "18",
+          "actual": "18",
+          "correct": true
+        },
+        {
+          "expr": "91 × 2737464165508865",
+          "stated": "249109239061306715",
+          "actual": "249109239061306715",
+          "correct": true
+        },
+        {
+          "expr": "679210501961597504 × 2737464165508865",
+          "stated": "1358921897327883804964385148872960",
+          "actual": "1859314409957161825434132473872960",
+          "correct": false
+        },
+        {
+          "expr": "91679210501961597504 × 9",
+          "stated": "825112894517654377536",
+          "actual": "825112894517654377536",
+          "correct": true
+        },
+        {
+          "expr": "91 × 2737464165508865",
+          "stated": "249109239061306715",
+          "actual": "249109239061306715",
+          "correct": true
+        }
+      ],
+      "correctSteps": 11,
+      "totalSteps": 17,
+      "pStep": 0.6470588235294118
+    }
+  ]
+}
