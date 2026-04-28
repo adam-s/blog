@@ -2,6 +2,9 @@
 // Vanilla JS, no modules.
 
 (async () => {
+  const coarsePointer = window.matchMedia && window.matchMedia('(pointer: coarse)').matches;
+  if (coarsePointer || window.innerWidth < 768) return;
+
   if (document.fonts && document.fonts.ready) {
     await document.fonts.ready;
   }
@@ -45,8 +48,6 @@
   const canvas = document.getElementById('game');
   const ctx = canvas.getContext('2d');
   const resetButton = document.getElementById('game-reset');
-  const touchZone = document.getElementById('touch-zone');
-  const touchHint = document.getElementById('touch-hint');
   const reduceMotion = window.matchMedia &&
     window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
@@ -541,36 +542,6 @@
       keys.right = false;
     }
   });
-
-  if (touchZone) {
-    const onTouch = (event) => {
-      const touch = event.touches[0];
-      if (touch) {
-        onPointerMove(touch.clientX);
-        launchBall();
-      }
-      event.preventDefault();
-    };
-    touchZone.addEventListener('touchstart', onTouch, { passive: false });
-    touchZone.addEventListener('touchmove', onTouch, { passive: false });
-  }
-
-  document.addEventListener('touchstart', (event) => {
-    const touch = event.touches[0];
-    if (!touch) return;
-    onPointerMove(touch.clientX);
-    if (!event.target.closest('a, button')) launchBall();
-  }, { passive: true });
-
-  document.addEventListener('touchmove', (event) => {
-    const touch = event.touches[0];
-    if (!touch) return;
-    onPointerMove(touch.clientX);
-  }, { passive: true });
-
-  if (touchHint) {
-    setTimeout(() => touchHint.classList.add('fade'), 100);
-  }
 
   window.addEventListener('resize', () => {
     clearTimeout(resizeTimer);
