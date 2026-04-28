@@ -2,9 +2,6 @@
 // Vanilla JS, no modules.
 
 (async () => {
-  const coarsePointer = window.matchMedia && window.matchMedia('(pointer: coarse)').matches;
-  if (coarsePointer || window.innerWidth < 768) return;
-
   if (document.fonts && document.fonts.ready) {
     await document.fonts.ready;
   }
@@ -542,6 +539,19 @@
       keys.right = false;
     }
   });
+
+  document.addEventListener('touchstart', (event) => {
+    const touch = event.touches[0];
+    if (!touch) return;
+    onPointerMove(touch.clientX);
+    if (!event.target.closest('a, button')) launchBall();
+  }, { passive: true });
+
+  document.addEventListener('touchmove', (event) => {
+    const touch = event.touches[0];
+    if (!touch) return;
+    onPointerMove(touch.clientX);
+  }, { passive: true });
 
   window.addEventListener('resize', () => {
     clearTimeout(resizeTimer);
