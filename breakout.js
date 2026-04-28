@@ -555,6 +555,19 @@
     touchZone.addEventListener('touchmove', onTouch, { passive: false });
   }
 
+  document.addEventListener('touchstart', (event) => {
+    const touch = event.touches[0];
+    if (!touch) return;
+    onPointerMove(touch.clientX);
+    if (!event.target.closest('a, button')) launchBall();
+  }, { passive: true });
+
+  document.addEventListener('touchmove', (event) => {
+    const touch = event.touches[0];
+    if (!touch) return;
+    onPointerMove(touch.clientX);
+  }, { passive: true });
+
   if (touchHint) {
     setTimeout(() => touchHint.classList.add('fade'), 100);
   }
