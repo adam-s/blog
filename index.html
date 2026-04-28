@@ -4,22 +4,6 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Adam Sohn</title>
-<style>
-  html, body { background: white; }
-  span.w { transition: opacity 150ms ease-out; }
-  span.w.dead { opacity: 0; pointer-events: none; }
-  a.link-damaged { text-decoration: none; }
-  a.link-damaged span.w:not(.dead) { text-decoration: underline; }
-  a.dead-link { text-decoration: none; }
-  li.dead-marker::marker { color: transparent; }
-  #game { position: fixed; inset: 0; pointer-events: none; z-index: 1; }
-  #game-reset {
-    position: fixed; right: 12px; bottom: 12px;
-    z-index: 4;
-    display: none;
-  }
-  body.game-active #game-reset { display: block; }
-</style>
 </head>
 <body>
 <h1>Adam Sohn</h1>
@@ -62,9 +46,5 @@ A small corner of the web. Projects below, links to find me elsewhere at the bot
 
 <hr>
 <address>adamsohn.com</address>
-
-<canvas id="game"></canvas>
-<button id="game-reset" type="button">reset</button>
-<script src="breakout.js" defer></script>
 </body>
 </html>
