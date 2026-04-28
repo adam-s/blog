@@ -27,8 +27,7 @@ Cost: ~$0.50/month for the Route53 hosted zone. S3 + CloudFront are effectively 
 
 ```text
 blog/
-├── index.html              # Homepage — plain HTML content; becomes a Breakout game at runtime
-├── breakout.js             # The game — wraps every word as a destructible brick
+├── index.html              # Homepage — plain HTML, no build step
 ├── reliably-incorrect/     # Built copy of agent-capability-threshold/web
 ├── scripts/
 │   └── sync-app.sh         # Builds a source project and copies dist/ here
@@ -43,22 +42,6 @@ manifest: whatever's in `main` is what's on the site. `git log` is the deploy
 history; `git revert` + redeploy rolls back. Source code for sub-apps lives in
 its own repos (e.g. `agent-capability-threshold`); this repo only contains the
 built `dist/` output and the homepage.
-
-## The homepage is a Breakout game
-
-`index.html` is the homepage and *is* the game. Every word becomes a
-destructible Breakout brick at runtime. No build step:
-
-- `index.html` — plain HTML content + a `<style>` block, a fixed
-  full-viewport `<canvas id="game">`, a reset button, a mobile touch zone, and
-  `<script src="breakout.js" defer>`.
-- `breakout.js` — wraps every text word in `<span class="w">` on init via a
-  TreeWalker (skipping script/style/noscript), then runs the game: paddle,
-  ball, AABB collision against word-rects from `getClientRects()`, sub-step
-  ball physics, mouse + arrow + touch controls, fade-on-hit, reset button.
-
-The runtime wrapping means the source HTML stays plain and editable — adding
-or removing content is just normal HTML editing, no script to re-run.
 
 ## Adding a sub-app
 
@@ -131,13 +114,11 @@ Single viewer-request function handles two jobs:
 
 ## Conventions for Claude
 
-- **Stack**: plain HTML for the homepage; `breakout.js` runs the homepage
-  game on top of it. Sub-apps may be any framework; we only care about the
-  built `dist/`.
-- **No build step for the homepage.** Edit `index.html` directly. Words are
-  wrapped at runtime by `breakout.js`, so HTML stays editable.
+- **Stack**: plain HTML for the homepage. Sub-apps may be any framework; we
+  only care about the built `dist/`.
+- **No build step for the homepage.** Edit `index.html` directly.
 - **No frameworks on the homepage.** Keep the CERN aesthetic — default fonts,
-  minimal markup, bare links. The game overlays without changing the look.
+  minimal markup, bare links.
 - **Commit built sub-apps.** Don't try to build at deploy time.
 - **Use AWS CLI for infra.** No Terraform/CDK for a site this small. Record
   resource IDs in this file so they're discoverable.
