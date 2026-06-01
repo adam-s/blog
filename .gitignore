@@ -6,3 +6,6 @@
 
 # Local-only tool state
 .claude/settings.local.json
+
+# Video source — large original; only the compressed mp4 in iep-demonstration/ is deployed
+iep-video/
