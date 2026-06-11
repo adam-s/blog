@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Food</title>
+<meta name="description" content="A few years of cooking, baking, and eating.">
+<style>
+  html, body { overscroll-behavior: none; }
+  body { max-width: 1000px; margin: 0 auto; padding: 1em; }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 6px;
+    margin: 1em 0;
+  }
+  @media (min-width: 700px) {
+    .grid { grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 8px; }
+  }
+  .tile {
+    position: relative;
+    display: block;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    background: #eee;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+  }
+  .tile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform .35s ease;
+  }
+  .tile:hover img, .tile:focus-visible img { transform: scale(1.04); }
+  .tile:focus-visible { outline: 2px solid #000; outline-offset: 2px; }
+  /* play badge on video tiles */
+  .tile.video::before {
+    content: "";
+    position: absolute;
+    left: 50%; top: 50%;
+    width: 52px; height: 52px;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,.35);
+    border-radius: 50%;
+    pointer-events: none;
+  }
+  .tile.video::after {
+    content: "";
+    position: absolute;
+    left: 50%; top: 50%;
+    width: 0; height: 0;
+    transform: translate(-40%, -50%);
+    border-style: solid;
+    border-width: 13px 0 13px 20px;
+    border-color: transparent transparent transparent #fff;
+    filter: drop-shadow(0 1px 3px rgba(0,0,0,.6));
+    pointer-events: none;
+  }
+
+  /* caption shown inside the PhotoSwipe viewer */
+  .pswp__custom-caption {
+    position: absolute;
+    left: 0; right: 0; bottom: 16px;
+    text-align: center;
+    color: #fff;
+    font-size: .95rem;
+    padding: 0 16px;
+    text-shadow: 0 1px 3px rgba(0,0,0,.8);
+    pointer-events: none;
+  }
+
+  /* adamsohn.com badge — copied verbatim from the /grpo/ page (design tokens
+     resolved to literals: --space-lg 24px, --space-sm 8px, --text-xs .75rem,
+     --weight-medium 500, --ink-muted #5a5a5a, --accent #1f3a5f,
+     --surface #f7f5f0, --radius-sm 2px, --font-sans). */
+  .badge {
+    position: fixed;
+    top: 24px;
+    right: 24px;
+    z-index: 40;
+    font-family: Inter, -apple-system, sans-serif;
+    font-size: .75rem;
+    font-weight: 500;
+    letter-spacing: .04em;
+    color: #5a5a5a;
+    text-decoration: none;
+    padding: 4px 8px;
+    border-radius: 2px;
+    transition: color .15s ease, background .15s ease;
+  }
+  .badge:hover, .badge:focus-visible {
+    color: #1f3a5f;
+    background: #f7f5f0;
+    outline: none;
+  }
+  @media (max-width: 900px) {
+    .badge { top: 8px; right: 8px; }
+  }
+</style>
+<link rel="stylesheet" href="./vendor/photoswipe/photoswipe.css">
+</head>
+<body>
+<a class="badge" href="/">adamsohn.com</a>
+<h1>Food</h1>
+<p>Cooking was once my profession and coding my hobby; now coding is my profession and cooking is my hobby. Tap any photo to view it full size &mdash; swipe or use the arrow keys.</p>
+
+<div class="grid" id="grid" aria-label="Photo gallery"></div>
+
+<script src="./data.js"></script>
+<script type="module">
+  import PhotoSwipeLightbox from './vendor/photoswipe/photoswipe-lightbox.esm.min.js';
+  import PhotoSwipe from './vendor/photoswipe/photoswipe.esm.min.js';
+
+  const IMG = './media/images/';
+  const THUMB = './media/thumbs/';
+  const VID = './media/video/';
+
+  // Build the PhotoSwipe data source from window.GALLERY.
+  const dataSource = GALLERY.map((item) => {
+    if (item.type === 'video') {
+      return {
+        type: 'video',
+        videoSrc: VID + item.slug + '.mp4',
+        poster: IMG + item.slug + '-poster.jpg',
+        msrc: IMG + item.slug + '-poster.jpg',
+        thumbSrc: IMG + item.slug + '-poster.jpg',
+        width: item.w,
+        height: item.h,
+        alt: item.caption,
+      };
+    }
+    return {
+      src: IMG + item.slug + '.jpg',
+      srcset: IMG + item.slug + '-1280.jpg ' + item.mw + 'w, ' + IMG + item.slug + '.jpg ' + item.lw + 'w',
+      msrc: THUMB + item.slug + '.jpg',
+      thumbSrc: THUMB + item.slug + '.jpg',
+      width: item.lw,
+      height: item.lh,
+      alt: item.caption,
+    };
+  });
+
+  // Render the grid.
+  const grid = document.getElementById('grid');
+  dataSource.forEach((slide, i) => {
+    const btn = document.createElement('button');
+    btn.className = 'tile' + (GALLERY[i].type === 'video' ? ' video' : '');
+    btn.setAttribute('aria-label', slide.alt);
+    const img = document.createElement('img');
+    img.src = slide.thumbSrc;
+    img.alt = slide.alt;
+    img.loading = 'lazy';
+    img.decoding = 'async';
+    btn.appendChild(img);
+    btn.addEventListener('click', () => lightbox.loadAndOpen(i));
+    grid.appendChild(btn);
+  });
+
+  const lightbox = new PhotoSwipeLightbox({
+    dataSource,
+    pswpModule: PhotoSwipe,
+    bgOpacity: 0.95,
+    showHideAnimationType: 'zoom',
+  });
+
+  // Render <video> for video slides. PhotoSwipe sizes content.element to the
+  // slide's width/height, so we make the <video> fill it and letterbox with
+  // object-fit. muted is required for autoplay to be allowed by browsers.
+  lightbox.on('contentLoad', (e) => {
+    const { content } = e;
+    if (content.data.type === 'video') {
+      e.preventDefault();
+      const video = document.createElement('video');
+      video.src = content.data.videoSrc;
+      video.poster = content.data.poster;
+      video.setAttribute('width', content.data.width);
+      video.setAttribute('height', content.data.height);
+      video.controls = true;
+      video.playsInline = true;
+      video.muted = true;
+      video.autoplay = true;
+      video.loop = true;
+      video.preload = 'metadata';
+      video.style.cssText = 'width:100%;height:100%;object-fit:contain;background:#000';
+      content.element = video;
+    }
+  });
+
+  // Pause any playing video when the slide changes or the viewer closes.
+  const stopVideos = () => {
+    document.querySelectorAll('.pswp video').forEach((v) => v.pause());
+  };
+  lightbox.on('change', stopVideos);
+  lightbox.on('close', stopVideos);
+
+  // Caption under the image/video.
+  lightbox.on('uiRegister', () => {
+    lightbox.pswp.ui.registerElement({
+      name: 'custom-caption',
+      order: 9,
+      isButton: false,
+      appendTo: 'root',
+      onInit: (el, pswp) => {
+        const update = () => {
+          const slide = pswp.currSlide;
+          el.innerHTML = '';
+          if (slide && slide.data.alt) {
+            const cap = document.createElement('div');
+            cap.className = 'pswp__custom-caption';
+            cap.textContent = slide.data.alt;
+            el.appendChild(cap);
+          }
+        };
+        pswp.on('change', update);
+        update();
+      },
+    });
+  });
+
+  lightbox.init();
+</script>
+</body>
+</html>
