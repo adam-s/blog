@@ -90,7 +90,11 @@
     top: 24px;
     right: 24px;
     z-index: 40;
-    font-family: Inter, -apple-system, sans-serif;
+    /* grpo's badge inherits these from its global app styles; a plain HTML
+       page doesn't, so set them explicitly to match the box exactly */
+    box-sizing: border-box;
+    line-height: 1.7;
+    font-family: Inter, -apple-system, "system-ui", "Segoe UI", sans-serif;
     font-size: .75rem;
     font-weight: 500;
     letter-spacing: .04em;
