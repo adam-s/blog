@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Food</title>
 <meta name="description" content="A few years of cooking, baking, and eating.">
+<link rel="icon" type="image/svg+xml" href="./favicon.svg" />
 <style>
   html, body { overscroll-behavior: none; }
   /* top spacing matches the writing posts: --space-3xl (96px) desktop,
@@ -95,13 +96,18 @@
     letter-spacing: .04em;
     color: #5a5a5a;
     text-decoration: none;
+    /* grpo gives every <a> this 1px underline; the badge inherits it */
+    border-bottom: 1px solid #d8d2c4;
     padding: 4px 8px;
     border-radius: 2px;
-    transition: color .15s ease, background .15s ease;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transition: color .15s ease, background .15s ease, border-color .15s ease;
   }
   .badge:hover, .badge:focus-visible {
     color: #1f3a5f;
     background: #f7f5f0;
+    border-bottom-color: #2d4a73;
     outline: none;
   }
   @media (max-width: 900px) {
