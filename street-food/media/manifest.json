@@ -1,0 +1,6094 @@
+[
+ {
+  "slug": "ham-egg-biscuit-sandwich-new-orleans-2018",
+  "kind": "photo",
+  "taken": "2018-11-17 12:29",
+  "group": "C01",
+  "country": "USA",
+  "city": "New Orleans",
+  "lat": 29.9686,
+  "lon": -90.0851,
+  "confidence": "user",
+  "note": "Bienville St by Whole Foods Mid-City; matches Piece of Meat (3301 Bienville St) menu ID",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "butcher-shop-counter-new-orleans-2018",
+  "kind": "photo",
+  "taken": "2018-11-24 10:53",
+  "group": "C01",
+  "country": "USA",
+  "city": "New Orleans",
+  "lat": 29.9686,
+  "lon": -90.0851,
+  "confidence": "user",
+  "note": "Piece of Meat, 3301 Bienville St",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "barbecue-combo-tray-new-orleans-2018",
+  "kind": "photo",
+  "taken": "2018-12-02 14:04",
+  "group": "C02",
+  "country": "USA",
+  "city": "New Orleans",
+  "lat": 29.9782,
+  "lon": -90.0972,
+  "confidence": "user",
+  "note": "Blue Oak BBQ, 900 N Carrollton Ave, Mid-City",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "italian-beef-sandwich-new-orleans-2018",
+  "kind": "photo",
+  "taken": "2018-12-29 17:53",
+  "group": "C03",
+  "country": "USA",
+  "city": "New Orleans",
+  "lat": 29.9689,
+  "lon": -90.0912,
+  "confidence": "user",
+  "note": "'Pharmacy', Mid-City New Orleans",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "grilled-sausage-po-boy-new-orleans-2019",
+  "kind": "photo",
+  "taken": "2019-03-09 15:31",
+  "group": "C04",
+  "country": "USA",
+  "city": "New Orleans",
+  "lat": 29.9689,
+  "lon": -90.0912,
+  "confidence": "user",
+  "note": "'Pharmacy', Mid-City New Orleans (approx Mid-City coords)",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "bbq-chicken-and-ribs-new-orleans-2019",
+  "kind": "photo",
+  "taken": "2019-06-22 14:18",
+  "group": "C05",
+  "country": "USA",
+  "city": "New Orleans",
+  "lat": 29.96,
+  "lon": -90.0296,
+  "confidence": "user",
+  "note": "The Joint BBQ, Bywater",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "vegan-soul-food-plate-little-rock-2021",
+  "kind": "photo",
+  "taken": "2021-11-01 12:56",
+  "group": "C06",
+  "country": "USA",
+  "city": "Little Rock",
+  "lat": 34.7392,
+  "lon": -92.2822,
+  "confidence": "user",
+  "note": "House of Mental vegan soul food, MLK Jr Dr",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "smoked-brisket-carving-austin-2021",
+  "kind": "photo",
+  "taken": "2021-11-10 11:22",
+  "group": "C07",
+  "country": "USA",
+  "city": "Austin",
+  "lat": 30.2594,
+  "lon": -97.7548,
+  "confidence": "user",
+  "note": "Terry Black's Barbecue, Austin",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "brisket-and-sausage-plate-austin-2021",
+  "kind": "photo",
+  "taken": "2021-11-10 11:25",
+  "group": "C07",
+  "country": "USA",
+  "city": "Austin",
+  "lat": 30.2594,
+  "lon": -97.7548,
+  "confidence": "user",
+  "note": "Terry Black's Barbecue, Austin",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "brisket-and-sausage-tray-austin-2021",
+  "kind": "photo",
+  "taken": "2021-11-10 11:26",
+  "group": "C07",
+  "country": "USA",
+  "city": "Austin",
+  "lat": 30.2594,
+  "lon": -97.7548,
+  "confidence": "user",
+  "note": "Terry Black's Barbecue, Austin",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "hush-puppies-salt-lake-city-2021",
+  "kind": "photo",
+  "taken": "2021-11-16 11:57",
+  "group": "C07",
+  "country": "USA",
+  "city": "Salt Lake City",
+  "lat": 40.8065,
+  "lon": -111.9103,
+  "confidence": "user",
+  "note": "The Garage on Beck (roadhouse by refineries)",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "burger-and-fries-salt-lake-city-2021",
+  "kind": "photo",
+  "taken": "2021-11-16 11:59",
+  "group": "C07",
+  "country": "USA",
+  "city": "Salt Lake City",
+  "lat": 40.8065,
+  "lon": -111.9103,
+  "confidence": "user",
+  "note": "The Garage on Beck (roadhouse by refineries)",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "chocolate-cupcake-park-city-2021",
+  "kind": "photo",
+  "taken": "2021-12-02 10:29",
+  "group": "C08",
+  "country": "USA",
+  "city": "Park City",
+  "lat": 40.6438,
+  "lon": -111.4933,
+  "confidence": "user",
+  "note": "Park City Desserts & Coffee",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "chocolate-cupcake-and-coffee-park-city-2021",
+  "kind": "photo",
+  "taken": "2021-12-02 10:29",
+  "group": "C08",
+  "country": "USA",
+  "city": "Park City",
+  "lat": 40.6438,
+  "lon": -111.4933,
+  "confidence": "user",
+  "note": "Park City Desserts & Coffee",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "cinnamon-roll-park-city-2021",
+  "kind": "photo",
+  "taken": "2021-12-02 10:33",
+  "group": "C08",
+  "country": "USA",
+  "city": "Park City",
+  "lat": 40.6438,
+  "lon": -111.4933,
+  "confidence": "user",
+  "note": "Park City Desserts & Coffee",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "jerk-chicken-plate-aguadilla-2021",
+  "kind": "photo",
+  "taken": "2021-12-30 13:57",
+  "group": "C09",
+  "country": "Puerto Rico",
+  "city": "Aguadilla",
+  "lat": 18.4277,
+  "lon": -67.1541,
+  "confidence": "user",
+  "note": "BBQ (jerk chicken), Aguadilla",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "pasteles-aguadilla-2022",
+  "kind": "photo",
+  "taken": "2022-01-31 21:02",
+  "group": "C10",
+  "country": "Puerto Rico",
+  "city": "Aguadilla",
+  "lat": 18.44,
+  "lon": -67.142,
+  "confidence": "user",
+  "note": "Jardines de Maribel, Aguadilla",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "fresh-coconut-quebradillas-2022",
+  "kind": "photo",
+  "taken": "2022-02-04 11:22",
+  "group": "C10",
+  "country": "Puerto Rico",
+  "city": "Quebradillas (Guajataca)",
+  "lat": 18.4877,
+  "lon": -66.9394,
+  "confidence": "high",
+  "note": "Tunel de Guajataca beach",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "pernil-con-gandules-aguadilla-2022",
+  "kind": "photo",
+  "taken": "2022-02-04 13:04",
+  "group": "C10",
+  "country": "Puerto Rico",
+  "city": "Aguadilla",
+  "lat": 18.44,
+  "lon": -67.142,
+  "confidence": "user",
+  "note": "Jardines de Maribel, Aguadilla",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "arepa-san-juan-2022",
+  "kind": "photo",
+  "taken": "2022-02-15 14:28",
+  "group": "C11",
+  "country": "Puerto Rico",
+  "city": "San Juan",
+  "lat": 18.4477,
+  "lon": -66.0672,
+  "confidence": "user",
+  "note": "Lote 23, Santurce, San Juan",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "mofongo-con-carne-frita-san-juan-2022",
+  "kind": "photo",
+  "taken": "2022-02-26 17:26",
+  "group": "C12",
+  "country": "Puerto Rico",
+  "city": "San Juan (Piñones)",
+  "lat": 18.4477,
+  "lon": -66.0672,
+  "confidence": "user",
+  "note": "Lote 23, Santurce, San Juan",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "produce-market-san-juan-2022",
+  "kind": "photo",
+  "taken": "2022-03-29 07:45",
+  "group": "C13",
+  "country": "Puerto Rico",
+  "city": "San Juan (Santurce)",
+  "lat": 18.4499,
+  "lon": -66.067,
+  "confidence": "user",
+  "note": "La Placita de Santurce",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "mofongo-con-camarones-san-juan-2022",
+  "kind": "photo",
+  "taken": "2022-03-31 14:01",
+  "group": "C13",
+  "country": "Puerto Rico",
+  "city": "San Juan (Santurce)",
+  "lat": 18.4477,
+  "lon": -66.0672,
+  "confidence": "user",
+  "note": "Lote 23, Santurce",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "loaded-baked-potato-san-juan-2022",
+  "kind": "photo",
+  "taken": "2022-04-01 12:46",
+  "group": "C13",
+  "country": "Puerto Rico",
+  "city": "San Juan (Santurce)",
+  "lat": 18.46,
+  "lon": -66.086,
+  "confidence": "user",
+  "note": "street cart, Av. de la Constitución, San Juan",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "coconut-and-coffee-san-juan-2022",
+  "kind": "photo",
+  "taken": "2022-04-07 07:56",
+  "group": "C13",
+  "country": "Puerto Rico",
+  "city": "San Juan (Santurce)",
+  "lat": 18.4499,
+  "lon": -66.067,
+  "confidence": "user",
+  "note": "La Placita de Santurce",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "fresh-coconut-san-juan-2022",
+  "kind": "video",
+  "taken": "2022-04-07 11:57",
+  "group": "C13",
+  "country": "Puerto Rico",
+  "city": "San Juan (Santurce)",
+  "lat": 18.4499,
+  "lon": -66.067,
+  "confidence": "inferred",
+  "note": "La Placita (with IMG_4942)",
+  "dims": {
+   "640": [
+    640,
+    360
+   ],
+   "1280": [
+    1280,
+    720
+   ],
+   "2000": [
+    2000,
+    1125
+   ],
+   "chips": [
+    128,
+    128
+   ],
+   "video": [
+    1280,
+    720
+   ]
+  }
+ },
+ {
+  "slug": "cheese-arepa-san-juan-2022",
+  "kind": "photo",
+  "taken": "2022-04-07 12:19",
+  "group": "C13",
+  "country": "Puerto Rico",
+  "city": "San Juan (Santurce)",
+  "lat": 18.4477,
+  "lon": -66.0672,
+  "confidence": "user",
+  "note": "Lote 23, Santurce",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "smoked-beef-rib-dallas-2022",
+  "kind": "photo",
+  "taken": "2022-04-26 18:08",
+  "group": "C14",
+  "country": "USA",
+  "city": "Dallas",
+  "lat": 32.7838,
+  "lon": -96.7817,
+  "confidence": "user",
+  "note": "Terry Black's, Deep Ellum, Dallas",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "smoked-beef-rib-dallas-2022-2",
+  "kind": "photo",
+  "taken": "2022-04-26 18:12",
+  "group": "C14",
+  "country": "USA",
+  "city": "Dallas",
+  "lat": 32.7838,
+  "lon": -96.7817,
+  "confidence": "user",
+  "note": "Terry Black's, Deep Ellum, Dallas",
+  "dims": {
+   "640": [
+    640,
+    481
+   ],
+   "1280": [
+    1280,
+    961
+   ],
+   "2000": [
+    2000,
+    1502
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "street-tacos-dallas-2022",
+  "kind": "photo",
+  "taken": "2022-04-29 12:31",
+  "group": "C14",
+  "country": "USA",
+  "city": "Dallas",
+  "lat": 32.8014,
+  "lon": -96.7762,
+  "confidence": "user",
+  "note": "Chilangos Tacos, 4012 Ross Ave, Dallas TX 75204",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "elote-cart-dallas-2022",
+  "kind": "photo",
+  "taken": "2022-04-29 17:11",
+  "group": "C14",
+  "country": "USA",
+  "city": "Dallas",
+  "lat": 32.7767,
+  "lon": -96.797,
+  "confidence": "high",
+  "note": "user: cabeza/tripe tacos Dallas — whole cluster moved from Austin guess",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "pepino-con-chile-paleta-dallas-2022",
+  "kind": "photo",
+  "taken": "2022-04-30 12:24",
+  "group": "C14",
+  "country": "USA",
+  "city": "Dallas",
+  "lat": 32.792,
+  "lon": -96.758,
+  "confidence": "user",
+  "note": "Santa Fe Trail NE of Deep Ellum",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "eggs-and-pastrami-new-york-2022",
+  "kind": "photo",
+  "taken": "2022-05-12 12:16",
+  "group": "C15",
+  "country": "USA",
+  "city": "New York (Brooklyn)",
+  "lat": 40.669,
+  "lon": -73.942,
+  "confidence": "user",
+  "note": "kosher diner, Crown Heights",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "fruit-crepe-new-york-2022",
+  "kind": "photo",
+  "taken": "2022-05-14 09:13",
+  "group": "C15",
+  "country": "USA",
+  "city": "New York (Brooklyn)",
+  "lat": 40.6501,
+  "lon": -73.9496,
+  "confidence": "user",
+  "note": "Brooklyn (borough-level)",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "tostones-and-stewed-pork-puerto-rico-2023",
+  "kind": "photo",
+  "taken": "2023-01-07 12:39",
+  "group": "C16",
+  "country": "Puerto Rico",
+  "city": "",
+  "lat": 18.33,
+  "lon": -66.05,
+  "confidence": "user",
+  "note": "mountains ~30 min from San Juan (approx)",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "ceviche-and-fried-yuca-puerto-rico-2023",
+  "kind": "photo",
+  "taken": "2023-01-10 18:57",
+  "group": "C16",
+  "country": "Puerto Rico",
+  "city": "",
+  "lat": 18.33,
+  "lon": -66.05,
+  "confidence": "user",
+  "note": "mountains ~30 min from San Juan (approx)",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "ceviche-and-fried-yuca-puerto-rico-2023-2",
+  "kind": "photo",
+  "taken": "2023-01-10 18:57",
+  "group": "C16",
+  "country": "Puerto Rico",
+  "city": "",
+  "lat": 18.33,
+  "lon": -66.05,
+  "confidence": "inferred",
+  "note": "mountains ~30 min from San Juan (approx)",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "ceviche-and-fried-yuca-puerto-rico-2023-3",
+  "kind": "photo",
+  "taken": "2023-01-10 18:57",
+  "group": "C16",
+  "country": "Puerto Rico",
+  "city": "",
+  "lat": 18.33,
+  "lon": -66.05,
+  "confidence": "inferred",
+  "note": "mountains ~30 min from San Juan (approx)",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "food-truck-san-juan-2023",
+  "kind": "photo",
+  "taken": "2023-01-11 14:33",
+  "group": "C16",
+  "country": "Puerto Rico",
+  "city": "San Juan (Miramar)",
+  "lat": 18.4574,
+  "lon": -66.0836,
+  "confidence": "user",
+  "note": "Miramar Food Truck Park, San Juan",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "food-truck-menu-san-juan-2023",
+  "kind": "photo",
+  "taken": "2023-01-11 14:46",
+  "group": "C16",
+  "country": "Puerto Rico",
+  "city": "San Juan (Miramar)",
+  "lat": 18.4574,
+  "lon": -66.0836,
+  "confidence": "user",
+  "note": "Miramar Food Truck Park, San Juan",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "bbq-chicken-plate-san-juan-2023",
+  "kind": "photo",
+  "taken": "2023-02-04 16:05",
+  "group": "C17",
+  "country": "Puerto Rico",
+  "city": "San Juan (Santurce)",
+  "lat": 18.443,
+  "lon": -66.053,
+  "confidence": "high",
+  "note": "Sullivan's BBQ box, PR plate",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "pernil-and-tostones-platter-san-juan-2023",
+  "kind": "photo",
+  "taken": "2023-02-06 14:32",
+  "group": "C17",
+  "country": "Puerto Rico",
+  "city": "San Juan (Santurce)",
+  "lat": 18.4671,
+  "lon": -66.118,
+  "confidence": "user",
+  "note": "Deaverdura, 200 Sol St, Old San Juan",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "grilled-fish-and-tostones-san-juan-2023",
+  "kind": "photo",
+  "taken": "2023-02-06 14:39",
+  "group": "C17",
+  "country": "Puerto Rico",
+  "city": "San Juan (Santurce)",
+  "lat": 18.4671,
+  "lon": -66.118,
+  "confidence": "user",
+  "note": "Deaverdura, 200 Sol St, Old San Juan",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "coffee-san-antonio-2023",
+  "kind": "photo",
+  "taken": "2023-03-20 13:49",
+  "group": "C18",
+  "country": "USA",
+  "city": "San Antonio",
+  "lat": 29.403,
+  "lon": -98.498,
+  "confidence": "user",
+  "note": "317 TX-536 Spur, San Antonio",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "food-trailer-san-antonio-2023",
+  "kind": "photo",
+  "taken": "2023-03-25 11:10",
+  "group": "C18",
+  "country": "USA",
+  "city": "San Antonio",
+  "lat": 29.403,
+  "lon": -98.498,
+  "confidence": "user",
+  "note": "317 TX-536 Spur, San Antonio",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "tamales-stand-banner-san-antonio-2023",
+  "kind": "photo",
+  "taken": "2023-03-25 11:10",
+  "group": "C18",
+  "country": "USA",
+  "city": "San Antonio",
+  "lat": 29.403,
+  "lon": -98.498,
+  "confidence": "user",
+  "note": "317 TX-536 Spur, San Antonio",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "restaurant-storefront-san-antonio-2023",
+  "kind": "photo",
+  "taken": "2023-03-25 11:10",
+  "group": "C18",
+  "country": "USA",
+  "city": "San Antonio",
+  "lat": 29.403,
+  "lon": -98.498,
+  "confidence": "user",
+  "note": "317 TX-536 Spur, San Antonio",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "tamales-and-tacos-san-antonio-2023",
+  "kind": "photo",
+  "taken": "2023-03-25 11:12",
+  "group": "C18",
+  "country": "USA",
+  "city": "San Antonio",
+  "lat": 29.403,
+  "lon": -98.498,
+  "confidence": "user",
+  "note": "317 TX-536 Spur, San Antonio",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "coffee-shop-menu-san-antonio-2023",
+  "kind": "photo",
+  "taken": "2023-03-25 11:32",
+  "group": "C18",
+  "country": "USA",
+  "city": "San Antonio",
+  "lat": 29.403,
+  "lon": -98.498,
+  "confidence": "user",
+  "note": "317 TX-536 Spur, San Antonio",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "bacon-wrapped-sausage-taco-san-antonio-2023",
+  "kind": "photo",
+  "taken": "2023-04-02 00:17",
+  "group": "C18",
+  "country": "USA",
+  "city": "San Antonio",
+  "lat": 29.4241,
+  "lon": -98.4936,
+  "confidence": "user",
+  "note": "San Antonio",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "bacon-egg-breakfast-taco-san-antonio-2023",
+  "kind": "photo",
+  "taken": "2023-04-07 12:14",
+  "group": "C18",
+  "country": "USA",
+  "city": "San Antonio",
+  "lat": 29.4241,
+  "lon": -98.4936,
+  "confidence": "user",
+  "note": "San Antonio",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "barbecue-pork-ribs-st-louis-2023",
+  "kind": "photo",
+  "taken": "2023-06-16 15:29",
+  "group": "C19",
+  "country": "USA",
+  "city": "St. Louis",
+  "lat": 38.603,
+  "lon": -90.199,
+  "confidence": "user",
+  "note": "Soulard, St. Louis",
+  "dims": {
+   "640": [
+    640,
+    519
+   ],
+   "1280": [
+    1280,
+    1039
+   ],
+   "2000": [
+    2000,
+    1624
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "barbecue-ribs-and-wings-st-louis-2023",
+  "kind": "photo",
+  "taken": "2023-06-16 15:37",
+  "group": "C19",
+  "country": "USA",
+  "city": "St. Louis",
+  "lat": 38.603,
+  "lon": -90.199,
+  "confidence": "user",
+  "note": "Soulard, St. Louis",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "barbecue-brisket-plate-kansas-city-2023",
+  "kind": "photo",
+  "taken": "2023-06-25 16:26",
+  "group": "C20",
+  "country": "USA",
+  "city": "Kansas City",
+  "lat": 39.0565,
+  "lon": -94.594,
+  "confidence": "inferred",
+  "note": "Q39 Midtown, Kansas City",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "barbecue-mac-and-cheese-kansas-city-2023",
+  "kind": "photo",
+  "taken": "2023-06-25 17:04",
+  "group": "C20",
+  "country": "USA",
+  "city": "Kansas City",
+  "lat": 39.0565,
+  "lon": -94.594,
+  "confidence": "user",
+  "note": "Q39 Midtown, Kansas City",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "street-tacos-st-louis-2023",
+  "kind": "photo",
+  "taken": "2023-07-07 12:40",
+  "group": "C21",
+  "country": "USA",
+  "city": "St. Louis",
+  "lat": 38.5934,
+  "lon": -90.226,
+  "confidence": "user",
+  "note": "Taqueria Hectorito, Cherokee St, St. Louis",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "produce-market-san-juan-2023",
+  "kind": "photo",
+  "taken": "2023-12-07 14:43",
+  "group": "C22",
+  "country": "Puerto Rico",
+  "city": "San Juan (Santurce)",
+  "lat": 18.4499,
+  "lon": -66.067,
+  "confidence": "user",
+  "note": "La Placita de Santurce (Placita Tito #8)",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "coco-frio-san-juan-2023",
+  "kind": "photo",
+  "taken": "2023-12-07 14:45",
+  "group": "C22",
+  "country": "Puerto Rico",
+  "city": "San Juan (Santurce)",
+  "lat": 18.4499,
+  "lon": -66.067,
+  "confidence": "user",
+  "note": "La Placita de Santurce",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "ceviche-and-aguadito-panama-city-2023",
+  "kind": "photo",
+  "taken": "2023-12-13 21:30",
+  "group": "C22",
+  "country": "Panama",
+  "city": "Panama City",
+  "lat": 8.953,
+  "lon": -79.5352,
+  "confidence": "user",
+  "note": "Peruvian restaurant, Casco Viejo",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "harbor-fishing-boats-panama-city-2023",
+  "kind": "photo",
+  "taken": "2023-12-14 12:22",
+  "group": "C22",
+  "country": "Panama",
+  "city": "Panama City",
+  "lat": 8.9515,
+  "lon": -79.533,
+  "confidence": "user",
+  "note": "Casco Viejo waterfront / fishing boats",
+  "dims": {
+   "640": [
+    640,
+    183
+   ],
+   "1280": [
+    1280,
+    367
+   ],
+   "2000": [
+    2000,
+    573
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "seafood-market-scene-panama-city-2023",
+  "kind": "photo",
+  "taken": "2023-12-15 12:15",
+  "group": "C22",
+  "country": "Panama",
+  "city": "Panama City",
+  "lat": 8.9496,
+  "lon": -79.5406,
+  "confidence": "user",
+  "note": "Mercado de Mariscos, Panama City",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "fried-fish-with-patacones-panama-city-2023",
+  "kind": "photo",
+  "taken": "2023-12-15 12:38",
+  "group": "C22",
+  "country": "Panama",
+  "city": "Panama City",
+  "lat": 8.9496,
+  "lon": -79.5406,
+  "confidence": "user",
+  "note": "Mercado de Mariscos, Panama City",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "mezcal-cocktail-mexico-city-2023",
+  "kind": "photo",
+  "taken": "2023-12-16 20:38",
+  "group": "C22",
+  "country": "Mexico",
+  "city": "Mexico City",
+  "lat": 19.419,
+  "lon": -99.1665,
+  "confidence": "user",
+  "note": "La Clandestina, Roma Norte, CDMX",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "tacos-dorados-mexico-city-2023",
+  "kind": "photo",
+  "taken": "2023-12-17 14:16",
+  "group": "C22",
+  "country": "Mexico",
+  "city": "Mexico City",
+  "lat": 19.3988,
+  "lon": -99.1727,
+  "confidence": "user",
+  "note": "Los de Asada, Nápoles, CDMX",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "sandwich-and-coffee-mexico-city-2023",
+  "kind": "photo",
+  "taken": "2023-12-18 09:53",
+  "group": "C22",
+  "country": "Mexico",
+  "city": "Mexico City",
+  "lat": 19.4115,
+  "lon": -99.1775,
+  "confidence": "user",
+  "note": "Condesa (Alfonso Reyes area), CDMX",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "cupcake-and-latte-mexico-city-2023",
+  "kind": "photo",
+  "taken": "2023-12-19 11:55",
+  "group": "C22",
+  "country": "Mexico",
+  "city": "Mexico City",
+  "lat": 19.4157,
+  "lon": -99.1697,
+  "confidence": "user",
+  "note": "La Otilia (Roma Norte branch assumed)",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "carnitas-tacos-mexico-city-2023",
+  "kind": "photo",
+  "taken": "2023-12-21 11:30",
+  "group": "C22",
+  "country": "Mexico",
+  "city": "Mexico City",
+  "lat": 19.4111,
+  "lon": -99.1633,
+  "confidence": "user",
+  "note": "Carnitas El Chulo, Insurgentes Sur x Querétaro",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "carnitas-stall-mexico-city-2023",
+  "kind": "photo",
+  "taken": "2023-12-21 11:42",
+  "group": "C22",
+  "country": "Mexico",
+  "city": "Mexico City",
+  "lat": 19.4111,
+  "lon": -99.1633,
+  "confidence": "user",
+  "note": "Carnitas El Chulo, Insurgentes Sur x Querétaro",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "cupcake-and-coffee-mexico-city-2023",
+  "kind": "photo",
+  "taken": "2023-12-21 12:25",
+  "group": "C22",
+  "country": "Mexico",
+  "city": "Mexico City",
+  "lat": 19.417,
+  "lon": -99.164,
+  "confidence": "user",
+  "note": "Cardamomo, Roma Norte",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "cafe-latte-mexico-city-2023",
+  "kind": "photo",
+  "taken": "2023-12-22 15:04",
+  "group": "C22",
+  "country": "Mexico",
+  "city": "Mexico City",
+  "lat": 19.417,
+  "lon": -99.164,
+  "confidence": "user",
+  "note": "café in Roma Norte (venue unknown)",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "beef-consome-mexico-city-2023",
+  "kind": "photo",
+  "taken": "2023-12-22 21:19",
+  "group": "C22",
+  "country": "Mexico",
+  "city": "Mexico City",
+  "lat": 19.4108,
+  "lon": -99.1653,
+  "confidence": "user",
+  "note": "hole-in-the-wall, Monterrey 238 block, Roma",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "cabeza-tacos-mexico-city-2023",
+  "kind": "photo",
+  "taken": "2023-12-24 19:23",
+  "group": "C22",
+  "country": "Mexico",
+  "city": "Mexico City",
+  "lat": 19.488,
+  "lon": -99.128,
+  "confidence": "high",
+  "note": "Los Primos de Lindavista (neighborhood assumed)",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "al-pastor-trompo-mexico-city-2023",
+  "kind": "photo",
+  "taken": "2023-12-24 19:36",
+  "group": "C22",
+  "country": "Mexico",
+  "city": "Mexico City",
+  "lat": 19.488,
+  "lon": -99.128,
+  "confidence": "high",
+  "note": "Los Primos de Lindavista (neighborhood assumed)",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "gelatina-mosaico-cozumel-2023",
+  "kind": "photo",
+  "taken": "2023-12-29 13:12",
+  "group": "C22",
+  "country": "Mexico",
+  "city": "Cozumel",
+  "lat": 20.509,
+  "lon": -86.943,
+  "confidence": "user",
+  "note": "near cruise port, San Miguel de Cozumel",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "clam-ceviche-cozumel-2023",
+  "kind": "photo",
+  "taken": "2023-12-29 18:29",
+  "group": "C22",
+  "country": "Mexico",
+  "city": "Cozumel",
+  "lat": 20.5083,
+  "lon": -86.9458,
+  "confidence": "user",
+  "note": "San Miguel de Cozumel (same day as IMG_8979)",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "chicken-fajitas-cozumel-2023",
+  "kind": "photo",
+  "taken": "2023-12-31 11:41",
+  "group": "C22",
+  "country": "Mexico",
+  "city": "Cozumel",
+  "lat": 20.4,
+  "lon": -87.01,
+  "confidence": "user",
+  "note": "Cozumel outer beaches (approx)",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "caldo-de-pollo-cozumel-2024",
+  "kind": "photo",
+  "taken": "2024-01-03 09:41",
+  "group": "C22",
+  "country": "Mexico",
+  "city": "Cozumel",
+  "lat": 20.5083,
+  "lon": -86.9458,
+  "confidence": "user",
+  "note": "Cozumel",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "fruit-smoothie-cozumel-2024",
+  "kind": "photo",
+  "taken": "2024-01-06 17:34",
+  "group": "C22",
+  "country": "Mexico",
+  "city": "Cozumel",
+  "lat": 20.5083,
+  "lon": -86.9458,
+  "confidence": "user",
+  "note": "Cozumel",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "pollo-asado-playa-del-carmen-2024",
+  "kind": "photo",
+  "taken": "2024-01-07 12:39",
+  "group": "C22",
+  "country": "Mexico",
+  "city": "Playa del Carmen",
+  "lat": 20.6325,
+  "lon": -87.0748,
+  "confidence": "user",
+  "note": "Asadero el Pollo, Playa del Carmen",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "pozol-tulum-2024",
+  "kind": "photo",
+  "taken": "2024-01-10 10:20",
+  "group": "C22",
+  "country": "Mexico",
+  "city": "Tulum",
+  "lat": 20.209,
+  "lon": -87.4645,
+  "confidence": "user",
+  "note": "pozol cart, Av. Cobá Sur, Tulum",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "spam-musubi-honolulu-2024",
+  "kind": "photo",
+  "taken": "2024-01-19 14:40",
+  "group": "C23",
+  "country": "USA",
+  "city": "Honolulu",
+  "lat": 21.2906,
+  "lon": -157.842,
+  "confidence": "user",
+  "note": "Musubi Cafe Iyasume / Ala Moana Center, Honolulu",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "ahi-poke-bowl-honolulu-2024",
+  "kind": "photo",
+  "taken": "2024-01-19 14:42",
+  "group": "C23",
+  "country": "USA",
+  "city": "Honolulu",
+  "lat": 21.2906,
+  "lon": -157.842,
+  "confidence": "user",
+  "note": "Musubi Cafe Iyasume / Ala Moana Center, Honolulu",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "tropical-fruit-drink-honolulu-2024",
+  "kind": "photo",
+  "taken": "2024-01-20 09:47",
+  "group": "C23",
+  "country": "USA",
+  "city": "Honolulu",
+  "lat": 21.2955,
+  "lon": -157.856,
+  "confidence": "user",
+  "note": "Kaka'ako Farmers Market, Honolulu",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "spicy-ahi-hand-roll-honolulu-2024",
+  "kind": "photo",
+  "taken": "2024-01-20 09:51",
+  "group": "C23",
+  "country": "USA",
+  "city": "Honolulu",
+  "lat": 21.2955,
+  "lon": -157.856,
+  "confidence": "user",
+  "note": "Kaka'ako Farmers Market, Honolulu",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "poke-deli-counter-honolulu-2024",
+  "kind": "photo",
+  "taken": "2024-01-20 13:43",
+  "group": "C23",
+  "country": "USA",
+  "city": "Honolulu",
+  "lat": 21.323,
+  "lon": -157.883,
+  "confidence": "user",
+  "note": "Alicia's Market, Kalihi, Honolulu (probable)",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "sugarcane-juice-stand-honolulu-2024",
+  "kind": "video",
+  "taken": "2024-01-20 19:44",
+  "group": "C23",
+  "country": "USA",
+  "city": "Honolulu",
+  "lat": 21.2955,
+  "lon": -157.856,
+  "confidence": "user",
+  "note": "Kaka'ako Farmers Market, Honolulu",
+  "dims": {
+   "640": [
+    360,
+    640
+   ],
+   "1280": [
+    720,
+    1280
+   ],
+   "2000": [
+    1124,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ],
+   "video": [
+    1280,
+    2276
+   ]
+  }
+ },
+ {
+  "slug": "kimchi-jjigae-seoul-2024",
+  "kind": "photo",
+  "taken": "2024-01-24 21:39",
+  "group": "C23",
+  "country": "South Korea",
+  "city": "Seoul",
+  "lat": 37.5547,
+  "lon": 126.9707,
+  "confidence": "user",
+  "note": "Korean BBQ by Seoul Station",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "shabu-shabu-seoul-2024",
+  "kind": "photo",
+  "taken": "2024-01-25 11:52",
+  "group": "C23",
+  "country": "South Korea",
+  "city": "Seoul",
+  "lat": 37.4852,
+  "lon": 126.8978,
+  "confidence": "user",
+  "note": "mandu/shabu spot, Guro Digital Complex block",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "shabu-shabu-porridge-seoul-2024",
+  "kind": "photo",
+  "taken": "2024-01-26 13:00",
+  "group": "C23",
+  "country": "South Korea",
+  "city": "Seoul",
+  "lat": 37.4852,
+  "lon": 126.8978,
+  "confidence": "user",
+  "note": "mandu/shabu spot, Guro Digital Complex block",
+  "dims": {
+   "640": [
+    477,
+    640
+   ],
+   "1280": [
+    955,
+    1280
+   ],
+   "2000": [
+    1492,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "night-market-krabi-town-2024",
+  "kind": "photo",
+  "taken": "2024-01-28 18:44",
+  "group": "C23",
+  "country": "Thailand",
+  "city": "Krabi Town",
+  "lat": 8.0608,
+  "lon": 98.9175,
+  "confidence": "user",
+  "note": "riverfront night market, Krabi Town",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "dim-sum-baskets-krabi-town-2024",
+  "kind": "photo",
+  "taken": "2024-01-29 07:36",
+  "group": "C23",
+  "country": "Thailand",
+  "city": "Krabi Town",
+  "lat": 8.06,
+  "lon": 98.914,
+  "confidence": "user",
+  "note": "Maharat Dim Sum, Krabi Town",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "dim-sum-display-krabi-town-2024",
+  "kind": "photo",
+  "taken": "2024-01-29 07:45",
+  "group": "C23",
+  "country": "Thailand",
+  "city": "Krabi Town",
+  "lat": 8.06,
+  "lon": 98.914,
+  "confidence": "user",
+  "note": "Maharat Dim Sum, Krabi Town",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "fruit-granola-bowl-krabi-town-2024",
+  "kind": "photo",
+  "taken": "2024-01-30 07:44",
+  "group": "C23",
+  "country": "Thailand",
+  "city": "Krabi Town",
+  "lat": 8.057,
+  "lon": 98.912,
+  "confidence": "user",
+  "note": "Pak Nam, Krabi Town (near 146/411)",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "fish-market-krabi-town-2024",
+  "kind": "photo",
+  "taken": "2024-01-31 06:55",
+  "group": "C23",
+  "country": "Thailand",
+  "city": "Krabi Town",
+  "lat": 8.0665,
+  "lon": 98.9132,
+  "confidence": "user",
+  "note": "Maharaj Market, Krabi Town",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "fish-market-krabi-town-2024-2",
+  "kind": "photo",
+  "taken": "2024-01-31 07:21",
+  "group": "C23",
+  "country": "Thailand",
+  "city": "Krabi Town",
+  "lat": 8.0665,
+  "lon": 98.9132,
+  "confidence": "user",
+  "note": "Maharaj Market, Krabi Town",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "produce-market-krabi-town-2024",
+  "kind": "photo",
+  "taken": "2024-01-31 07:26",
+  "group": "C23",
+  "country": "Thailand",
+  "city": "Krabi Town",
+  "lat": 8.0665,
+  "lon": 98.9132,
+  "confidence": "user",
+  "note": "Maharaj Market, Krabi Town",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "fish-maw-soup-krabi-town-2024",
+  "kind": "photo",
+  "taken": "2024-02-03 08:17",
+  "group": "C23",
+  "country": "Thailand",
+  "city": "Krabi Town",
+  "lat": 8.0665,
+  "lon": 98.9132,
+  "confidence": "user",
+  "note": "Maharaj Market, Krabi Town",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "fish-maw-stall-krabi-town-2024",
+  "kind": "photo",
+  "taken": "2024-02-03 08:21",
+  "group": "C23",
+  "country": "Thailand",
+  "city": "Krabi Town",
+  "lat": 8.0665,
+  "lon": 98.9132,
+  "confidence": "user",
+  "note": "Maharaj Market, Krabi Town",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "hor-mok-krabi-town-2024",
+  "kind": "photo",
+  "taken": "2024-02-03 08:29",
+  "group": "C23",
+  "country": "Thailand",
+  "city": "Krabi Town",
+  "lat": 8.0665,
+  "lon": 98.9132,
+  "confidence": "user",
+  "note": "Maharaj Market, Krabi Town",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "tom-kha-gai-krabi-town-2024",
+  "kind": "photo",
+  "taken": "2024-02-03 11:53",
+  "group": "C23",
+  "country": "Thailand",
+  "city": "Krabi Town",
+  "lat": 8.06,
+  "lon": 98.918,
+  "confidence": "user",
+  "note": "City Night Market, Krabi Town",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "khao-moo-daeng-krabi-town-2024",
+  "kind": "photo",
+  "taken": "2024-02-05 13:12",
+  "group": "C23",
+  "country": "Thailand",
+  "city": "Krabi Town",
+  "lat": 8.063,
+  "lon": 98.9187,
+  "confidence": "user",
+  "note": "Krabi Town (venue unknown)",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "grilled-pork-intestines-krabi-town-2024",
+  "kind": "photo",
+  "taken": "2024-02-06 13:31",
+  "group": "C23",
+  "country": "Thailand",
+  "city": "Krabi Town",
+  "lat": 8.055,
+  "lon": 98.911,
+  "confidence": "user",
+  "note": "Ann Cha Lee, Maharaj Rd, Krabi Town",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "crispy-pork-basil-rice-krabi-town-2024",
+  "kind": "photo",
+  "taken": "2024-02-07 14:07",
+  "group": "C23",
+  "country": "Thailand",
+  "city": "Krabi Town",
+  "lat": 8.0783,
+  "lon": 98.9087,
+  "confidence": "user",
+  "note": "Peak Boutique House, Krabi Town",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "watermelon-smoothie-krabi-town-2024",
+  "kind": "photo",
+  "taken": "2024-02-07 18:00",
+  "group": "C23",
+  "country": "Thailand",
+  "city": "Krabi Town",
+  "lat": 8.063,
+  "lon": 98.9187,
+  "confidence": "user",
+  "note": "watermelon smoothie by the Mud Crab Sculpture (ประติมากรรมปูดำ), Krabi riverfront",
+  "dims": {
+   "640": [
+    360,
+    640
+   ],
+   "1280": [
+    720,
+    1280
+   ],
+   "2000": [
+    1125,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "neon-bar-sign-george-town-2024",
+  "kind": "photo",
+  "taken": "2024-02-10 16:56",
+  "group": "C23",
+  "country": "Malaysia",
+  "city": "George Town (Penang)",
+  "lat": 5.4141,
+  "lon": 100.3288,
+  "confidence": "user",
+  "note": "tiger-neon bar, Penang (venue unknown)",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "food-court-tanjung-bungah-2024",
+  "kind": "photo",
+  "taken": "2024-02-12 21:22",
+  "group": "C23",
+  "country": "Malaysia",
+  "city": "Tanjung Bungah (Penang)",
+  "lat": 5.4645,
+  "lon": 100.28,
+  "confidence": "user",
+  "note": "JJ Garden Food Court, Tanjung Bungah",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "night-hawker-stalls-george-town-2024",
+  "kind": "video",
+  "taken": "2024-02-13 12:17",
+  "group": "C23",
+  "country": "Malaysia",
+  "city": "George Town (Penang)",
+  "lat": 5.412,
+  "lon": 100.323,
+  "confidence": "user",
+  "note": "Dhoby Ghaut Koay Teow Th'ng, George Town",
+  "dims": {
+   "640": [
+    360,
+    640
+   ],
+   "1280": [
+    720,
+    1280
+   ],
+   "2000": [
+    1124,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ],
+   "video": [
+    1280,
+    2276
+   ]
+  }
+ },
+ {
+  "slug": "koay-teow-thng-stall-george-town-2024",
+  "kind": "photo",
+  "taken": "2024-02-13 19:54",
+  "group": "C23",
+  "country": "Malaysia",
+  "city": "George Town (Penang)",
+  "lat": 5.412,
+  "lon": 100.323,
+  "confidence": "user",
+  "note": "Dhoby Ghaut Koay Teow Th'ng, George Town",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "koay-teow-thng-george-town-2024",
+  "kind": "photo",
+  "taken": "2024-02-13 19:57",
+  "group": "C23",
+  "country": "Malaysia",
+  "city": "George Town (Penang)",
+  "lat": 5.412,
+  "lon": 100.323,
+  "confidence": "user",
+  "note": "Dhoby Ghaut Koay Teow Th'ng, George Town",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "tom-yum-noodle-soup-patong-2024",
+  "kind": "photo",
+  "taken": "2024-02-17 19:00",
+  "group": "C23",
+  "country": "Thailand",
+  "city": "Patong (Phuket)",
+  "lat": 7.8931,
+  "lon": 98.2988,
+  "confidence": "user",
+  "note": "stall lane by 88 Asura Bar, Bangla Rd, Patong",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "fried-insects-stall-patong-2024",
+  "kind": "photo",
+  "taken": "2024-02-29 21:07",
+  "group": "C24",
+  "country": "Thailand",
+  "city": "Patong (Phuket)",
+  "lat": 7.8935,
+  "lon": 98.2975,
+  "confidence": "user",
+  "note": "Sasi Bar area, Patong (was Bangkok guess)",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "som-tam-cart-patong-2024",
+  "kind": "photo",
+  "taken": "2024-02-29 23:09",
+  "group": "C24",
+  "country": "Thailand",
+  "city": "Patong (Phuket)",
+  "lat": 7.8935,
+  "lon": 98.2975,
+  "confidence": "user",
+  "note": "Sasi Bar area, Patong (was Bangkok guess)",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "sauteed-squid-stall-kuala-lumpur-2024",
+  "kind": "photo",
+  "taken": "2024-03-15 22:19",
+  "group": "C25",
+  "country": "Malaysia",
+  "city": "Kuala Lumpur",
+  "lat": 3.145,
+  "lon": 101.7085,
+  "confidence": "user",
+  "note": "Yong Le Kopitiam, Jalan Alor, KL",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "island-boat-harbor-coron-2024",
+  "kind": "photo",
+  "taken": "2024-03-20 15:42",
+  "group": "C25",
+  "country": "Philippines",
+  "city": "Coron, Palawan",
+  "lat": 11.9986,
+  "lon": 120.2043,
+  "confidence": "user",
+  "note": "Coron, Palawan",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "fish-on-grill-coron-2024",
+  "kind": "photo",
+  "taken": "2024-03-20 18:32",
+  "group": "C25",
+  "country": "Philippines",
+  "city": "Coron, Palawan",
+  "lat": 11.9986,
+  "lon": 120.2043,
+  "confidence": "user",
+  "note": "Coron, Palawan",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "grilled-fish-with-rice-coron-2024",
+  "kind": "photo",
+  "taken": "2024-03-20 18:44",
+  "group": "C25",
+  "country": "Philippines",
+  "city": "Coron, Palawan",
+  "lat": 11.9986,
+  "lon": 120.2043,
+  "confidence": "user",
+  "note": "Coron, Palawan",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "inihaw-na-isda-coron-2024",
+  "kind": "photo",
+  "taken": "2024-03-20 18:44",
+  "group": "C25",
+  "country": "Philippines",
+  "city": "Coron, Palawan",
+  "lat": 11.9986,
+  "lon": 120.2043,
+  "confidence": "user",
+  "note": "Coron, Palawan",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "restaurant-storefront-manila-2024",
+  "kind": "photo",
+  "taken": "2024-03-22 19:19",
+  "group": "C25",
+  "country": "Philippines",
+  "city": "Manila (BGC)",
+  "lat": 14.5508,
+  "lon": 121.047,
+  "confidence": "user",
+  "note": "New Orleans restaurant, BGC, Manila",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "seafood-gumbo-manila-2024",
+  "kind": "photo",
+  "taken": "2024-03-22 19:37",
+  "group": "C25",
+  "country": "Philippines",
+  "city": "Manila (BGC)",
+  "lat": 14.5508,
+  "lon": 121.047,
+  "confidence": "user",
+  "note": "New Orleans restaurant, BGC, Manila",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "filipino-menu-spread-manila-2024",
+  "kind": "photo",
+  "taken": "2024-03-28 18:06",
+  "group": "C25",
+  "country": "Philippines",
+  "city": "Manila",
+  "lat": 14.5995,
+  "lon": 120.9842,
+  "confidence": "user",
+  "note": "upscale Filipino restaurant, Manila",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "filipino-restaurant-menu-manila-2024",
+  "kind": "photo",
+  "taken": "2024-03-28 18:07",
+  "group": "C25",
+  "country": "Philippines",
+  "city": "Manila",
+  "lat": 14.5995,
+  "lon": 120.9842,
+  "confidence": "user",
+  "note": "upscale Filipino restaurant, Manila",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "ca-phe-sua-da-ho-chi-minh-city-2024",
+  "kind": "photo",
+  "taken": "2024-03-31 12:54",
+  "group": "C25",
+  "country": "Vietnam",
+  "city": "Ho Chi Minh City",
+  "lat": 10.762,
+  "lon": 106.7,
+  "confidence": "user",
+  "note": "K60 Bến Vân Đồn, District 4, HCMC",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "cafe-dog-ho-chi-minh-city-2024",
+  "kind": "photo",
+  "taken": "2024-04-01 20:20",
+  "group": "C25",
+  "country": "Vietnam",
+  "city": "Ho Chi Minh City",
+  "lat": 10.762,
+  "lon": 106.7,
+  "confidence": "user",
+  "note": "K60 Bến Vân Đồn, District 4, HCMC",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "cafe-dog-ho-chi-minh-city-2024-2",
+  "kind": "photo",
+  "taken": "2024-04-01 20:20",
+  "group": "C25",
+  "country": "Vietnam",
+  "city": "Ho Chi Minh City",
+  "lat": 10.7769,
+  "lon": 106.7009,
+  "confidence": "inferred",
+  "note": "Ho Chi Minh City",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "bo-kho-noodles-ho-chi-minh-city-2024",
+  "kind": "photo",
+  "taken": "2024-04-02 12:21",
+  "group": "C25",
+  "country": "Vietnam",
+  "city": "Ho Chi Minh City",
+  "lat": 10.7628,
+  "lon": 106.7008,
+  "confidence": "user",
+  "note": "Bánh Mì Tô, K64 Hoàng Diệu, District 4, HCMC",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "pho-bo-ho-chi-minh-city-2024",
+  "kind": "photo",
+  "taken": "2024-04-02 19:25",
+  "group": "C25",
+  "country": "Vietnam",
+  "city": "Ho Chi Minh City",
+  "lat": 10.766,
+  "lon": 106.6978,
+  "confidence": "user",
+  "note": "55 Nguyễn Thái Học, District 1, HCMC",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "salmon-sashimi-ho-chi-minh-city-2024",
+  "kind": "photo",
+  "taken": "2024-04-06 19:23",
+  "group": "C25",
+  "country": "Vietnam",
+  "city": "Ho Chi Minh City",
+  "lat": 10.7572,
+  "lon": 106.7003,
+  "confidence": "user",
+  "note": "Kin Sushi, 122 Vĩnh Khánh, D4, HCMC",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "banh-flan-ho-chi-minh-city-2024",
+  "kind": "photo",
+  "taken": "2024-04-06 20:55",
+  "group": "C25",
+  "country": "Vietnam",
+  "city": "Ho Chi Minh City",
+  "lat": 10.7585,
+  "lon": 106.7055,
+  "confidence": "user",
+  "note": "flan stalls, Đoàn Văn Bơ, District 4, HCMC",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "seafood-night-market-da-nang-2024",
+  "kind": "photo",
+  "taken": "2024-04-07 19:41",
+  "group": "C25",
+  "country": "Vietnam",
+  "city": "Da Nang",
+  "lat": 16.068,
+  "lon": 108.233,
+  "confidence": "user",
+  "note": "An Hải, Sơn Trà, Da Nang",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "iced-coffee-da-nang-2024",
+  "kind": "photo",
+  "taken": "2024-04-08 10:13",
+  "group": "C25",
+  "country": "Vietnam",
+  "city": "Da Nang",
+  "lat": 16.0544,
+  "lon": 108.2022,
+  "confidence": "user",
+  "note": "Da Nang",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "rooftop-cocktail-da-nang-2024",
+  "kind": "photo",
+  "taken": "2024-04-10 18:19",
+  "group": "C25",
+  "country": "Vietnam",
+  "city": "Da Nang",
+  "lat": 16.0544,
+  "lon": 108.2022,
+  "confidence": "inferred",
+  "note": "Da Nang",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "grilled-pork-menu-hoi-an-2024",
+  "kind": "photo",
+  "taken": "2024-04-13 19:21",
+  "group": "C25",
+  "country": "Vietnam",
+  "city": "Hoi An",
+  "lat": 15.8815,
+  "lon": 108.327,
+  "confidence": "user",
+  "note": "Cô Thu Thịt Nướng, 83 Bà Triệu, Hoi An",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "thit-nuong-skewers-hoi-an-2024",
+  "kind": "photo",
+  "taken": "2024-04-13 19:32",
+  "group": "C25",
+  "country": "Vietnam",
+  "city": "Hoi An",
+  "lat": 15.8815,
+  "lon": 108.327,
+  "confidence": "user",
+  "note": "Cô Thu Thịt Nướng, 83 Bà Triệu, Hoi An",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "restaurant-storefront-hoi-an-2024",
+  "kind": "photo",
+  "taken": "2024-04-14 19:39",
+  "group": "C25",
+  "country": "Vietnam",
+  "city": "Hoi An",
+  "lat": 15.8815,
+  "lon": 108.327,
+  "confidence": "user",
+  "note": "Cô Thu Thịt Nướng, 83 Bà Triệu, Hoi An",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "sinh-to-stall-hoi-an-2024",
+  "kind": "photo",
+  "taken": "2024-04-14 19:51",
+  "group": "C25",
+  "country": "Vietnam",
+  "city": "Hoi An",
+  "lat": 15.8815,
+  "lon": 108.327,
+  "confidence": "user",
+  "note": "Hoi An (same evening as Cô Thu)",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "flan-and-iced-coffee-hoi-an-2024",
+  "kind": "photo",
+  "taken": "2024-04-15 14:49",
+  "group": "C25",
+  "country": "Vietnam",
+  "city": "Hoi An",
+  "lat": 15.8801,
+  "lon": 108.338,
+  "confidence": "user",
+  "note": "Highlands Coffee, Hoi An",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "mi-quang-hoi-an-2024",
+  "kind": "photo",
+  "taken": "2024-04-16 09:48",
+  "group": "C25",
+  "country": "Vietnam",
+  "city": "Hoi An",
+  "lat": 15.8801,
+  "lon": 108.338,
+  "confidence": "user",
+  "note": "Hoi An",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "cafe-storefront-hanoi-2024",
+  "kind": "photo",
+  "taken": "2024-04-17 20:56",
+  "group": "C25",
+  "country": "Vietnam",
+  "city": "Hanoi",
+  "lat": 21.0352,
+  "lon": 105.8525,
+  "confidence": "user",
+  "note": "Café Nola, 89 Mã Mây, Hanoi Old Quarter",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "bun-cha-hanoi-2024",
+  "kind": "photo",
+  "taken": "2024-04-18 11:52",
+  "group": "C25",
+  "country": "Vietnam",
+  "city": "Hanoi",
+  "lat": 21.0157,
+  "lon": 105.8525,
+  "confidence": "user",
+  "note": "Bún chả Hương Liên (Obama), Hanoi",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "restaurant-menu-sapa-2024",
+  "kind": "photo",
+  "taken": "2024-04-19 18:58",
+  "group": "C25",
+  "country": "Vietnam",
+  "city": "Sapa",
+  "lat": 22.3364,
+  "lon": 103.8438,
+  "confidence": "user",
+  "note": "Quán Lương Bia, Sa Pa",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "nem-chua-platter-sapa-2024",
+  "kind": "photo",
+  "taken": "2024-04-19 19:02",
+  "group": "C25",
+  "country": "Vietnam",
+  "city": "Sapa",
+  "lat": 22.3364,
+  "lon": 103.8438,
+  "confidence": "inferred",
+  "note": "Quán Lương Bia, Sa Pa",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "nem-chua-sapa-2024",
+  "kind": "photo",
+  "taken": "2024-04-19 19:19",
+  "group": "C25",
+  "country": "Vietnam",
+  "city": "Sapa",
+  "lat": 22.3364,
+  "lon": 103.8438,
+  "confidence": "user",
+  "note": "bánh cuốn, Sa Pa",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "phin-drip-coffee-sapa-2024",
+  "kind": "photo",
+  "taken": "2024-04-20 10:47",
+  "group": "C25",
+  "country": "Vietnam",
+  "city": "Sapa",
+  "lat": 22.3364,
+  "lon": 103.8438,
+  "confidence": "user",
+  "note": "Sa Pa (phin coffee, hillside)",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "banh-cuon-sapa-2024",
+  "kind": "photo",
+  "taken": "2024-04-22 18:27",
+  "group": "C25",
+  "country": "Vietnam",
+  "city": "Sapa",
+  "lat": 22.3364,
+  "lon": 103.8438,
+  "confidence": "user",
+  "note": "Sa Pa",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "drip-coffee-and-beer-sapa-2024",
+  "kind": "photo",
+  "taken": "2024-04-23 18:27",
+  "group": "C25",
+  "country": "Vietnam",
+  "city": "Sapa",
+  "lat": 22.3364,
+  "lon": 103.8438,
+  "confidence": "user",
+  "note": "Sa Pa",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "beach-night-market-koh-tao-2024",
+  "kind": "photo",
+  "taken": "2024-05-04 21:01",
+  "group": "C26",
+  "country": "Thailand",
+  "city": "Koh Tao",
+  "lat": 10.0956,
+  "lon": 99.8404,
+  "confidence": "user",
+  "note": "Koh Tao",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "beach-night-market-koh-tao-2024-2",
+  "kind": "photo",
+  "taken": "2024-05-04 21:01",
+  "group": "C26",
+  "country": "Thailand",
+  "city": "Koh Tao",
+  "lat": 10.0956,
+  "lon": 99.8404,
+  "confidence": "user",
+  "note": "Koh Tao",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "hummus-plate-koh-tao-2024",
+  "kind": "photo",
+  "taken": "2024-05-05 10:55",
+  "group": "C26",
+  "country": "Thailand",
+  "city": "Koh Tao",
+  "lat": 10.0956,
+  "lon": 99.8404,
+  "confidence": "user",
+  "note": "Koh Tao",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "baked-eggs-brunch-koh-tao-2024",
+  "kind": "photo",
+  "taken": "2024-05-06 12:12",
+  "group": "C26",
+  "country": "Thailand",
+  "city": "Koh Tao",
+  "lat": 10.0956,
+  "lon": 99.8404,
+  "confidence": "user",
+  "note": "Koh Tao",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "cabbage-with-miso-tokyo-2024",
+  "kind": "photo",
+  "taken": "2024-05-12 20:51",
+  "group": "C26",
+  "country": "Japan",
+  "city": "Tokyo (Shibuya)",
+  "lat": 35.662,
+  "lon": 139.699,
+  "confidence": "user",
+  "note": "user: Shibuya, near The Millennials Shibuya",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "sake-with-otoshi-tokyo-2024",
+  "kind": "photo",
+  "taken": "2024-05-13 20:44",
+  "group": "C26",
+  "country": "Japan",
+  "city": "Tokyo (Shibuya)",
+  "lat": 35.664,
+  "lon": 139.6985,
+  "confidence": "inferred",
+  "note": "same evening as IMG_0034/0035 (Shibuya)",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "salmon-ikura-don-tokyo-2024",
+  "kind": "photo",
+  "taken": "2024-05-13 20:50",
+  "group": "C26",
+  "country": "Japan",
+  "city": "Tokyo (Shibuya)",
+  "lat": 35.664,
+  "lon": 139.6985,
+  "confidence": "user",
+  "note": "market/food court ~2 blocks from The Millennials Shibuya (Jinnan)",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "yokocho-food-alley-tokyo-2024",
+  "kind": "photo",
+  "taken": "2024-05-13 22:03",
+  "group": "C26",
+  "country": "Japan",
+  "city": "Tokyo (Shibuya)",
+  "lat": 35.664,
+  "lon": 139.6985,
+  "confidence": "user",
+  "note": "same spot as IMG_0034 (near The Millennials Shibuya)",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "curry-menu-board-kyoto-2024",
+  "kind": "photo",
+  "taken": "2024-05-16 13:33",
+  "group": "C26",
+  "country": "Japan",
+  "city": "Kyoto",
+  "lat": 35.0262,
+  "lon": 135.7808,
+  "confidence": "user",
+  "note": "curry spot near Kyoto University (same meal as IMG_0081)",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "sri-lankan-curry-plate-kyoto-2024",
+  "kind": "photo",
+  "taken": "2024-05-16 13:34",
+  "group": "C26",
+  "country": "Japan",
+  "city": "Kyoto",
+  "lat": 35.0262,
+  "lon": 135.7808,
+  "confidence": "user",
+  "note": "curry spot near Kyoto University",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "omurice-with-curry-kyoto-2024",
+  "kind": "photo",
+  "taken": "2024-05-18 14:35",
+  "group": "C26",
+  "country": "Japan",
+  "city": "Kyoto",
+  "lat": 35.0093,
+  "lon": 135.7686,
+  "confidence": "user",
+  "note": "126-1 Ishiyacho, Nakagyo Ward, Kyoto 604-8002",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "beef-heart-sashimi-kyoto-2024",
+  "kind": "photo",
+  "taken": "2024-05-20 22:27",
+  "group": "C26",
+  "country": "Japan",
+  "city": "Kyoto",
+  "lat": 35.007,
+  "lon": 135.7709,
+  "confidence": "user",
+  "note": "beef-heart sashimi alley near Ishiyacho — Pontocho (probable)",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "wagyu-yakiniku-platter-kyoto-2024",
+  "kind": "video",
+  "taken": "2024-05-23 12:14",
+  "group": "C26",
+  "country": "Japan",
+  "city": "Kyoto",
+  "lat": 35.0116,
+  "lon": 135.7681,
+  "confidence": "inferred",
+  "note": "same day as IMG_0193 — Kyoto city-level",
+  "dims": {
+   "640": [
+    360,
+    640
+   ],
+   "1280": [
+    720,
+    1280
+   ],
+   "2000": [
+    1124,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ],
+   "video": [
+    1280,
+    2276
+   ]
+  }
+ },
+ {
+  "slug": "wagyu-yakiniku-set-kyoto-2024",
+  "kind": "photo",
+  "taken": "2024-05-23 21:07",
+  "group": "C26",
+  "country": "Japan",
+  "city": "Kyoto",
+  "lat": 35.0062,
+  "lon": 135.7638,
+  "confidence": "user",
+  "note": "yakiniku near Nishiki Market, exact venue unknown",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "onigiri-stand-kyoto-2024",
+  "kind": "photo",
+  "taken": "2024-05-26 17:07",
+  "group": "C26",
+  "country": "Japan",
+  "city": "Kyoto",
+  "lat": 35.0057,
+  "lon": 135.7666,
+  "confidence": "user",
+  "note": "Daikokucho 33-4, Nakagyo Ward (Teramachi arcade area)",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "festival-poster-kanazawa-2024",
+  "kind": "photo",
+  "taken": "2024-05-31 09:29",
+  "group": "C26",
+  "country": "Japan",
+  "city": "Kanazawa",
+  "lat": 36.5719,
+  "lon": 136.6559,
+  "confidence": "inferred",
+  "note": "Ōmichō Market, Kanazawa",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "covered-market-arcade-kanazawa-2024",
+  "kind": "photo",
+  "taken": "2024-05-31 09:37",
+  "group": "C26",
+  "country": "Japan",
+  "city": "Kanazawa",
+  "lat": 36.5719,
+  "lon": 136.6559,
+  "confidence": "user",
+  "note": "Ōmichō Market, Kanazawa",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "market-crab-stall-kanazawa-2024",
+  "kind": "photo",
+  "taken": "2024-05-31 09:38",
+  "group": "C26",
+  "country": "Japan",
+  "city": "Kanazawa",
+  "lat": 36.5719,
+  "lon": 136.6559,
+  "confidence": "user",
+  "note": "Ōmichō Market, Kanazawa",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "scallop-and-uni-sashimi-kanazawa-2024",
+  "kind": "photo",
+  "taken": "2024-06-01 11:49",
+  "group": "C26",
+  "country": "Japan",
+  "city": "Kanazawa",
+  "lat": 36.5719,
+  "lon": 136.6559,
+  "confidence": "user",
+  "note": "Ōmichō Market, Kanazawa",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "whisky-bar-kanazawa-2024",
+  "kind": "photo",
+  "taken": "2024-06-02 22:02",
+  "group": "C26",
+  "country": "Japan",
+  "city": "Kanazawa",
+  "lat": 36.5602,
+  "lon": 136.6534,
+  "confidence": "user",
+  "note": "heavy metal bar, Katamachi district (exact venue unknown)",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "fish-soup-with-rice-hualien-2024",
+  "kind": "photo",
+  "taken": "2024-06-28 11:39",
+  "group": "C27",
+  "country": "Taiwan",
+  "city": "Hualien",
+  "lat": 23.977,
+  "lon": 121.6044,
+  "confidence": "user",
+  "note": "Hualien (user), fish-soup diner",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "rice-wine-shots-hualien-2024",
+  "kind": "photo",
+  "taken": "2024-06-29 20:35",
+  "group": "C27",
+  "country": "Taiwan",
+  "city": "Hualien",
+  "lat": 23.976,
+  "lon": 121.609,
+  "confidence": "user",
+  "note": "indigenous rice wine bar, central Hualien (exact venue unknown)",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "grilled-fish-rice-plate-hualien-2024",
+  "kind": "photo",
+  "taken": "2024-07-04 19:11",
+  "group": "C27",
+  "country": "Taiwan",
+  "city": "Hualien",
+  "lat": 23.977,
+  "lon": 121.6044,
+  "confidence": "user",
+  "note": "Hualien",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "braised-pork-rice-hualien-2024",
+  "kind": "photo",
+  "taken": "2024-07-05 13:59",
+  "group": "C27",
+  "country": "Taiwan",
+  "city": "Hualien",
+  "lat": 23.977,
+  "lon": 121.6044,
+  "confidence": "user",
+  "note": "Hualien",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "plated-lime-dessert-taichung-2024",
+  "kind": "photo",
+  "taken": "2024-07-08 00:38",
+  "group": "C27",
+  "country": "Taiwan",
+  "city": "Taichung",
+  "lat": 24.1514,
+  "lon": 120.6638,
+  "confidence": "user",
+  "note": "WHITE Coffee Bar, 117 Gongyi Rd, Taichung",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "gai-yang-chiang-mai-2024",
+  "kind": "photo",
+  "taken": "2024-09-21 11:46",
+  "group": "C28",
+  "country": "Thailand",
+  "city": "Chiang Mai",
+  "lat": 18.7985,
+  "lon": 98.9668,
+  "confidence": "user",
+  "note": "gai yang stall, Nimman Soi 11, Chiang Mai",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "nasi-kandar-counter-kuala-lumpur-2024",
+  "kind": "video",
+  "taken": "2024-10-04 07:12",
+  "group": "C29",
+  "country": "Malaysia",
+  "city": "Kuala Lumpur",
+  "lat": 3.1584,
+  "lon": 101.7146,
+  "confidence": "user",
+  "note": "Nasi Kandar Pelita, KLCC (Jalan Ampang)",
+  "dims": {
+   "640": [
+    360,
+    640
+   ],
+   "1280": [
+    720,
+    1280
+   ],
+   "2000": [
+    1124,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ],
+   "video": [
+    1280,
+    2276
+   ]
+  }
+ },
+ {
+  "slug": "nasi-kandar-kuala-lumpur-2024",
+  "kind": "photo",
+  "taken": "2024-10-04 15:19",
+  "group": "C29",
+  "country": "Malaysia",
+  "city": "Kuala Lumpur",
+  "lat": 3.1584,
+  "lon": 101.7146,
+  "confidence": "user",
+  "note": "Nasi Kandar Pelita, KLCC (Jalan Ampang)",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "restaurant-menu-canggu-2024",
+  "kind": "photo",
+  "taken": "2024-10-14 20:47",
+  "group": "C30",
+  "country": "Indonesia",
+  "city": "Canggu, Bali",
+  "lat": -8.6581,
+  "lon": 115.1333,
+  "confidence": "user",
+  "note": "Ulekan, Canggu",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "restaurant-menu-canggu-2024-2",
+  "kind": "photo",
+  "taken": "2024-10-14 20:47",
+  "group": "C30",
+  "country": "Indonesia",
+  "city": "Canggu, Bali",
+  "lat": -8.6581,
+  "lon": 115.1333,
+  "confidence": "user",
+  "note": "Ulekan, Canggu",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "balinese-dinner-spread-canggu-2024",
+  "kind": "photo",
+  "taken": "2024-10-14 21:02",
+  "group": "C30",
+  "country": "Indonesia",
+  "city": "Canggu, Bali",
+  "lat": -8.6581,
+  "lon": 115.1333,
+  "confidence": "user",
+  "note": "Ulekan, Canggu",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "roast-duck-rice-bangkok-2024",
+  "kind": "photo",
+  "taken": "2024-10-18 18:30",
+  "group": "C30",
+  "country": "Thailand",
+  "city": "Bangkok",
+  "lat": 13.7563,
+  "lon": 100.5018,
+  "confidence": "user",
+  "note": "Bangkok food court (city-level)",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "seafood-night-market-hua-hin-2024",
+  "kind": "photo",
+  "taken": "2024-10-20 20:49",
+  "group": "C30",
+  "country": "Thailand",
+  "city": "Hua Hin",
+  "lat": 12.5697,
+  "lon": 99.9585,
+  "confidence": "user",
+  "note": "on the water, Hua Hin",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "night-market-hua-hin-2024",
+  "kind": "video",
+  "taken": "2024-10-21 12:25",
+  "group": "C30",
+  "country": "Thailand",
+  "city": "Hua Hin",
+  "lat": 12.5697,
+  "lon": 99.9585,
+  "confidence": "user",
+  "note": "Hua Hin (same stay as IMG_0940 2)",
+  "dims": {
+   "640": [
+    360,
+    640
+   ],
+   "1280": [
+    720,
+    1280
+   ],
+   "2000": [
+    1124,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ],
+   "video": [
+    1280,
+    2276
+   ]
+  }
+ },
+ {
+  "slug": "seafood-menu-hua-hin-2024",
+  "kind": "photo",
+  "taken": "2024-10-21 19:13",
+  "group": "C30",
+  "country": "Thailand",
+  "city": "Hua Hin",
+  "lat": 12.5697,
+  "lon": 99.9585,
+  "confidence": "user",
+  "note": "Hua Hin (same stay as IMG_0940 2)",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "grilled-scallops-hua-hin-2024",
+  "kind": "photo",
+  "taken": "2024-10-21 19:26",
+  "group": "C30",
+  "country": "Thailand",
+  "city": "Hua Hin",
+  "lat": 12.5697,
+  "lon": 99.9585,
+  "confidence": "inferred",
+  "note": "Hua Hin (same stay as IMG_0940 2)",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "grilled-whole-fish-hua-hin-2024",
+  "kind": "photo",
+  "taken": "2024-10-21 19:34",
+  "group": "C30",
+  "country": "Thailand",
+  "city": "Hua Hin",
+  "lat": 12.5697,
+  "lon": 99.9585,
+  "confidence": "inferred",
+  "note": "Hua Hin (same stay as IMG_0940 2)",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "night-market-grill-chiang-mai-2024",
+  "kind": "photo",
+  "taken": "2024-11-01 21:28",
+  "group": "C31",
+  "country": "Thailand",
+  "city": "Chiang Mai",
+  "lat": 18.7883,
+  "lon": 98.9853,
+  "confidence": "user",
+  "note": "night-market beer garden, Chiang Mai",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "beef-noodle-soup-chiang-mai-2024",
+  "kind": "photo",
+  "taken": "2024-11-04 13:28",
+  "group": "C31",
+  "country": "Thailand",
+  "city": "Chiang Mai",
+  "lat": 18.7987,
+  "lon": 98.9672,
+  "confidence": "user",
+  "note": "Rote Yiam beef soup, Nimman Soi 11",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "night-street-scene-chiang-mai-2024",
+  "kind": "video",
+  "taken": "2024-11-04 14:35",
+  "group": "C31",
+  "country": "Thailand",
+  "city": "Chiang Mai",
+  "lat": 18.793,
+  "lon": 98.9891,
+  "confidence": "user",
+  "note": "night market by Zoe in Yellow, old city",
+  "dims": {
+   "640": [
+    360,
+    640
+   ],
+   "1280": [
+    720,
+    1280
+   ],
+   "2000": [
+    1124,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ],
+   "video": [
+    1280,
+    2276
+   ]
+  }
+ },
+ {
+  "slug": "street-food-stall-chiang-mai-2024",
+  "kind": "video",
+  "taken": "2024-11-04 14:38",
+  "group": "C31",
+  "country": "Thailand",
+  "city": "Chiang Mai",
+  "lat": 18.793,
+  "lon": 98.9891,
+  "confidence": "user",
+  "note": "night market by Zoe in Yellow, old city",
+  "dims": {
+   "640": [
+    360,
+    640
+   ],
+   "1280": [
+    720,
+    1280
+   ],
+   "2000": [
+    1124,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ],
+   "video": [
+    1280,
+    2276
+   ]
+  }
+ },
+ {
+  "slug": "smoked-bbq-ribs-chiang-mai-2024",
+  "kind": "photo",
+  "taken": "2024-11-04 21:43",
+  "group": "C31",
+  "country": "Thailand",
+  "city": "Chiang Mai",
+  "lat": 18.793,
+  "lon": 98.9891,
+  "confidence": "user",
+  "note": "night market by Zoe in Yellow, old city",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "bbq-pork-ribs-chiang-mai-2024",
+  "kind": "photo",
+  "taken": "2024-11-04 21:44",
+  "group": "C31",
+  "country": "Thailand",
+  "city": "Chiang Mai",
+  "lat": 18.793,
+  "lon": 98.9891,
+  "confidence": "user",
+  "note": "night market by Zoe in Yellow, old city",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "guacamole-and-totopos-playa-del-carmen-2024",
+  "kind": "photo",
+  "taken": "2024-11-26 20:11",
+  "group": "C32",
+  "country": "Mexico",
+  "city": "Playa del Carmen",
+  "lat": 20.6407,
+  "lon": -87.0662,
+  "confidence": "user",
+  "note": "El Arabe, Av. CTM 46, Playa del Carmen",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "shawarma-tacos-playa-del-carmen-2024",
+  "kind": "photo",
+  "taken": "2024-11-26 20:15",
+  "group": "C32",
+  "country": "Mexico",
+  "city": "Playa del Carmen",
+  "lat": 20.6407,
+  "lon": -87.0662,
+  "confidence": "inferred",
+  "note": "El Arabe, Av. CTM 46, Playa del Carmen",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "pollo-asado-plate-playa-del-carmen-2024",
+  "kind": "photo",
+  "taken": "2024-11-27 12:26",
+  "group": "C32",
+  "country": "Mexico",
+  "city": "Playa del Carmen",
+  "lat": 20.6325,
+  "lon": -87.0748,
+  "confidence": "user",
+  "note": "Asadero el Pollo, 20 Av Nte 652, Playa del Carmen",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "pulled-chicken-taco-playa-del-carmen-2024",
+  "kind": "photo",
+  "taken": "2024-12-03 19:05",
+  "group": "C32",
+  "country": "Mexico",
+  "city": "Playa del Carmen",
+  "lat": 20.6398,
+  "lon": -87.0611,
+  "confidence": "user",
+  "note": "Tropical Tacos, 5ta Av x C62 Nte, Playa del Carmen",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "medialunas-and-coffee-buenos-aires-2025",
+  "kind": "photo",
+  "taken": "2025-01-18 16:13",
+  "group": "C33",
+  "country": "Argentina",
+  "city": "Buenos Aires",
+  "lat": -34.588,
+  "lon": -58.393,
+  "confidence": "user",
+  "note": "Pan de Jour, Recoleta",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "michelada-santiago-2025",
+  "kind": "photo",
+  "taken": "2025-02-19 22:01",
+  "group": "C34",
+  "country": "Chile",
+  "city": "Santiago",
+  "lat": -33.4489,
+  "lon": -70.6693,
+  "confidence": "user",
+  "note": "El Rey de las Micheladas, branch unknown",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "rooftop-night-view-panama-city-2025",
+  "kind": "photo",
+  "taken": "2025-10-05 21:16",
+  "group": "C35",
+  "country": "Panama",
+  "city": "Panama City (Casco Viejo)",
+  "lat": 8.9528,
+  "lon": -79.536,
+  "confidence": "user",
+  "note": "El Viajero Hostel rooftop, Casco Viejo",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "fishing-harbor-panama-city-2025",
+  "kind": "photo",
+  "taken": "2025-10-12 12:07",
+  "group": "C35",
+  "country": "Panama",
+  "city": "Panama City (Casco Viejo)",
+  "lat": 8.9498,
+  "lon": -79.5408,
+  "confidence": "user",
+  "note": "market by Mercado de Mariscos, Panama City",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "seafood-market-restaurants-panama-city-2025",
+  "kind": "photo",
+  "taken": "2025-10-12 12:07",
+  "group": "C35",
+  "country": "Panama",
+  "city": "Panama City (Casco Viejo)",
+  "lat": 8.9498,
+  "lon": -79.5408,
+  "confidence": "user",
+  "note": "market by Mercado de Mariscos, Panama City",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "whole-fried-fish-panama-city-2025",
+  "kind": "photo",
+  "taken": "2025-10-12 12:23",
+  "group": "C35",
+  "country": "Panama",
+  "city": "Panama City (Casco Viejo)",
+  "lat": 8.9498,
+  "lon": -79.5408,
+  "confidence": "user",
+  "note": "market by Mercado de Mariscos, Panama City",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "beef-noodle-soup-san-jose-2025",
+  "kind": "photo",
+  "taken": "2025-10-25 17:43",
+  "group": "C36",
+  "country": "Costa Rica",
+  "city": "San José",
+  "lat": 9.9295,
+  "lon": -84.0768,
+  "confidence": "user",
+  "note": "Barrio Chino (Chinatown), San José",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "grilled-steak-plate-curitiba-2025",
+  "kind": "photo",
+  "taken": "2025-11-15 14:32",
+  "group": "C37",
+  "country": "Brazil",
+  "city": "Curitiba",
+  "lat": -25.4394,
+  "lon": -49.28,
+  "confidence": "user",
+  "note": "Serra Restaurante, Shopping Curitiba",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "pears-in-chocolate-curitiba-2025",
+  "kind": "photo",
+  "taken": "2025-11-22 20:28",
+  "group": "C37",
+  "country": "Brazil",
+  "city": "Curitiba",
+  "lat": -25.442,
+  "lon": -49.289,
+  "confidence": "user",
+  "note": "Batel Grill churrascaria, Curitiba",
+  "dims": {
+   "640": [
+    640,
+    480
+   ],
+   "1280": [
+    1280,
+    960
+   ],
+   "2000": [
+    2000,
+    1500
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "slug": "ceviche-lima-2026",
+  "kind": "photo",
+  "taken": "2026-06-01 12:13",
+  "group": "C38",
+  "country": "Peru",
+  "city": "Lima",
+  "lat": -12.1447,
+  "lon": -77.0212,
+  "confidence": "user",
+  "note": "Pollo & Punto, Av. Grau 729, Barranco, Lima",
+  "dims": {
+   "640": [
+    480,
+    640
+   ],
+   "1280": [
+    960,
+    1280
+   ],
+   "2000": [
+    1500,
+    2000
+   ],
+   "chips": [
+    128,
+    128
+   ]
+  }
+ }
+]
