@@ -3554,8 +3554,9 @@ l0,-`+(a+144)+`c-2,-159.3,-10,-310.7,-24,-454c-53.3,-528,-210,-949.7,
         30957123778</em> is observe. <em>Alternatively, maybe use the calculator approach? But since I can't
         use a calculator, I need to do it manually</em> is orient. In the run that
         came out wrong, floating an idea like that and then dropping it is the
-        commonest move the model makes, and not one of them produces any work. <em>Let me think of 30,957,123,778 as 30,957,123,778 = 30,000,000,000 +
-        957,123,778</em> is decide. Then comes the arithmetic, which is act and the
+        commonest move the model makes, and not one of them produces any work. <em>Alternatively, use the distributive property</em> is decide, the same
+        word it just used to float an idea and drop it. Then comes the arithmetic,
+        which is act and the
         only one of the four with no line to quote. Thirty passages of thinking
         later, <em>Wait, let me check the addition steps again</em>. That looks
         like a fifth step and it is not one. Checking the sum is observe again, and
