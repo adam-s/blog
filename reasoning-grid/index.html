@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" href="./favicon.svg" />
     <title>Model Reasoning Mapped to an OODA Loop</title>
-    <meta name="description" content="Two reasoning models from different companies, measured on 7,554 long multiplications, to find where each stops being reliable and whether they stop in the same places." />
+    <meta name="description" content="Reasoning models map cleanly onto Boyd's law of iteration. This measures where LLMs stop being reliable." />
 
     <!-- ---- THE CARD THAT SHOWS WHEN THIS IS PASTED SOMEWHERE --------------
          Facebook, iMessage, Slack and the rest read these, and every one of
@@ -22,7 +22,7 @@
     <meta property="og:site_name" content="adamsohn.com" />
     <meta property="og:url" content="https://adamsohn.com/reasoning-grid/" />
     <meta property="og:title" content="Model Reasoning Mapped to an OODA Loop" />
-    <meta property="og:description" content="Two reasoning models from different companies, measured to find where each stops being reliable." />
+    <meta property="og:description" content="Reasoning models map cleanly onto Boyd's law of iteration. This measures where LLMs stop being reliable." />
     <meta property="og:image" content="https://adamsohn.com/reasoning-grid/og.png" />
     <meta property="og:image:width" content="2400" />
     <meta property="og:image:height" content="1260" />
@@ -30,12 +30,159 @@
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Model Reasoning Mapped to an OODA Loop" />
-    <meta name="twitter:description" content="Two reasoning models from different companies, measured to find where each stops being reliable." />
+    <meta name="twitter:description" content="Reasoning models map cleanly onto Boyd's law of iteration. This measures where LLMs stop being reliable." />
     <meta name="twitter:image" content="https://adamsohn.com/reasoning-grid/og.png" />
-    <script type="module" crossorigin src="./assets/index-k-3TamZC.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-Flt3OY6e.css">
+
+    <!-- WITHOUT JAVASCRIPT, GIVE THE SPACE BACK.
+         figure-heights.css holds every figure's box open at its measured
+         height, because the figure arrives a tenth of a second after the prose
+         and the page must not jump when it does. A reader with JavaScript off
+         is never getting the figure, so those nine reservations are about
+         5,000px of empty cream to scroll past. Each box keeps only its one-line
+         description. -->
+    <noscript><style>[data-fig] { min-height: 0 !important; }</style></noscript>
+    <script type="module" crossorigin src="./assets/index-ByX2xKXP.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-D2sgTlXn.css">
+  
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app"><!--[--><a class="byline mono svelte-1n46o8q" href="https://adamsohn.com">adamsohn.com</a> <div class="layout svelte-qgpshq"><main class="content svelte-qgpshq"><section class="measure svelte-7a8mnf"><!--[-1--><!--]--> <!--[0--><div class="body svelte-7a8mnf"><div class="prose svelte-1szor9z"><h1>Model Reasoning Mapped to an OODA Loop</h1><!----></div><!----></div><!--]--></section><!----> <section class="figure svelte-7a8mnf"><!--[-1--><!--]--> <!--[0--><div class="body svelte-7a8mnf"><div class="fig svelte-1yj8fe4 pending" data-fig="rings"><!--[-1--><!--]--> <noscript><!--[0--><img class="still svelte-1yj8fe4" src="./figures/rings.gif" alt="Four reasoning runs drawn as rings, each arc a stretch of the model’s thinking, coloured by which phase of the loop it was in. Three of them finish and stop. The fourth is still turning." loading="lazy"/><!--]--> <p class="alt svelte-1yj8fe4">Four reasoning runs drawn as rings, each arc a stretch of the model’s thinking, coloured by which phase of the loop it was in. Three of them finish and stop. The fourth is still turning.</p></noscript></div><!----></div><!--]--></section><!----> <section class="figure svelte-7a8mnf"><!--[0--><header class="svelte-7a8mnf"><!--[0--><div class="eyebrow svelte-7a8mnf">00 · the loop</div><!--]--> <!--[0--><h2 class="svelte-7a8mnf">Boyd's loop</h2><!--]--></header><!--]--> <!--[0--><div class="body svelte-7a8mnf"><div class="prose svelte-1szor9z"><p>During the Korean War, when both pilots saw each other, they merged head-on at a
+        closing speed near a thousand miles an hour. The pass was over in seconds. What
+        followed was a turning fight, each trying to end up behind the other. John Boyd,
+        an Air Force pilot who spent his career on those seconds, described what a pilot
+        does as four steps run over and over. Observe, orient, decide, act, then look
+        again, because the other aircraft moved during the decision. He argued that
+        the pilot who gets through that loop faster wins, even when his individual
+        decisions are the worse ones. Jeff Atwood in his blog, <a href="https://blog.codinghorror.com/boyds-law-of-iteration/" target="_blank" rel="noopener">Coding Horror</a>, took it from <a href="https://web.archive.org/web/20070211180233/http://msdn2.microsoft.com/en-us/library/aa479371.aspx" target="_blank" rel="noopener">Roger Sessions</a> and compressed it into a slogan. Speed of iteration beats
+        quality of iteration.</p><!----></div><!----> <div class="fig svelte-1yj8fe4 pending" data-fig="dogfight"><!--[-1--><!--]--> <noscript><!--[0--><img class="still svelte-1yj8fe4" src="./figures/dogfight.gif" alt="Two aircraft turning against each other. A small loss on each turn compounds into one the pilot cannot recover from." loading="lazy"/><!--]--> <p class="alt svelte-1yj8fe4">Two aircraft turning against each other. A small loss on each turn compounds into one the pilot cannot recover from.</p></noscript></div><!----> <div class="prose svelte-1szor9z"><p>Software took that slogan as sprint advice. Iterate faster, ship smaller, fail
+        early. That reading treats every cycle as a fresh start, and it misses what Boyd
+        was pointing at. His fight has no fresh starts. The speed a pilot burns in one
+        turn is still gone when the next turn begins, so a small disadvantage per cycle
+        compounds into an unrecoverable one. Software calls it technical debt. Every shortcut
+        one sprint takes slows every sprint after it, and slows them by more each time.</p> <p>A reasoning model works the same way. It reads every token in front of it,
+        works out a probability for each token that could come next, picks one, and
+        adds it to what it reads on the next pass. That is the whole mechanism, and
+        nothing in it knows what a step is.</p> <p>What comes out is natural language, and that language is Boyd's list. Here is one run,
+        in order. <em>Okay, so I need to calculate the exact product of 2053896 and
+        30957123778</em> is observe. <em>Alternatively, maybe use the calculator approach? But since I can't
+        use a calculator, I need to do it manually</em> is orient. In the run that
+        came out wrong, floating an idea like that and then dropping it is the
+        commonest move the model makes, and not one of them produces any work. <em>Let me think of 30,957,123,778 as 30,957,123,778 = 30,000,000,000 +
+        957,123,778</em> is decide. Then comes the arithmetic, which is act and the
+        only one of the four with no line to quote. Thirty passages of thinking
+        later, <em>Wait, let me check the addition steps again</em>. That looks
+        like a fifth step and it is not one. Checking the sum is observe again, and
+        the second time it points at what the model wrote rather than at the
+        problem it was handed.
+        Boyd's pilot has to look again because the other aircraft moved while he
+        decided. The model has to look again because it wrote something while it
+        decided, and what it wrote is now part of what it reads.</p> <p>I ran thousands of
+        multiplication problems through these models, and <a href="https://adamsohn.com/reliably-incorrect/" target="_blank" rel="noopener">had Claude Opus label the thinking text</a> of individual runs segment by
+        expensive segment. The same patterns appear in models from different companies,
+        and in <a href="https://adamsohn.com/lambda-variance/" target="_blank" rel="noopener">coding tasks</a>. Every one of them reads the
+        problem back, chooses an approach, does the work, checks it, catches a mistake
+        and goes back.</p> <p>No objective named those four phases, but that is not the same as nobody
+        selecting for them. Qwen3 was <a href="https://arxiv.org/html/2505.09388v1" target="_blank" rel="noopener">trained by reinforcement learning</a> against thousands of query and verifier
+        pairs, and that reward arrives only when the final answer is exactly right. A
+        slip that survives to the end makes the answer wrong, and on a chain this long
+        some slip is close to certain, so no amount of care reaches that reward on its
+        own. Catching them does. That is what the training actually selects for. Both
+        it and Phi-4-reasoning, the second model on this page, were handed <code>&lt;think></code> tokens, which put a wall around the reasoning
+        without saying anything about what goes inside it. And replications of that
+        training keep finding base models already writing "wait" and "let me verify"
+        before any of it ran, so it raised the weight on something that was there
+        rather than inventing it.</p> <p>So the loop is a property of how these models were scored, not something in the
+        architecture. Wherever a task has one exact answer and a long way to reach it,
+        checking is the shortest route to that reward, and the loop follows. Where a
+        wrong step is survivable, nothing selects for the habit and there should be no
+        loop to find. Long multiplication sits at the first end of that range, which is
+        why the traces here are so legible, and it is also the caveat on everything
+        that follows.</p><!----></div><!----> <div class="fig svelte-1yj8fe4 pending" data-fig="thinking-mix"><!--[-1--><!--]--> <noscript><!--[0--><img class="still svelte-1yj8fe4" src="./figures/thinking-mix.png" alt="How Claude Haiku, Opus and Sonnet each spend their thinking across nine kinds of reasoning move. The proportions do not agree." loading="lazy"/><!--]--> <p class="alt svelte-1yj8fe4">How Claude Haiku, Opus and Sonnet each spend their thinking across nine kinds of reasoning move. The proportions do not agree.</p></noscript></div><!----> <div class="prose svelte-1szor9z"><p>Normally a model would call a tool. Doing the multiplication by reasoning instead is
+        expensive, and it burns the same GPU time as a complex coding task. To the model
+        the two are the same work. What multiplication gives is control over the
+        difficulty, the way a control rod gives control over a reactor. Move it and the
+        reaction changes by a known amount. Every model here reaches for the same
+        longhand method taught in school, one partial product for each digit of the
+        second number, each shifted by its place, then all of them added up. So every
+        extra digit adds an exact number of small steps rather than a vague amount more
+        work. A seven digit number against an eleven digit one takes seventy seven of
+        them. Against a twelve digit one it takes eighty four.</p> <div class="fig svelte-1yj8fe4 pending" data-fig="grid-key"><!--[-1--><!--]--> <noscript><!--[0--><img class="still svelte-1yj8fe4" src="./figures/grid-key.png" alt="The fourteen by fourteen grid of problem sizes, digits of one factor against digits of the other. It carries no data, and the one marked cell is a single digit against nine." loading="lazy"/><!--]--> <p class="alt svelte-1yj8fe4">The fourteen by fourteen grid of problem sizes, digits of one factor against digits of the other. It carries no data, and the one marked cell is a single digit against nine.</p></noscript></div><!----> <p>None of this can be memorised. Every problem size gets a cell of its own, digits
+        in one number against digits in the other, and one of the smallest cells is a
+        single digit against nine. That cell alone holds eight billion different
+        problems, and the model working them here has four billion parameters. The
+        whole fourteen by fourteen grid holds 10<sup>28</sup>, which is ten thousand
+        trillion trillion. There is nowhere to put the answers, so the model has to
+        work them out.</p><!----></div><!----> <div class="moment-group svelte-1n46o8q"><div class="fig svelte-1yj8fe4 pending" data-fig="synced-trace"><!--[-1--><!--]--> <noscript><!--[0--><img class="still svelte-1yj8fe4" src="./figures/synced-trace.gif" alt="One reasoning run at a time, its shape on top and its thinking and its arithmetic below, with three more to switch to. One catches its mistake, one carries it to the end, and one never finishes." loading="lazy"/><!--]--> <p class="alt svelte-1yj8fe4">One reasoning run at a time, its shape on top and its thinking and its arithmetic below, with three more to switch to. One catches its mistake, one carries it to the end, and one never finishes.</p></noscript></div><!----> <div class="prose svelte-1szor9z"><!--[-1--><!--]--> <p>Both rows run the same loop. The difference is what the model does when it
+          checks.</p> <p>In the first row it works the product two ways. The two ways disagree, and that
+          disagreement is what saves it. It goes back, finds the slip, and finishes with
+          the right answer.</p> <p>In the second row it checks by redoing the same sum the same way. It gets the
+          same wrong number, finds no conflict, and carries that number to the end.</p> <p>A check only helps when it could have failed differently.</p> <!--[-1--><!--]--><!----></div><!----></div> <div class="prose svelte-1szor9z"><p>The run that failed is the one to keep in mind. Every phase of the loop ran. The
+        model checked its own work. The answer was still wrong. The rest of this page is
+        about how often that happens, and at what size it starts.</p><!----></div><!----><!----></div><!--]--></section><!----> <section class="figure svelte-7a8mnf"><!--[0--><header class="svelte-7a8mnf"><!--[0--><div class="eyebrow svelte-7a8mnf">01 · evaluation</div><!--]--> <!--[0--><h2 class="svelte-7a8mnf">How I evaluated the models</h2><!--]--></header><!--]--> <!--[0--><div class="body svelte-7a8mnf"><div class="prose svelte-1szor9z"><p>Frontier models are prohibitively expensive to run thousands of times, so I
+        rented decent GPUs by the second on Modal instead. Before spending anything on
+        the grid I ran smoke tests to find where the models begin to break and where they
+        absolutely fail, so I had a known range to explore. There is no point paying to
+        measure the sizes everything solves or the sizes everything misses. I wanted the
+        band in between.</p> <p>Then I used cost-weighted Neyman allocation to work out how many runs each size
+        actually needs. Low complexity always solves fast and settles in a few runs. High
+        complexity always fails and settles just as fast. Medium complexity is the
+        problem, because a model can grind away there for a long time and still land
+        either way, so that is where most of the runs have to go.</p><!----></div><!----> <div class="fig svelte-1yj8fe4 pending" data-fig="allocation"><!--[-1--><!--]--> <noscript><!--[0--><img class="still svelte-1yj8fe4" src="./figures/allocation.png" alt="How many runs each problem size was given. Sizes that always solve and sizes that always fail settle quickly, so most of the runs go to the uncertain middle." loading="lazy"/><!--]--> <p class="alt svelte-1yj8fe4">How many runs each problem size was given. Sizes that always solve and sizes that always fail settle quickly, so most of the runs go to the uncertain middle.</p></noscript></div><!----> <div class="prose svelte-1szor9z"><p>I put several models through all of this to find the two that came out closest,
+        Qwen3-4B from Alibaba and Phi-4-reasoning from Microsoft.</p><!----></div><!----><!----></div><!--]--></section><!----> <section class="figure svelte-7a8mnf"><!--[0--><header class="svelte-7a8mnf"><!--[0--><div class="eyebrow svelte-7a8mnf">02 · the surface</div><!--]--> <!--[0--><h2 class="svelte-7a8mnf">How much variance is there?</h2><!--]--></header><!--]--> <!--[0--><div class="body svelte-7a8mnf"><div class="prose svelte-1szor9z"><p>Winning the battle does not require perfection. It requires correction that
+        could have failed differently from the step it is checking. Just like the F-86
+        dogfights, a high rate of error is tolerable as long as something in the loop
+        can catch it. Multiplication serves as a controlled dial to scale this
+        complexity. Model failure is not a black box. The rate moves smoothly with
+        size, even though any single run in the middle band is a toss-up, and the
+        gradient marks the edge of what these models can do unaided.</p> <p>The surface below tracks that boundary. One axis counts the digits of a, the
+        other the digits of b, and cell height reflects the proportion of runs that
+        landed the exact product, with 4 × 4 representing a problem like
+        3,437 × 9,122. Sample sizes vary across cells. The uncertain middle earns more
+        attempts. The surface redraws on each trial, which shows which rates have
+        settled and which are still moving.</p> <p>Only an exact answer counts as a success. A wrong digit in the answer is a
+        failure, and so is a run that runs away. Given room, a model will generate tens
+        of thousands of tokens. Some were still working when the run was stopped, so
+        whether they would have landed it is unknown, and paying to find out is
+        prohibitively expensive. Non-converging runs are scored identically to
+        incorrect ones, as both represent unusable output. The raw data retains all
+        four distinct outcomes. The grid simply collapses them.</p> <p>Looking at these charts, it is easy to conclude these models are hopelessly
+        limited. The top end does go to zero on the runs I did, at sample sizes too
+        small to call it impossible. But that falloff hides an important structural
+        advantage. Measuring where the model's reliability falls off, even as a
+        probability rather than a verdict, gives us a way to forecast results.</p> <!--[-1--><!--]--><!----></div><!----> <div class="fig svelte-1yj8fe4 pending" data-fig="surface"><!--[-1--><!--]--> <noscript><!--[0--><img class="still svelte-1yj8fe4" src="./figures/surface.gif" alt="The reliability surface. Digits of a on one axis, digits of b on the other, height is the share of runs that landed the exact product. It redraws as the trial count rises." loading="lazy"/><!--]--> <p class="alt svelte-1yj8fe4">The reliability surface. Digits of a on one axis, digits of b on the other, height is the share of runs that landed the exact product. It redraws as the trial count rises.</p></noscript></div><!----> <div class="fig svelte-1yj8fe4 pending" data-fig="distribution"><!--[-1--><!--]--> <noscript><!--[0--><img class="still svelte-1yj8fe4" src="./figures/distribution.gif" alt="Three panels. A histogram of 500 twelve-problem scores of the 11 by 8 cell, and beside it the running estimate for two runs, 11 by 8 with reasoning on and 5 by 5 with it off, each with its 95% band." loading="lazy"/><!--]--> <p class="alt svelte-1yj8fe4">Three panels. A histogram of 500 twelve-problem scores of the 11 by 8 cell, and beside it the running estimate for two runs, 11 by 8 with reasoning on and 5 by 5 with it off, each with its 95% band.</p></noscript></div><!----><!----></div><!--]--></section><!----> <section class="figure svelte-7a8mnf"><!--[0--><header class="svelte-7a8mnf"><!--[0--><div class="eyebrow svelte-7a8mnf">03 · two models</div><!--]--> <!--[0--><h2 class="svelte-7a8mnf">Where each one stops</h2><!--]--></header><!--]--> <!--[0--><div class="body svelte-7a8mnf"><div class="prose svelte-1szor9z"><p>I expected the two models, Qwen and Phi, to fail on different problems, and the
+        reason was a pattern I kept hitting. Opus 4.6 would write a query that caused a full table
+        scan on 450GB of timeseries data, and the Claude models I used to review
+        missed it every time. Regardless of how much prompting I did or how many
+        specific instructions I put in code comments, it would go on making the same
+        mistake. Handing the same review to Codex caught it far more often. That is a
+        blind spot one vendor had and the other did not, on a problem, writing queries
+        for timeseries analysis in Postgres, and it is the hypothesis this grid was
+        built to test. I
+        will keep chasing understanding it in the future.</p> <p>The method followed from the hypothesis. Probe until I find the two models
+        that come out closest, then hand them one problem type whose complexity I can
+        raise in small steps, and check which specific problems each one misses.</p> <p>Multiplication did not show it, and at 1.5 attempts per problem it was never
+        going to. Both curves fall away over the same range and sit about a digit apart
+        in each factor, and there is nowhere on the grid where Phi is ahead of Qwen by
+        more than noise.</p> <p>My guess is that the same consistency holds for lambda calculus and other
+        coding work, and that where models really do differ it comes down to what they
+        were trained on rather than how capable they are. Some frontier models solve a
+        Rubik's Cube and others that keep up with them on arithmetic cannot. I did not
+        measure that here, and my read is that one company put it in the training set,
+        as data or as a rubric.</p> <p>One thing weakens the comparison and it belongs here rather than in a footnote.
+        Phi-4-reasoning learned to reason by supervised fine-tuning on 1.4 million
+        reasoning traces generated by OpenAI's o3-mini. So these two models come from
+        different companies but not from independent lineages, and nothing in this data
+        can separate how much of their agreement is convergence from how much is
+        inheritance.</p><!----></div><!----> <div class="fig svelte-1yj8fe4 pending" data-fig="boundary"><!--[-1--><!--]--> <noscript><!--[0--><img class="still svelte-1yj8fe4" src="./figures/boundary.png" alt="Reliability against the total digit count, one dot per cell per model, with a fitted band. Qwen falls to a coin flip at 9.24 digits and Phi at 8.39." loading="lazy"/><!--]--> <p class="alt svelte-1yj8fe4">Reliability against the total digit count, one dot per cell per model, with a fitted band. Qwen falls to a coin flip at 9.24 digits and Phi at 8.39.</p></noscript></div><!----><!----></div><!--]--></section><!---->  <section class="figure svelte-7a8mnf"><!--[0--><header class="svelte-7a8mnf"><!--[0--><div class="eyebrow svelte-7a8mnf">04 · conclusion</div><!--]--> <!--[0--><h2 class="svelte-7a8mnf">The loop has to be able to find out it was wrong</h2><!--]--></header><!--]--> <!--[0--><div class="body svelte-7a8mnf"><div class="prose svelte-1szor9z"><p>With multiplication we had the benefit of a cheap verifier. That is what makes
+        the grid possible. Every cell shows where the model stops being reliable,
+        because we always knew the right answer. Solving complex coding problems isn't
+        much different from solving complex multiplication problems, granted we have a
+        cheap verification process.</p> <p>We shouldn't expect the model to solve every complex problem in one pass.
+        Rather than stopping at an understanding of the limitations, we can decompose
+        problems into manageable parts. The iteration process matters too. Observe,
+        orient, decide, act. That is the purpose of the agent harness, which is the
+        interface between the environment and the model. The input is the observation
+        and the output is the action.</p> <p>The models are not coin flips. They are instruments with a working range, and
+        inside that range the outcome is predictable.</p><!----></div><!----></div><!--]--></section><!----><!----></main></div><!----><!--]--></div>
   </body>
 </html>
