@@ -55,7 +55,41 @@ built `dist/` output and the homepage.
    ```
 
 3. Add a link to `index.html`.
-4. Commit and push. CI deploys.
+4. Run `./scripts/gen-sitemap.sh`.
+5. Commit and push. CI deploys.
+
+## Sitemap and robots
+
+`robots.txt` allows every crawler — search engines and AI alike — and points at
+`sitemap.xml`. Both are plain files served from the bucket root; neither needs
+a build step.
+
+**To maintain the sitemap, run one command after adding or updating a page:**
+
+```bash
+./scripts/gen-sitemap.sh
+```
+
+It finds every `*/index.html`, skips any page carrying a `noindex` robots meta
+tag, and sets `lastmod` from that directory's last commit. So there is no list
+of pages to keep in sync — add a sub-app and re-run it.
+
+**To keep a page out of search,** put this in its `<head>` and re-run the
+script; it will drop out of the sitemap on its own:
+
+```html
+<meta name="robots" content="noindex" />
+```
+
+Do *not* also add a `Disallow` to `robots.txt` for such a page. A `Disallow`
+blocks the fetch, and a crawler that never fetches the page never sees the
+`noindex` — it can still index the bare URL from an external link. Allowing the
+crawl is what lets `noindex` do its job. `robots.txt` is also public, so a
+`Disallow` advertises the very path it is meant to keep quiet.
+
+Unlisted, unlinked assets (e.g. the raw `.mov` files in `iep-video/`) are
+reachable by anyone with the URL. They are not secret — treat the bucket as
+world-readable, because via CloudFront it is.
 
 ## Deploying
 

@@ -1,0 +1,15 @@
+# Everything here is meant to be read -- by people, search engines, and AI
+# crawlers alike. Absence of a rule already means "allowed", so one wildcard
+# covers GPTBot, ClaudeBot, PerplexityBot, CCBot, Google-Extended and every
+# agent not yet named. Enumerating them would add lines that change nothing
+# and go stale as new crawlers appear.
+User-agent: *
+Allow: /
+
+# The two demonstration pages are kept out of search by a noindex meta tag on
+# the pages themselves, deliberately NOT by a Disallow here: a Disallow stops
+# the fetch, and a crawler that never fetches the page never reads the noindex
+# and can still index the bare url from an external link. Leaving them
+# crawlable is what makes the noindex work.
+
+Sitemap: https://adamsohn.com/sitemap.xml
