@@ -1,0 +1,14 @@
+<!-- The branch pair — the ∧ every diagram is built from, a parent splitting
+     into its two children — in the accent blue on the dark canvas. One bold
+     stroke so it stays legible at 16px. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" rx="7" fill="#1f2021" />
+  <path
+    d="M8 23 16 9.5 24 23"
+    fill="none"
+    stroke="#21a0f9"
+    stroke-width="3.6"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>

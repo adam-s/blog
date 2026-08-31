@@ -13,3 +13,6 @@ Allow: /
 # crawlable is what makes the noindex work.
 
 Sitemap: https://adamsohn.com/sitemap.xml
+# The grammar app ships its own sitemap, generated from its lesson list at
+# build time; the root sitemap lists only /grammar/ itself.
+Sitemap: https://adamsohn.com/grammar/sitemap.xml
