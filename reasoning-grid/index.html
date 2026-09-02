@@ -40,7 +40,15 @@
          is never getting the figure, so those nine reservations are about
          5,000px of empty cream to scroll past. Each box keeps only its one-line
          description. -->
-    <noscript><style>[data-fig] { min-height: 0 !important; }</style></noscript>
+    <noscript><style>
+      [data-fig] { min-height: 0 !important; }
+      /* Every control on this page drives a figure, and no figure runs without
+         JavaScript. They ship in the HTML so the layout is final at first paint
+         and so #walk-the-surface is a real target before any script runs; this
+         is what keeps them from being offered to the one reader who cannot use
+         them. */
+      .tour-start, .moments, .row-label { display: none !important; }
+    </style></noscript>
 
     <link rel="canonical" href="https://adamsohn.com/reasoning-grid/" />
 
@@ -61,8 +69,8 @@
         location.replace(location.pathname + '/' + location.search + location.hash);
       }
     </script>
-    <script type="module" crossorigin src="./assets/index-dlYMfCXD.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-D2sgTlXn.css">
+    <script type="module" crossorigin src="./assets/index-DZ7AkvAu.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-D_ooPnuI.css">
   
   </head>
   <body>
@@ -133,11 +141,11 @@
         problems, and the model working them here has four billion parameters. The
         whole fourteen by fourteen grid holds 10<sup>28</sup>, which is ten thousand
         trillion trillion. There is nowhere to put the answers, so the model has to
-        work them out.</p><!----></div><!----> <div class="moment-group svelte-1n46o8q"><div class="fig svelte-1yj8fe4 pending" data-fig="synced-trace"><!--[-1--><!--]--> <noscript><!--[0--><img class="still svelte-1yj8fe4" src="./figures/synced-trace.gif" alt="One reasoning run at a time, its shape on top and its thinking and its arithmetic below, with three more to switch to. One catches its mistake, one carries it to the end, and one never finishes." loading="lazy"/><!--]--> <p class="alt svelte-1yj8fe4">One reasoning run at a time, its shape on top and its thinking and its arithmetic below, with three more to switch to. One catches its mistake, one carries it to the end, and one never finishes.</p></noscript></div><!----> <div class="prose svelte-1szor9z"><!--[-1--><!--]--> <p>Both rows run the same loop. The difference is what the model does when it
+        work them out.</p><!----></div><!----> <div class="moment-group svelte-1n46o8q"><div class="fig svelte-1yj8fe4 pending" data-fig="synced-trace"><!--[-1--><!--]--> <noscript><!--[0--><img class="still svelte-1yj8fe4" src="./figures/synced-trace.gif" alt="One reasoning run at a time, its shape on top and its thinking and its arithmetic below, with three more to switch to. One catches its mistake, one carries it to the end, and one never finishes." loading="lazy"/><!--]--> <p class="alt svelte-1yj8fe4">One reasoning run at a time, its shape on top and its thinking and its arithmetic below, with three more to switch to. One catches its mistake, one carries it to the end, and one never finishes.</p></noscript></div><!----> <div class="prose svelte-1szor9z"><!--[0--><p class="row-label svelte-1qj6ppo">the loop catching its own mistake</p><!--]--> <ol class="moments svelte-1qj6ppo"><!--[--><li class="svelte-1qj6ppo"><!--[-1--><!--]--> <button type="button" class="svelte-1qj6ppo"><span class="n mono svelte-1qj6ppo">1</span> <span class="label">two answers disagree</span></button></li><li class="svelte-1qj6ppo"><!--[-1--><!--]--> <button type="button" class="svelte-1qj6ppo"><span class="n mono svelte-1qj6ppo">2</span> <span class="label">it stops</span></button></li><li class="svelte-1qj6ppo"><!--[-1--><!--]--> <button type="button" class="svelte-1qj6ppo"><span class="n mono svelte-1qj6ppo">3</span> <span class="label">it finds the slip</span></button></li><li class="svelte-1qj6ppo"><!--[-1--><!--]--> <button type="button" class="svelte-1qj6ppo"><span class="n mono svelte-1qj6ppo">4</span> <span class="label">it answers correctly</span></button></li><!--]--></ol><!----> <!--[0--><p class="row-label svelte-1qj6ppo">the same loop carrying one instead</p><!--]--> <ol class="moments svelte-1qj6ppo"><!--[--><li class="svelte-1qj6ppo"><!--[-1--><!--]--> <button type="button" class="svelte-1qj6ppo"><span class="n mono svelte-1qj6ppo">1</span> <span class="label">the wrong sum</span></button></li><li class="svelte-1qj6ppo"><!--[-1--><!--]--> <button type="button" class="svelte-1qj6ppo"><span class="n mono svelte-1qj6ppo">2</span> <span class="label">it checks</span></button></li><li class="svelte-1qj6ppo"><!--[-1--><!--]--> <button type="button" class="svelte-1qj6ppo"><span class="n mono svelte-1qj6ppo">3</span> <span class="label">it checks again</span></button></li><li class="svelte-1qj6ppo"><!--[-1--><!--]--> <button type="button" class="svelte-1qj6ppo"><span class="n mono svelte-1qj6ppo">4</span> <span class="label">it answers</span></button></li><!--]--></ol><!----> <p>Both rows run the same loop. The difference is what the model does when it
           checks.</p> <p>In the first row it works the product two ways. The two ways disagree, and that
           disagreement is what saves it. It goes back, finds the slip, and finishes with
           the right answer.</p> <p>In the second row it checks by redoing the same sum the same way. It gets the
-          same wrong number, finds no conflict, and carries that number to the end.</p> <p>A check only helps when it could have failed differently.</p> <!--[-1--><!--]--><!----></div><!----></div> <div class="prose svelte-1szor9z"><p>The run that failed is the one to keep in mind. Every phase of the loop ran. The
+          same wrong number, finds no conflict, and carries that number to the end.</p> <p>A check only helps when it could have failed differently.</p> <div class="tour-start svelte-1n46o8q"><!--[0--><div class="cue above svelte-x9hqji" aria-hidden="true"><!--[0--><span class="hint mono svelte-x9hqji">start here</span> <svg class="arrow svelte-x9hqji" viewBox="0 0 40 32" width="40" height="32"><path d="M3 3 C 22 2, 33 8, 34 25" fill="none" stroke="var(--accent)" stroke-width="1.7" stroke-linecap="round" class="svelte-x9hqji"></path><path d="M27 20 L 35 27 L 37 16" fill="none" stroke="var(--accent)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" class="svelte-x9hqji"></path></svg><!--]--></div><!--]--> <button type="button" class="svelte-1n46o8q">Walk it from the start</button></div><!----></div><!----></div> <div class="prose svelte-1szor9z"><p>The run that failed is the one to keep in mind. Every phase of the loop ran. The
         model checked its own work. The answer was still wrong. The rest of this page is
         about how often that happens, and at what size it starts.</p><!----></div><!----><!----></div><!--]--></section><!----> <section class="figure svelte-7a8mnf"><!--[0--><header class="svelte-7a8mnf"><!--[0--><div class="eyebrow svelte-7a8mnf">01 · evaluation</div><!--]--> <!--[0--><h2 class="svelte-7a8mnf">How I evaluated the models</h2><!--]--></header><!--]--> <!--[0--><div class="body svelte-7a8mnf"><div class="prose svelte-1szor9z"><p>Frontier models are prohibitively expensive to run thousands of times, so I
         rented decent GPUs by the second on Modal instead. Before spending anything on
@@ -170,7 +178,7 @@
         limited. The top end does go to zero on the runs I did, at sample sizes too
         small to call it impossible. But that falloff hides an important structural
         advantage. Measuring where the model's reliability falls off, even as a
-        probability rather than a verdict, gives us a way to forecast results.</p> <!--[-1--><!--]--><!----></div><!----> <div class="fig svelte-1yj8fe4 pending" data-fig="surface"><!--[-1--><!--]--> <noscript><!--[0--><img class="still svelte-1yj8fe4" src="./figures/surface.gif" alt="The reliability surface. Digits of a on one axis, digits of b on the other, height is the share of runs that landed the exact product. It redraws as the trial count rises." loading="lazy"/><!--]--> <p class="alt svelte-1yj8fe4">The reliability surface. Digits of a on one axis, digits of b on the other, height is the share of runs that landed the exact product. It redraws as the trial count rises.</p></noscript></div><!----> <div class="fig svelte-1yj8fe4 pending" data-fig="distribution"><!--[-1--><!--]--> <noscript><!--[0--><img class="still svelte-1yj8fe4" src="./figures/distribution.gif" alt="Three panels. A histogram of 500 twelve-problem scores of the 11 by 8 cell, and beside it the running estimate for two runs, 11 by 8 with reasoning on and 5 by 5 with it off, each with its 95% band." loading="lazy"/><!--]--> <p class="alt svelte-1yj8fe4">Three panels. A histogram of 500 twelve-problem scores of the 11 by 8 cell, and beside it the running estimate for two runs, 11 by 8 with reasoning on and 5 by 5 with it off, each with its 95% band.</p></noscript></div><!----><!----></div><!--]--></section><!----> <section class="figure svelte-7a8mnf"><!--[0--><header class="svelte-7a8mnf"><!--[0--><div class="eyebrow svelte-7a8mnf">03 · two models</div><!--]--> <!--[0--><h2 class="svelte-7a8mnf">Where each one stops</h2><!--]--></header><!--]--> <!--[0--><div class="body svelte-7a8mnf"><div class="prose svelte-1szor9z"><p>I expected the two models, Qwen and Phi, to fail on different problems, and the
+        probability rather than a verdict, gives us a way to forecast results.</p> <div class="tour-start svelte-1n46o8q" id="walk-the-surface"><!--[0--><div class="cue above svelte-x9hqji" aria-hidden="true"><!--[0--><span class="hint mono svelte-x9hqji">press here</span> <svg class="arrow svelte-x9hqji" viewBox="0 0 40 32" width="40" height="32"><path d="M3 3 C 22 2, 33 8, 34 25" fill="none" stroke="var(--accent)" stroke-width="1.7" stroke-linecap="round" class="svelte-x9hqji"></path><path d="M27 20 L 35 27 L 37 16" fill="none" stroke="var(--accent)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" class="svelte-x9hqji"></path></svg><!--]--></div><!--]--> <button type="button" class="svelte-1n46o8q">Walk it from the start</button></div><!----></div><!----> <div class="fig svelte-1yj8fe4 pending" data-fig="surface"><!--[-1--><!--]--> <noscript><!--[0--><img class="still svelte-1yj8fe4" src="./figures/surface.gif" alt="The reliability surface. Digits of a on one axis, digits of b on the other, height is the share of runs that landed the exact product. It redraws as the trial count rises." loading="lazy"/><!--]--> <p class="alt svelte-1yj8fe4">The reliability surface. Digits of a on one axis, digits of b on the other, height is the share of runs that landed the exact product. It redraws as the trial count rises.</p></noscript></div><!----> <div class="fig svelte-1yj8fe4 pending" data-fig="distribution"><!--[-1--><!--]--> <noscript><!--[0--><img class="still svelte-1yj8fe4" src="./figures/distribution.gif" alt="Three panels. A histogram of 500 twelve-problem scores of the 11 by 8 cell, and beside it the running estimate for two runs, 11 by 8 with reasoning on and 5 by 5 with it off, each with its 95% band." loading="lazy"/><!--]--> <p class="alt svelte-1yj8fe4">Three panels. A histogram of 500 twelve-problem scores of the 11 by 8 cell, and beside it the running estimate for two runs, 11 by 8 with reasoning on and 5 by 5 with it off, each with its 95% band.</p></noscript></div><!----><!----></div><!--]--></section><!----> <section class="figure svelte-7a8mnf"><!--[0--><header class="svelte-7a8mnf"><!--[0--><div class="eyebrow svelte-7a8mnf">03 · two models</div><!--]--> <!--[0--><h2 class="svelte-7a8mnf">Where each one stops</h2><!--]--></header><!--]--> <!--[0--><div class="body svelte-7a8mnf"><div class="prose svelte-1szor9z"><p>I expected the two models, Qwen and Phi, to fail on different problems, and the
         reason was a pattern I kept hitting. Opus 4.6 would write a query that caused a full table
         scan on 450GB of timeseries data, and the Claude models I used to review
         missed it every time. Regardless of how much prompting I did or how many
@@ -205,5 +213,33 @@
         interface between the environment and the model. The input is the observation
         and the output is the action.</p> <p>The models are not coin flips. They are instruments with a working range, and
         inside that range the outcome is predictable.</p><!----></div><!----></div><!--]--></section><!----><!----></main></div><!----><!--]--></div>
+
+    <!-- SCROLL TO THE FRAGMENT NOW, NOT AT LOAD.
+         Chrome defers its own fragment scroll until the load event, and load
+         waits for the deferred module bundle below. On a 400kbps line that is
+         eight seconds of sitting at the top of the page and then being thrown
+         down it, which is what this looked like when it was reported as the
+         page not rendering.
+
+         This runs earlier than that for two reasons that both depend on where
+         it sits. It is inline and after the content, so the target has been
+         parsed. And a stylesheet blocks the execution of any script after it,
+         so by the time this runs the CSS has applied and the position it
+         measures is the real one. The module bundle is deferred and runs later
+         still, so nothing here waits on it.
+
+         Instant, not smooth. At this point the reader has had the page for
+         about a second and has not started reading; animating a scroll through
+         eight thousand pixels would be a performance, not a courtesy. -->
+    <script>
+      (function () {
+        if (!location.hash) return;
+        try {
+          var el = document.getElementById(decodeURIComponent(location.hash.slice(1)));
+          if (el) el.scrollIntoView();
+        } catch (e) {}
+      })();
+    </script>
+
   </body>
 </html>
