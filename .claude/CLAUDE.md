@@ -70,9 +70,15 @@ a build step.
 ./scripts/gen-sitemap.sh
 ```
 
-It finds every `*/index.html`, skips any page carrying a `noindex` robots meta
-tag, and sets `lastmod` from that directory's last commit. So there is no list
-of pages to keep in sync — add a sub-app and re-run it.
+It finds every `*/index.html` plus any nested page the homepage links to (e.g.
+`/algoviz/cheat-sheet/`), skips any page carrying a `noindex` robots meta tag,
+and sets `lastmod` from that directory's last commit. So there is no list of
+pages to keep in sync — add a sub-app and re-run it. A sub-app's internal pages
+(e.g. `grammar/lessons/*`) stay out until `index.html` links them.
+
+Run it with `PATH="/usr/bin:$PATH"` on this Mac: under bash,
+`/usr/local/bin/git` is an x86 binary that fails, and the script then silently
+stamps every `lastmod` with today's date.
 
 **To keep a page out of search,** put this in its `<head>` and re-run the
 script; it will drop out of the sitemap on its own:
