@@ -125,7 +125,7 @@ Filled in during setup; see the "Resource IDs" section at the bottom.
 - S3 bucket: `adamsohn-com-site` (private, versioning on, all public access blocked)
 - CloudFront distribution ID: `E3UH28N54Y87WY`
 - CloudFront distribution domain: `ddllvw9pgn4k3.cloudfront.net`
-- CloudFront Function: `adamsohn-www-to-apex` (does www→apex redirect + `/foo/` → `/foo/index.html` rewrite)
+- CloudFront Function: `adamsohn-www-to-apex` (www→apex redirect, `/foo` → 301 `/foo/`, `/foo/` → `/foo/index.html` rewrite)
 - Origin Access Control ID: `EW61F5NUPW9V0`
 - ACM cert ARN: `arn:aws:acm:us-east-1:703475444615:certificate/3d2a37a0-1516-4bd7-abfa-31d832c89504`
 - GitHub Actions IAM role: `arn:aws:iam::703475444615:role/adamsohn-com-gha-deploy` (trusts `repo:adam-s/blog:*` via OIDC)
@@ -144,12 +144,14 @@ aws cloudfront create-invalidation --distribution-id E3UH28N54Y87WY --paths "/*"
 Single viewer-request function handles two jobs:
 
 1. If `Host: www.adamsohn.com`, respond 301 to `https://adamsohn.com<uri>`.
-2. Rewrite `*/` → `*/index.html` and extensionless paths → `<path>/index.html` so subdirectory sites (e.g. `/reliably-incorrect/`) serve their `index.html`. CloudFront's `DefaultRootObject` only handles the root `/`.
+2. Rewrite `*/` → `*/index.html` so subdirectory sites (e.g. `/reliably-incorrect/`) serve their `index.html`. CloudFront's `DefaultRootObject` only handles the root `/`.
+3. An extensionless path (no `.` in its last segment) gets a **301 to the same path plus `/`**, query string kept (`/algoviz?algo=x` → `/algoviz/?algo=x`). It used to be rewritten to `<path>/index.html` in place, which left the browser's URL at `/algoviz`: every sub-app's relative assets (`./_app/…`, required by `base: './'`) then resolved against `/` and 404'd — a blank page for anyone who typed the URL without the slash. Changed 2026-09-22; the previous code is in git history of this file's description only, so keep this list accurate.
 
 ### Known gotchas
 
 - **Sub-app Vite configs must use `base: './'`** (relative asset paths). Otherwise rebuild with `base: '/<subpath>/'` before syncing.
-- CloudFront Function updates require `update-function` then `publish-function` — two separate calls. Publishing is ~1–2 minutes.
+- CloudFront Function updates require `update-function` then `publish-function` — two separate calls. Publishing is ~1–2 minutes. Test the DEVELOPMENT stage first with `aws cloudfront test-function` before publishing.
+- The Homebrew `aws` on this Mac runs on an x86 Python and fails with "bad CPU type". Use a native venv instead: `/usr/bin/python3 -m venv /tmp/awsenv && /tmp/awsenv/bin/pip install awscli`, then `AWS_PROFILE=adamsohn /tmp/awsenv/bin/aws …`.
 - `aws s3 sync --delete` will nuke anything in the bucket that isn't in the working directory. Always run from the blog repo root.
 
 ## Conventions for Claude
