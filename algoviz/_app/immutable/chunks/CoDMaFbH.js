@@ -1,0 +1,1 @@
+import"./CkUIvX1P.js";import{a as e}from"./D2aLN18R.js";var t={get data(){return e.data},get error(){return e.error},get form(){return e.form},get params(){return e.params},get route(){return e.route},get state(){return e.state},get status(){return e.status},get url(){return e.url}};export{t};
