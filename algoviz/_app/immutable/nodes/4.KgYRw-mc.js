@@ -1,4 +1,4 @@
-import{A as e,C as t,D as n,E as r,G as i,H as a,I as o,J as s,N as c,O as l,P as ee,Q as u,R as d,V as f,Y as p,c as m,d as h,et as g,ft as _,gt as v,n as y,nt as b,ot as te,pt as x,q as S,st as C,u as w,w as ne,y as re}from"../chunks/Cej6ksnW.js";import{t as T}from"../chunks/D2vVB--g.js";import"../chunks/xihTtKlq.js";import"../chunks/UtdiEMa1.js";import{i as E,n as ie,r as ae,t as D}from"../chunks/DK_ik49Y.js";var O=v({trailingSlash:()=>k}),k=`always`,A=`interface User {
+import{A as e,C as t,D as n,E as r,G as i,H as a,I as o,J as s,N as c,O as l,P as ee,Q as u,R as d,V as f,Y as p,c as m,d as h,et as g,ft as _,gt as v,n as y,nt as b,ot as te,pt as x,q as S,st as C,u as w,w as ne,y as re}from"../chunks/Cej6ksnW.js";import{t as T}from"../chunks/Cm1QAid1.js";import"../chunks/xihTtKlq.js";import"../chunks/DLkqzHBq.js";import{i as E,n as ie,r as ae,t as D}from"../chunks/DK_ik49Y.js";var O=v({trailingSlash:()=>k}),k=`always`,A=`interface User {
   id: number;
   name: string;
   age: number;
