@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>sixty-hertz</title>
+  <!-- One cycle of the grid's wave, in the page's amber for power, and one
+       reading taken from it, in its blue for a reading, on an ink tile. -->
+  <rect width="64" height="64" rx="14" fill="#1a1a1a"/>
+  <path d="M8.50 32.00 L9.48 29.85 L10.46 27.73 L11.44 25.69 L12.42 23.75 L13.40 21.96 L14.38 20.33 L15.35 18.91 L16.33 17.71 L17.31 16.76 L18.29 16.06 L19.27 15.64 L20.25 15.50 L21.23 15.64 L22.21 16.06 L23.19 16.76 L24.17 17.71 L25.15 18.91 L26.12 20.33 L27.10 21.96 L28.08 23.75 L29.06 25.69 L30.04 27.73 L31.02 29.85 L32.00 32.00 L32.98 34.15 L33.96 36.27 L34.94 38.31 L35.92 40.25 L36.90 42.04 L37.88 43.67 L38.85 45.09 L39.83 46.29 L40.81 47.24 L41.79 47.94 L42.77 48.36 L43.75 48.50 L44.73 48.36 L45.71 47.94 L46.69 47.24 L47.67 46.29 L48.65 45.09 L49.62 43.67 L50.60 42.04 L51.58 40.25 L52.56 38.31 L53.54 36.27 L54.52 34.15 L55.50 32.00" fill="none" stroke="#eda100" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="32.00" cy="32.00" r="6.8" fill="#2a78d6"/>
+</svg>
