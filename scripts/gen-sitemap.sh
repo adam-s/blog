@@ -20,6 +20,10 @@ set -euo pipefail
 BLOG_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$BLOG_DIR"
 
+# Stop here if git cannot run, rather than give every page today's date:
+# lastmod below falls back to today whenever git prints nothing.
+git rev-parse --is-inside-work-tree >/dev/null
+
 SITE="https://adamsohn.com"
 OUT="sitemap.xml"
 TODAY="$(date +%F)"
